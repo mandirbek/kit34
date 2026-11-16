@@ -1,0 +1,4673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plist version="1.0">
+  <dict>
+    <key>a1</key>
+    <dict>
+<key>en</key>
+      <string>Победить %d врагов стрелой.</string>
+</dict>
+    <key>a110_111_112</key>
+    <dict>
+      <string>Продержаться с одной жизнью %d волн.</string>
+      <key>de</key>
+    </dict>
+    <key>a120</key>
+    <dict>
+      <key>en</key>
+      <string>Выиграйте %d карт без потерь жизней в режиме Кампания на Легко.</string>
+    </dict>
+    <key>a121</key>
+    <dict>
+      <key>en</key>
+      <string>Выиграйте %d карт без потерь жизней в режиме Кампания на Средне.</string>
+      <key>de</key>
+      <string>Gewinnen Sie %d Karten, ohne Leben zu verlieren, im Kampagnenmodus bei Normal.</string>
+      <key>es</key>
+      <string>Gana %d mapas sin perder vidas en modo Campaña en Normal.</string>
+      <key>fr</key>
+      <string>Gagnez %d cartes sans perdre de vie en mode Campagne, en niveau de difficulté Normal.</string>
+      <key>it</key>
+      <string>Vinci una delle %d mappe senza perdere vite in modalità Campagna con difficoltà normale.</string>
+      <key>ja</key>
+      <string>キャンペーンのノーマルモードでライフを失うことなく、 %d 個のマップを獲得する。</string>
+      <key>ko</key>
+      <string>보통 난이도의 캠페인 모드에서 생명치를 잃지 않고 %d 개의 지도에서 승리하세요.</string>
+      <key>nl</key>
+      <string>Win %d willekeurige kaarten zonder een leven te verliezen in de campagne op het normale niveau.</string>
+      <key>pt</key>
+      <string>Ganhe em %d mapas sem perder vidas no modo Campanha na dificuldade Normal.</string>
+      <key>zh-Hans</key>
+      <string>在“战役”模式“标准”难度中没有丢失任何生命在所有 %d 地图中获胜。</string>
+    </dict>
+    <key>a122</key>
+    <dict>
+      <key>en</key>
+      <string>Выиграйте %d карт без потерь жизней в режиме Кампания на Сложно.</string>
+      <key>de</key>
+      <string>Gewinnen Sie %d Karten, ohne Leben zu verlieren, im Kampagnenmodus bei Schwierig.</string>
+      <key>es</key>
+      <string>Gana %d mapas  sin perder vidas en modo Campaña en Difícil.</string>
+      <key>fr</key>
+      <string>Gagnez %d cartes sans perdre de vie en mode Campagne, en niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Vinci una delle %d mappe senza perdere vite in modalità Campagna con difficoltà alta.</string>
+      <key>ja</key>
+      <string>キャンペーンのハードモードでライフを失うことなく、 %d 個のマップを獲得する。</string>
+      <key>ko</key>
+      <string>어려운 난이도의 캠페인 모드에서 생명치를 잃지 않고 %d 개의 지도에서 승리하세요.</string>
+      <key>nl</key>
+      <string>Win %d willekeurige kaarten zonder een leven te verliezen in de campagne op het moeilijke niveau.</string>
+      <key>pt</key>
+      <string>Ganhe em %d mapas sem perder vidas no modo Campanha na dificuldade Difícil.</string>
+      <key>zh-Hans</key>
+      <string>在“战役”模式“困难”难度中没有丢失任何生命在所有 %d 地图中获胜。</string>
+    </dict>
+    <key>a130_131_132</key>
+    <dict>
+      <key>en</key>
+      <string>Соберите %d%% всех достижений.</string>
+      <key>de</key>
+      <string>Verdienen Sie %d%% aller Erfolge.</string>
+      <key>es</key>
+      <string>Gana %d%% de todos los logros.</string>
+      <key>fr</key>
+      <string>Gagnez %d%% de tous les succès.</string>
+      <key>it</key>
+      <string>Raggiungi il %d%% di tutti gli obiettivi.</string>
+      <key>ja</key>
+      <string>全成績の %d%% を達成。</string>
+      <key>ko</key>
+      <string>모든 업적 중 %d%% 개의 업적을 획득하세요.</string>
+      <key>nl</key>
+      <string>Verdien %d%% van alle prestaties.</string>
+      <key>pt</key>
+      <string>Ganhe %d%% de todas as conquistas.</string>
+      <key>zh-Hans</key>
+      <string>赢得所有成就 %d%%。</string>
+    </dict>
+    <key>a2</key>
+    <dict>
+      <key>en</key>
+      <string>Победите %d врагов Тяжелой Пушкой.</string>
+      <key>de</key>
+      <string>Besiegen Sie %d Feinde mit Heavy Tower.</string>
+      <key>es</key>
+      <string>Derrota %d enemigos con la Torre Pesada.</string>
+      <key>fr</key>
+      <string>Terrassez %d ennemis avec une tour lourde.</string>
+      <key>it</key>
+      <string>Sconfiggi %d nemici con la torre pesante.</string>
+      <key>ja</key>
+      <string>敵 %d 匹をヘビータワーで倒す。</string>
+      <key>ko</key>
+      <string>헤비 타워로 %d 개의 적을 물리치세요.</string>
+      <key>nl</key>
+      <string>Versla %d vijanden met zware toren.</string>
+      <key>pt</key>
+      <string>Derrote %d inimigos com a Torre Pesada.</string>
+      <key>zh-Hans</key>
+      <string>使用重火炮塔击败 %d 个敌人。</string>
+    </dict>
+    <key>a200</key>
+    <dict>
+      <key>en</key>
+      <string>Внимание! Воздух!</string>
+      <key>de</key>
+      <string>Achtung! Luftwelle!</string>
+      <key>es</key>
+      <string>¡Peligro! ¡Onda de aire!</string>
+      <key>fr</key>
+      <string>Attention! Vague aérienne!</string>
+      <key>it</key>
+      <string>Attenzione! Onda d'aria!</string>
+      <key>ja</key>
+      <string>注意！エアーウェーブ！</string>
+      <key>ko</key>
+      <string>경고! 에어 웨이브!</string>
+      <key>nl</key>
+      <string>Waarschuwing! Luchtgolf!</string>
+      <key>pt</key>
+      <string>Aviso! Ataque aéreo!</string>
+      <key>zh-Hans</key>
+      <string>警告！飞艇！</string>
+    </dict>
+    <key>a201</key>
+    <dict>
+      <key>en</key>
+      <string>Быстрые враги! Используйте Лед-Пушку</string>
+      <key>de</key>
+      <string>Schnelle Feinde! Nutzen Sie den Ice Tower</string>
+      <key>es</key>
+      <string>¡Enemigos veloces! Usa la Torre de Hielo</string>
+      <key>fr</key>
+      <string>Ennemis rapides! Utilisez la tour de glace</string>
+      <key>it</key>
+      <string>Nemici veloci! Usa la torre di ghiaccio</string>
+      <key>ja</key>
+      <string>すばっしこい敵！アイスタワーを使う</string>
+      <key>ko</key>
+      <string>빠른 적! 얼음 타워 사용</string>
+      <key>nl</key>
+      <string>Snelle vijanden! Gebruik de ijstoren</string>
+      <key>pt</key>
+      <string>Inimigos rápidos! Use a Torre de Gelo</string>
+      <key>zh-Hans</key>
+      <string>快速的敌人！使用冰塔</string>
+    </dict>
+    <key>a202</key>
+    <dict>
+      <key>en</key>
+      <string>Бонусная Волна! бее-е-е-е-е</string>
+      <key>de</key>
+      <string>Bonuswelle! meckern</string>
+      <key>es</key>
+      <string>¡Onda de bonificaciones! be-e-e-e-e</string>
+      <key>fr</key>
+      <string>Vague de bonus ! bé-é-é</string>
+      <key>it</key>
+      <string>Onda bonus! Be-e-e-e-e</string>
+      <key>ja</key>
+      <string>ボーナスウェーブ！メェーェ</string>
+      <key>ko</key>
+      <string>보너스 웨이브! 우우우와</string>
+      <key>nl</key>
+      <string>Bonusgolf! M-e-e-e-e-eh</string>
+      <key>pt</key>
+      <string>Onda de bônus! b-e-e-e-e-rr-a-ar</string>
+      <key>zh-Hans</key>
+      <string>奖励波！ 咩-咩-</string>
+    </dict>
+    <key>a203</key>
+    <dict>
+      <key>en</key>
+      <string>Танки неуязвимы к яду!</string>
+      <key>de</key>
+      <string>Gegen Gift immune Tanks!</string>
+      <key>es</key>
+      <string>¡Tanques inmunes al veneno!</string>
+      <key>fr</key>
+      <string>Chars immunisés contre le poison!</string>
+      <key>it</key>
+      <string>Carri armati immuni al veleno!</string>
+      <key>ja</key>
+      <string>毒免疫タンク！</string>
+      <key>ko</key>
+      <string>독약 면역 탱크!</string>
+      <key>nl</key>
+      <string>Tanks die immuun zijn voor gif!</string>
+      <key>pt</key>
+      <string>Tanques imunes a veneno!</string>
+      <key>zh-Hans</key>
+      <string>毒炮免疫坦克！</string>
+    </dict>
+    <key>a204</key>
+    <dict>
+      <key>en</key>
+      <string>Неуязвимые к заморозке, нельзя замедлить!</string>
+      <key>de</key>
+      <string>Gegen Eis immune Feinde können nicht verlangsamt werden!</string>
+      <key>es</key>
+      <string>¡No es posible reducir la velocidad de los enemigos inmunes al hielo!</string>
+      <key>fr</key>
+      <string>Les ennemis immunisés contre la glace ne peuvent pas être ralentis!</string>
+      <key>it</key>
+      <string>I nemici immuni al ghiaccio non possono essere rallentati!</string>
+      <key>ja</key>
+      <string>アイス免疫のある敵の動きを鈍らせることはできません！</string>
+      <key>ko</key>
+      <string>얼음에 면역이 있는 적은 느리게 할 수 없어요!</string>
+      <key>nl</key>
+      <string>Je kunt vijanden die immuun zijn voor ijs niet afremmen!</string>
+      <key>pt</key>
+      <string>Inimigos imunes ao gelo não podem ser atrasados!</string>
+      <key>zh-Hans</key>
+      <string>冰炮免疫的敌人无法被降低速度！</string>
+    </dict>
+    <key>a205</key>
+    <dict>
+      <key>en</key>
+      <string>Электроны! Устойчивы к молниям</string>
+      <key>de</key>
+      <string>Elektronen! Immun gegen Elektrizität</string>
+      <key>es</key>
+      <string>¡Electrones! Inmune a la electricidad</string>
+      <key>fr</key>
+      <string>Électrons! Immunisez contre l'électricité</string>
+      <key>it</key>
+      <string>Elettroni! Immuni all'elettricità</string>
+      <key>ja</key>
+      <string>電子！電気に対する免疫</string>
+      <key>ko</key>
+      <string>전자! 전기에 면역</string>
+      <key>nl</key>
+      <string>Elektrons! Immuun voor elektriciteit</string>
+      <key>pt</key>
+      <string>Elétrons! Imunes a eletricidade</string>
+      <key>zh-Hans</key>
+      <string>电炮！电炮免疫</string>
+    </dict>
+    <key>a206</key>
+    <dict>
+      <key>en</key>
+      <string>Мощь пушек вырастет, если их улучшать!</string>
+      <key>de</key>
+      <string>Die Macht der Türme wächst nach dem Upgrade!</string>
+      <key>es</key>
+      <string>Las torres se alzan poderosas tras la mejora.</string>
+      <key>fr</key>
+      <string>Les tours deviennent plus puissantes une fois qu'elles sont améliorées !</string>
+      <key>it</key>
+      <string>Le torri sono più resistenti dopo l'aggiornamento!</string>
+      <key>ja</key>
+      <string>アップグレードするとタワーが強力になります！</string>
+      <key>ko</key>
+      <string>타워는 업그레이드 후 강력해집니다!</string>
+      <key>nl</key>
+      <string>Torens worden formidabel na een upgrade!</string>
+      <key>pt</key>
+      <string>As torres ficam mais poderosas depois de aprimoradas!</string>
+      <key>zh-Hans</key>
+      <string>防御塔在升级后变得更加强大！</string>
+    </dict>
+    <key>a20_21_22</key>
+    <dict>
+      <key>en</key>
+      <string>Победите %d Воздушных врагов.</string>
+      <key>de</key>
+      <string>Bekämpfen Sie %d Flugfeinde.</string>
+      <key>es</key>
+      <string>Derrota %d enemigos voladores.</string>
+      <key>fr</key>
+      <string>Terrassez %d ennemis volants.</string>
+      <key>it</key>
+      <string>Sconfiggi %d nemici volanti.</string>
+      <key>ja</key>
+      <string>%d 匹の空飛ぶ敵を倒す。</string>
+      <key>ko</key>
+      <string>%d 개의 공중 적을 물리치세요.</string>
+      <key>nl</key>
+      <string>Versla %d vliegende vijanden.</string>
+      <key>pt</key>
+      <string>Derrote %d inimigos voadores.</string>
+      <key>zh-Hans</key>
+      <string>击败 %d 个飞行敌人。</string>
+    </dict>
+    <key>a23_24_25</key>
+    <dict>
+      <key>en</key>
+      <string>Соберите %d Бонусных Овец.</string>
+      <key>de</key>
+      <string>Sammeln Sie %d Bonusschafe.</string>
+      <key>es</key>
+      <string>Recoge %d ovejas de bonificación.</string>
+      <key>fr</key>
+      <string>Collectez %d moutons en bonus.</string>
+      <key>it</key>
+      <string>Raccogli %d pecore bonus.</string>
+      <key>ja</key>
+      <string>ボーナスの羊 %d 匹を獲得。</string>
+      <key>ko</key>
+      <string>%d 개의 보너스 양을 모으세요.</string>
+      <key>nl</key>
+      <string>Verzamel %d bonusschapen.</string>
+      <key>pt</key>
+      <string>Colete %d ovelhas de bônus.</string>
+      <key>zh-Hans</key>
+      <string>收集 %d 个奖励羊。</string>
+    </dict>
+    <key>a26_27_28_29_30</key>
+    <dict>
+      <key>en</key>
+      <string>Победите %d врагов.</string>
+      <key>de</key>
+      <string>Bekämpfen Sie %d Feinde.</string>
+      <key>es</key>
+      <string>Derrota %d enemigos.</string>
+      <key>fr</key>
+      <string>Terrassez %d ennemis.</string>
+      <key>it</key>
+      <string>Sconfiggi %d nemici.</string>
+      <key>ja</key>
+      <string>%d 匹の敵を倒す。</string>
+      <key>ko</key>
+      <string>%d 개의 적을 물리치세요.</string>
+      <key>nl</key>
+      <string>Versla %d vijanden.</string>
+      <key>pt</key>
+      <string>Derrote %d inimigos.</string>
+      <key>zh-Hans</key>
+      <string>击败 %d 个敌人。</string>
+    </dict>
+    <key>a3</key>
+    <dict>
+      <key>en</key>
+      <string>Заморозьте %d врагов Лед-Пушкой.</string>
+      <key>de</key>
+      <string>Frieren Sie %d Feinde mit Ice Tower ein.</string>
+      <key>es</key>
+      <string>Congela %d enemigos con la Torre de Hielo.</string>
+      <key>fr</key>
+      <string>Gelez %d ennemis avec une tour de glace.</string>
+      <key>it</key>
+      <string>Congela %d nemici con la torre di ghiaccio.</string>
+      <key>ja</key>
+      <string>敵 %d 匹をアイスタワーで凍らせる。</string>
+      <key>ko</key>
+      <string>얼음 타워로 %d 개의 적을 얼리세요.</string>
+      <key>nl</key>
+      <string>Versla %d vijanden met ijstorens.</string>
+      <key>pt</key>
+      <string>Congele %d inimigos com a Torre de Gelo.</string>
+      <key>zh-Hans</key>
+      <string>使用冰塔冻结 %d 个敌人。</string>
+    </dict>
+    <key>a4</key>
+    <dict>
+      <key>en</key>
+      <string>Заразите %d врагов Ядовитой Пушкой.</string>
+      <key>de</key>
+      <string>Besiegen Sie %d Feinde mit Poison Tower.</string>
+      <key>es</key>
+      <string>Derrota %d enemigos con la Torre de Veneno.</string>
+      <key>fr</key>
+      <string>Terrassez %d ennemis avec une tour de poison.</string>
+      <key>it</key>
+      <string>Sconfiggi %d nemici con la torre velenosa.</string>
+      <key>ja</key>
+      <string>敵 %d 匹を毒タワーで倒す。</string>
+      <key>ko</key>
+      <string>독약 타워로 %d 개의 적을 물리치세요.</string>
+      <key>nl</key>
+      <string>Versla %d vijanden met giftorens.</string>
+      <key>pt</key>
+      <string>Derrote %d inimigos com a Torre de Veneno.</string>
+      <key>zh-Hans</key>
+      <string>使用毒炮塔击败 %d 个敌人。</string>
+    </dict>
+    <key>a40_41_42</key>
+    <dict>
+      <key>en</key>
+      <string>Постройте %d пушек.</string>
+      <key>de</key>
+      <string>Bauen Sie %d Towers.</string>
+      <key>es</key>
+      <string>Construye %d torres.</string>
+      <key>fr</key>
+      <string>Construisez %d tours.</string>
+      <key>it</key>
+      <string>Costruisci %d torri.</string>
+      <key>ja</key>
+      <string>%d 個のタワーを建てる。</string>
+      <key>ko</key>
+      <string>%d 개의 타워를 건설하세요.</string>
+      <key>nl</key>
+      <string>Bouw %d torens.</string>
+      <key>pt</key>
+      <string>Construa %d torres.</string>
+      <key>zh-Hans</key>
+      <string>建造 %d 个防御塔。</string>
+    </dict>
+    <key>a5</key>
+    <dict>
+      <key>en</key>
+      <string>Победите %d врагов Электро-Пушкой.</string>
+      <key>de</key>
+      <string>Besiegen Sie %d Feinde mit Electro Tower.</string>
+      <key>es</key>
+      <string>Derrota %d enemigos con la Torre Eléctrica.</string>
+      <key>fr</key>
+      <string>Terrassez %d ennemis avec une tour électrique.</string>
+      <key>it</key>
+      <string>Sconfiggi %d nemici con la torre elettrica.</string>
+      <key>ja</key>
+      <string>敵 %d 匹を電子タワーで倒す。</string>
+      <key>ko</key>
+      <string>전기 타워로 %d 개의 적을 물리치세요.</string>
+      <key>nl</key>
+      <string>Versla %d vijanden met elektrotorens.</string>
+      <key>pt</key>
+      <string>Derrote %d inimigos com a Torre Elétrica.</string>
+      <key>zh-Hans</key>
+      <string>使用电炮塔击败 %d 个敌人。</string>
+    </dict>
+    <key>a50</key>
+    <dict>
+      <key>en</key>
+      <string>Полностью улучшите %d Арбалетов.</string>
+      <key>de</key>
+      <string>Komplettes Upgrade von %d Arrow Towers.</string>
+      <key>es</key>
+      <string>Mejora total de %d Torres de Flechas.</string>
+      <key>fr</key>
+      <string>Améliorez entièrement %d tours de flèches.</string>
+      <key>it</key>
+      <string>Aggiorna completamente %d torri di frecce.</string>
+      <key>ja</key>
+      <string>アロータワー %d 棟を完全アップグレードする。</string>
+      <key>ko</key>
+      <string>%d 개의 화살 타워를 완전히 업그레이드하세요.</string>
+      <key>nl</key>
+      <string>Upgrade %d pijltorens volledig.</string>
+      <key>pt</key>
+      <string>Aprimore totalmente %d Torres de Flecha.</string>
+      <key>zh-Hans</key>
+      <string>完全升级 %d 个箭塔。</string>
+    </dict>
+    <key>a51</key>
+    <dict>
+      <key>en</key>
+      <string>Полностью улучшите %d Тяжелых Пушек.</string>
+      <key>de</key>
+      <string>Komplettes Upgrade von %d Heavy Towers.</string>
+      <key>es</key>
+      <string>Mejora total de %d Torres Pesadas.</string>
+      <key>fr</key>
+      <string>Améliorez entièrement %d tours lourdes.</string>
+      <key>it</key>
+      <string>Aggiorna completamente %d torri pesanti.</string>
+      <key>ja</key>
+      <string>ヘビータワー %d 棟を完全アップグレードする。</string>
+      <key>ko</key>
+      <string>%d 개의 헤비 타워를 완전히 업그레이드하세요.</string>
+      <key>nl</key>
+      <string>Upgrade %d zware torens volledig.</string>
+      <key>pt</key>
+      <string>Aprimore totalmente %d Torres Pesadas.</string>
+      <key>zh-Hans</key>
+      <string>完全升级 %d 个重火炮塔。</string>
+    </dict>
+    <key>a52</key>
+    <dict>
+      <key>en</key>
+      <string>Полностью улучшите %d Ядовитых Пушек.</string>
+      <key>de</key>
+      <string>Komplettes Upgrade von %d Poison Towers.</string>
+      <key>es</key>
+      <string>Mejora total de %d Torres de Veneno.</string>
+      <key>fr</key>
+      <string>Améliorez entièrement %d tours de poison.</string>
+      <key>it</key>
+      <string>Aggiorna completamente %d torri velenose.</string>
+      <key>ja</key>
+      <string>毒タワー %d 棟を完全アップグレードする。</string>
+      <key>ko</key>
+      <string>%d 개의 독약 타워를 완전히 업그레이드하세요.</string>
+      <key>nl</key>
+      <string>Upgrade %d giftorens volledig.</string>
+      <key>pt</key>
+      <string>Aprimore totalmente %d Torres de Veneno.</string>
+      <key>zh-Hans</key>
+      <string>完全升级 %d 个毒炮塔。</string>
+    </dict>
+    <key>a53</key>
+    <dict>
+      <key>en</key>
+      <string>Полностью улучшите %d Лед-Пушек.</string>
+      <key>de</key>
+      <string>Komplettes Upgrade von %d Ice Towers.</string>
+      <key>es</key>
+      <string>Mejora total de %d Torres de Hielo.</string>
+      <key>fr</key>
+      <string>Améliorez entièrement %d tours de glace.</string>
+      <key>it</key>
+      <string>Aggiorna completamente %d torri di ghiaccio.</string>
+      <key>ja</key>
+      <string>アイスタワー %d 棟を完全アップグレードする。</string>
+      <key>ko</key>
+      <string>%d 개의 얼음 타워를 완전히 업그레이드하세요.</string>
+      <key>nl</key>
+      <string>Upgrade %d ijstorens volledig.</string>
+      <key>pt</key>
+      <string>Aprimore totalmente %d Torres de Gelo.</string>
+      <key>zh-Hans</key>
+      <string>完全升级 %d 个冰塔。</string>
+    </dict>
+    <key>a54</key>
+    <dict>
+      <key>en</key>
+      <string>Полностью улучшите %d Электро-Пушек.</string>
+      <key>de</key>
+      <string>Komplettes Upgrade von %d Electro Towers.</string>
+      <key>es</key>
+      <string>Mejora total de %d Torres Eléctricas.</string>
+      <key>fr</key>
+      <string>Améliorez entièrement %d tours électriques.</string>
+      <key>it</key>
+      <string>Aggiorna completamente %d torri elettriche.</string>
+      <key>ja</key>
+      <string>電子タワー %d 棟を完全アップグレードする。</string>
+      <key>ko</key>
+      <string>%d 개의 전기 타워를 완전히 업그레이드하세요.</string>
+      <key>nl</key>
+      <string>Upgrade %d elektrotorens volledig.</string>
+      <key>pt</key>
+      <string>Aprimore totalmente %d Torres Elétricas.</string>
+      <key>zh-Hans</key>
+      <string>完全升级 %d 个电炮塔。</string>
+    </dict>
+    <key>a55</key>
+    <dict>
+      <key>en</key>
+      <string>Полностью улучшите %d Демон Пушек.</string>
+      <key>de</key>
+      <string>Komplettes Upgrade von %d Demon Towers.</string>
+      <key>es</key>
+      <string>Mejora total de %d Torre Diabólica.</string>
+      <key>fr</key>
+      <string>Améliorez entièrement %d Tours de Maléfique.</string>
+      <key>it</key>
+      <string>Aggiorna completamente %d Torre di Demoni.</string>
+      <key>ja</key>
+      <string>ロケットタワー %d 棟を完全アップグレードする。</string>
+      <key>ko</key>
+      <string>%d 개의 로켓 타워를 완전히 업그레이드하세요.</string>
+      <key>nl</key>
+      <string>Upgrade %d Demontoren.</string>
+      <key>pt</key>
+      <string>Aprimore totalmente %d Torre do Demônio.</string>
+      <key>zh-Hans</key>
+      <string>完全升级 %d 个火箭炮塔。</string>
+    </dict>
+    <key>a56</key>
+    <dict>
+      <key>en</key>
+      <string>Полностью улучшите %d Блейд Пушек.</string>
+      <key>de</key>
+      <string>Komplettes Upgrade von %d Blade Towers.</string>
+      <key>es</key>
+      <string>Mejora total de %d Torres de cuchillas.</string>
+      <key>fr</key>
+      <string>Améliorez entièrement %d tours tranchantes.</string>
+      <key>it</key>
+      <string>Aggiorna completamente %d torri lama.</string>
+      <key>ja</key>
+      <string>ブレードタワー％d棟を完全アップグレードします。</string>
+      <key>ko</key>
+      <string>%d개의 블레이드 타워를 완전히 업그레이드합니다.</string>
+      <key>nl</key>
+      <string>Upgrade %d zwaardtorens volledig.</string>
+      <key>pt</key>
+      <string>Aprimore totalmente %d Torres de Lâminas.</string>
+      <key>zh-Hans</key>
+      <string>完全升级 %d 个刀锋防御塔。</string>
+    </dict>
+    <key>a6</key>
+    <dict>
+      <key>en</key>
+      <string>Победите %d врагов Демон Пушкой.</string>
+      <key>de</key>
+      <string>Besiegen Sie %d Feinde mit Demon Tower.</string>
+      <key>es</key>
+      <string>Derrota %d enemigos con la Torre Diabólica.</string>
+      <key>fr</key>
+      <string>Terrassez %d ennemis avec une Tour de Maléfique.</string>
+      <key>it</key>
+      <string>Sconfiggi %d nemici con la Torre di Demoni.</string>
+      <key>ja</key>
+      <string>敵%d 匹をロケットタワーで倒す。</string>
+      <key>ko</key>
+      <string>로켓 타워로 %d 개의 적을 물리치세요.</string>
+      <key>nl</key>
+      <string>Versla %d vijanden met Demontoren.</string>
+      <key>pt</key>
+      <string>Derrote %d inimigos com a Torre do Demônio.</string>
+      <key>zh-Hans</key>
+      <string>使用火箭炮塔击败 %d 个敌人。</string>
+    </dict>
+    <key>a7</key>
+    <dict>
+      <key>en</key>
+      <string>Победите %d врагов Блейд Пушкой.</string>
+      <key>de</key>
+      <string>Besiegen Sie %d Feinde mit Blade Tower.</string>
+      <key>es</key>
+      <string>Derrota %d enemigos con la Torre de cuchillas.</string>
+      <key>fr</key>
+      <string>Terrassez %d ennemis avec une tour tranchante.</string>
+      <key>it</key>
+      <string>Sconfiggi %d nemici con la torre lama.</string>
+      <key>ja</key>
+      <string>敵％d匹をブレードタワーで倒します。</string>
+      <key>ko</key>
+      <string>블레이드 타워로 %d명의 적을 물리칩니다.</string>
+      <key>nl</key>
+      <string>Versla %d vijanden met zwaardtorens.</string>
+      <key>pt</key>
+      <string>Derrote %d inimigos com a Torre de Lâminas.</string>
+      <key>zh-Hans</key>
+      <string>使用刀锋防御塔击败 %d 个敌人。</string>
+    </dict>
+    <key>a62</key>
+    <dict>
+      <key>en</key>
+      <string>Пройдите "Хижина". Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Beenden Sie "Hidden's Hut". Extrem schwer.</string>
+      <key>es</key>
+      <string>Completa: "Cabaña oculta". Modo difícil.</string>
+      <key>fr</key>
+      <string>Terminez "Refuge caché". Niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Completa la "Grotta nascosta". Difficoltà alta.</string>
+      <key>ja</key>
+      <string>"隠れ小屋" をクリア。高難度。</string>
+      <key>ko</key>
+      <string>"숨겨진 막사"를 완료하세요. 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Voltooi "Verborgen Hut". Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Conclua "Cabana Escondida". Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>完成“隐藏的小屋”。困难难度。</string>
+    </dict>
+    <key>a65</key>
+    <dict>
+      <key>en</key>
+      <string>Пройдите "Лес Огров". Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Beenden Sie "Ogre's Forest". Extrem schwer.</string>
+      <key>es</key>
+      <string>Completa: "Bosque del ogro". Modo difícil.</string>
+      <key>fr</key>
+      <string>Terminez "Forêt de l'ogre". Niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Completa la "Foresta dell'orco". Difficoltà alta.</string>
+      <key>ja</key>
+      <string>"鬼の森" をクリア。高難度。</string>
+      <key>ko</key>
+      <string>"오거의 숲"을 완료하세요. 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Voltooi "Boemansbos". Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Conclua "Floresta do Ogro". Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>完成"怪物森林"。困难难度。</string>
+    </dict>
+    <key>a68</key>
+    <dict>
+      <key>en</key>
+      <string>Пройдите "Токсичная Пустыня". Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Beenden Sie "Toxic Desert". Extrem schwer.</string>
+      <key>es</key>
+      <string>Completa: "Desierto tóxico". Modo difícil.</string>
+      <key>fr</key>
+      <string>Terminez "Désert toxique". Niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Completa il "Deserto tossico". Difficoltà alta.</string>
+      <key>ja</key>
+      <string>"毒砂漠" をクリア。高難度。</string>
+      <key>ko</key>
+      <string>"유독한 사막"을 완료하세요. 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Voltooi "Gifwoestijn". Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Conclua "Deserto Tóxico". Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>完成"有毒的沙漠"。困难难度。</string>
+    </dict>
+    <key>a71</key>
+    <dict>
+      <key>en</key>
+      <string>Пройдите "Зыбучие Пески". Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Beenden Sie "Quicksands". Extrem schwer.</string>
+      <key>es</key>
+      <string>Completa: "Arenas movedizas". Modo difícil.</string>
+      <key>fr</key>
+      <string>Terminez "Sables mouvants". Niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Completa le "Sabbie mobili". Difficoltà alta.</string>
+      <key>ja</key>
+      <string>"流砂" をクリア。高難度。</string>
+      <key>ko</key>
+      <string>"퀵샌드"를 완료하세요. 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Voltooi "Drijfzand". Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Conclua "Areias Movediças". Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>完成"流沙"。困难难度。</string>
+    </dict>
+    <key>a74</key>
+    <dict>
+      <key>en</key>
+      <string>Пройдите "Тундра". Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Beenden Sie "Tundra Maze". Extrem schwer.</string>
+      <key>es</key>
+      <string>Completa: "Laberinto de tundra". Modo difícil.</string>
+      <key>fr</key>
+      <string>Terminez "Labyrinthe de la toundra". Niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Completa il "Labirinto tundra". Difficoltà alta.</string>
+      <key>ja</key>
+      <string>"ツンドラの迷路" をクリア。高難度。</string>
+      <key>ko</key>
+      <string>"툰드라 미로"를 완료하세요. 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Voltooi "Toendradoolhof". Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Conclua "Labirinto da Tundra". Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>完成"苔原迷宫"。困难难度。</string>
+    </dict>
+    <key>a77</key>
+    <dict>
+      <key>en</key>
+      <string>Пройдите "Ледяной Мост". Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Beenden Sie "Ice Bridge". Extrem schwer.</string>
+      <key>es</key>
+      <string>Completa: "Puente de hielo". Modo difícil.</string>
+      <key>fr</key>
+      <string>Terminez "Pont de glace". Niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Completa il "Ponte di ghiaccio". Difficoltà alta.</string>
+      <key>ja</key>
+      <string>"アイスブリッジ" をクリア。高難度。</string>
+      <key>ko</key>
+      <string>"얼음 다리"를 완료하세요. 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Voltooi "IJsbrug". Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Conclua "Ponte de Gelo". Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>完成"冰桥"。困难难度。</string>
+    </dict>
+    <key>a80</key>
+    <dict>
+      <key>en</key>
+      <string>Пройдите "Высокогорье". Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Beenden Sie "Sky Hight". Extrem schwer.</string>
+      <key>es</key>
+      <string>Completa: "Por las nubes". Modo difícil.</string>
+      <key>fr</key>
+      <string>Terminez "Sommet vertigineux". Niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Completa il "Cielo alto". Difficoltà alta.</string>
+      <key>ja</key>
+      <string>"スカイハイ" をクリア。高難度。</string>
+      <key>ko</key>
+      <string>"스카이 하이"를 완료하세요. 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Voltooi "Hemelhoog". Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Conclua "Altura do Céu". Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>完成"高空"。困难难度。</string>
+    </dict>
+    <key>a83</key>
+    <dict>
+      <key>en</key>
+      <string>Пройдите "Бордерленд". Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Beenden Sie "Borderland". Extrem schwer.</string>
+      <key>es</key>
+      <string>Completa: "Zona fronteriza". Modo difícil.</string>
+      <key>fr</key>
+      <string>Terminez "Région limitrophe". Niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Completa la "Zona di confine". Difficoltà alta.</string>
+      <key>ja</key>
+      <string>"国境地帯" をクリア。高難度。</string>
+      <key>ko</key>
+      <string>"국경지방"을 완료하세요. 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Voltooi "Grensgebied". Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Conclua "Fronteira". Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>完成"边境"。困难难度。</string>
+    </dict>
+    <key>a84</key>
+    <dict>
+      <key>en</key>
+      <string>Пройдите "Зал пламени". Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Absolvieren Sie "Flammensaal". Extrem schwer.</string>
+      <key>es</key>
+      <string>Completa el "Salón de las llamas". Modo difícil.</string>
+      <key>fr</key>
+      <string>Terminez "Couloir de feu". Niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Completa la "Sala fiammante". Difficoltà alta.</string>
+      <key>ja</key>
+      <string>炎の殿堂をクリアします。 高難度。</string>
+      <key>ko</key>
+      <string>화염의 전당을 완료합니다. 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Voltooi "Vuurzee". Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Conclua o "Hall da chama". Nível de dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>完成“火焰地狱”。困难难度。</string>
+    </dict>
+    <key>a85</key>
+    <dict>
+      <key>en</key>
+      <string>Пройдите "Расплавленная Пещера". Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Absolvieren Sie "Geschmolzene Höhle". Extrem schwer.</string>
+      <key>es</key>
+      <string>Completa la "Cueva fundida". Modo difícil.</string>
+      <key>fr</key>
+      <string>Terminez "Caverne en fusion". Niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Completa la "Grotta di lava". Difficoltà alta.</string>
+      <key>ja</key>
+      <string>灼熱の洞窟を完了。 高難度。</string>
+      <key>ko</key>
+      <string>용암 동굴을 완료합니다. 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Voltooi "Gesmolten grot". Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Conclua "Caverna Vulcânica". Nível de dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>完成“熔岩洞穴”。 困难难度。</string>
+    </dict>
+    <key>a90</key>
+    <dict>
+      <key>en</key>
+      <string>Выживите %d раундов на "Хижина". Режим Выживания, Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Überleben Sie %d Runden in Hidden's Hut. Überleben modus, Extrem schwer.</string>
+      <key>es</key>
+      <string>Sobrevive %d rondas en: "Cabaña oculta". Modo Supervivencia, Modo difícil.</string>
+      <key>fr</key>
+      <string>Survivez pendant %d manches sur la carte Refuge caché. Mode Survie, niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Sopravvivi a %d round di Grotta nascosta. Modalità Sopravvivenza, Difficoltà alta.</string>
+      <key>ja</key>
+      <string>隠れ小屋で %d ラウンド生き延びる。生き残りモード高難度。</string>
+      <key>ko</key>
+      <string>숨겨진 막사에서 %d 라운드 동안 살아남으세요. 모드에서 생존 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Overleef %d ronden in Verborgen Hut. Survival mode, Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Sobreviva %d Rodadas na Cabana Escondida. Modo  Sobrevivência, Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>在"隐藏的小屋"中生存 %d 个回合。生存模式,困难难度。</string>
+    </dict>
+    <key>a91</key>
+    <dict>
+      <key>en</key>
+      <string>Выживите %d раундов на "Лес Огров". Режим Выживания, Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Überleben Sie %d Runden in Ogre's Forest. Überleben modus, Extrem schwer.</string>
+      <key>es</key>
+      <string>Sobrevive %d rondas en: "Bosque del ogro". Modo Supervivencia, Modo difícil.</string>
+      <key>fr</key>
+      <string>Survivez pendant %d manches sur la carte Forêt de l'ogre. Mode Survie, niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Sopravvivi a %d round di Foresta dell'orco. Modalità Sopravvivenza, Difficoltà alta..</string>
+      <key>ja</key>
+      <string>鬼の森で %d ラウンド生き延びる。生き残りモード高難度。</string>
+      <key>ko</key>
+      <string>오거의 숲에서 %d 라운드 동안 살아남으세요. 모드에서 생존 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Overleef %d ronden in Boemansbos. Survival mode, Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Sobreviva %d Rodadas na Floresta do Ogro. Modo  Sobrevivência, Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>在“怪物森林”中生存 %d 个回合。生存模式,困难难度。</string>
+    </dict>
+    <key>a92</key>
+    <dict>
+      <key>en</key>
+      <string>Выживите %d раундов на "Токсичная Пустыня". Режим Выживания, Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Überleben Sie %d Runden in Toxic Desert. Überleben modus, Extrem schwer.</string>
+      <key>es</key>
+      <string>Sobrevive %d rondas en: "Desierto tóxico". Modo Supervivencia, Modo difícil.</string>
+      <key>fr</key>
+      <string>Survivez pendant %d manches sur la carte Désert toxique. Mode Survie, niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Sopravvivi a %d round di Deserto tossico. Modalità Sopravvivenza, Difficoltà alta..</string>
+      <key>ja</key>
+      <string>毒砂漠で %d ラウンド生き延びる。生き残りモード高難度。</string>
+      <key>ko</key>
+      <string>유독한 사막에서 %d 라운드 동안 살아남으세요. 모드에서 생존 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Overleef %d ronden in Gifwoestijn. Survival mode, Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Sobreviva %d Rodadas no Deserto Tóxico. Modo  Sobrevivência, Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>在"有毒的沙漠"中生存 %d 个回合。生存模式,困难难度。</string>
+    </dict>
+    <key>a93</key>
+    <dict>
+      <key>en</key>
+      <string>Выживите %d раундов на "Зыбучие Пески". Режим Выживания, Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Überleben Sie %d Runden in Quicksands. Überleben modus, Extrem schwer.</string>
+      <key>es</key>
+      <string>Sobrevive %d rondas en: "Arenas movedizas". Modo Supervivencia, Modo difícil.</string>
+      <key>fr</key>
+      <string>Survivez pendant %d manches sur la carte Sables mouvants. Mode Survie, niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Sopravvivi a %d round di Sabbie mobili. Modalità Sopravvivenza, Difficoltà alta..</string>
+      <key>ja</key>
+      <string>流砂で %d ラウンド生き延びる。生き残りモード高難度。</string>
+      <key>ko</key>
+      <string>퀵샌드에서 %d 라운드 동안 살아남으세요. 모드에서 생존 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Overleef %d ronden in Drijfzand. Survival mode, Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Sobreviva %d Rodadas nas Areias Movediças. Modo  Sobrevivência, Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>在"流沙"中生存 %d 个回合。生存模式,困难难度。</string>
+    </dict>
+    <key>a94</key>
+    <dict>
+      <key>en</key>
+      <string>Выживите %d раундов на "Тундра". Режим Выживания, Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Überleben Sie %d Runden in "Tundra Maze". Überleben modus, Extrem schwer.</string>
+      <key>es</key>
+      <string>Sobrevive %d rondas en: "Laberinto de tundra". Modo Supervivencia, Modo difícil.</string>
+      <key>fr</key>
+      <string>Survivez pendant %d manches sur la carte Labyrinthe de la toundra. Mode Survie, niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Sopravvivi a %d round di Labirinto tundra. Modalità Sopravvivenza, Difficoltà alta..</string>
+      <key>ja</key>
+      <string>ツンドラの迷路で %d ラウンド生き延びる。生き残りモード高難度。</string>
+      <key>ko</key>
+      <string>툰드라 미로에서 %d 라운드 동안 살아남으세요. 모드에서 생존 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Overleef %d ronden in Toendradoolhof. Survival mode, Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Sobreviva %d Rodadas no Labirinto da Tundra. Modo  Sobrevivência, Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>在"苔原迷宫"中生存 %d 个回合。生存模式,困难难度。</string>
+    </dict>
+    <key>a95</key>
+    <dict>
+      <key>en</key>
+      <string>Выживите %d раундов на "Ледяной Мост". Режим Выживания, Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Überleben Sie %d Runden in "Ice Bridge". Überleben modus, Extrem schwer.</string>
+      <key>es</key>
+      <string>Sobrevive %d rondas en: "Puente de hielo". Modo Supervivencia, Modo difícil.</string>
+      <key>fr</key>
+      <string>Survivez pendant %d manches sur la carte Pont de glace. Mode Survie, niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Sopravvivi a %d round di Ponte di ghiaccio. Modalità Sopravvivenza, Difficoltà alta..</string>
+      <key>ja</key>
+      <string>アイスブリッジで %d ラウンド生き延びる。生き残りモード高難度。</string>
+      <key>ko</key>
+      <string>얼음 다리에서 %d 라운드 동안 살아남으세요. 모드에서 생존 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Overleef %d ronden in IJsbrug. Survival mode, Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Sobreviva %d Rodadas na Ponte de Gelo. Modo  Sobrevivência, Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>在"冰桥"中生存 %d 个回合。生存模式,困难难度。</string>
+    </dict>
+    <key>a96</key>
+    <dict>
+      <key>en</key>
+      <string>Выживите %d раундов на "Высокогорье". Режим Выживания, Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Überleben Sie %d Runden in "Sky Hight". Überleben modus, Extrem schwer.</string>
+      <key>es</key>
+      <string>Sobrevive %d rondas en: "Por las nubes". Modo Supervivencia, Modo difícil.</string>
+      <key>fr</key>
+      <string>Survivez pendant %d manches sur la carte Sommet vertigineux. Mode Survie, niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Sopravvivi a %d round di Cielo alto. Modalità Sopravvivenza, Difficoltà alta..</string>
+      <key>ja</key>
+      <string>スカイハイで %d ラウンド生き延びる。生き残りモード高難度。</string>
+      <key>ko</key>
+      <string>스카이 하이에서 %d 라운드 동안 살아남으세요. 모드에서 생존 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Overleef %d ronden in Hemelhoog. Survival mode, Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Sobreviva %d Rodadas em Altura do Céu. Modo  Sobrevivência, Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>在"高空"中生存 %d 个回合。生存模式,困难难度。</string>
+    </dict>
+    <key>a97</key>
+    <dict>
+      <key>en</key>
+      <string>Выживите %d раундов на "Бордерленд". Режим Выживания, Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Überleben Sie %d Runden in "Borderland". Überleben modus, Extrem schwer.</string>
+      <key>es</key>
+      <string>Sobrevive %d rondas en: "Zona fronteriza". Modo Supervivencia, Modo difícil.</string>
+      <key>fr</key>
+      <string>Survivez pendant %d manches sur la carte Région limitrophe. Mode Survie, niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Sopravvivi a %d round di Zona di confine. Modalità Sopravvivenza, Difficoltà alta..</string>
+      <key>ja</key>
+      <string>国境地帯で %d ラウンド生き延びる。生き残りモード高難度。</string>
+      <key>ko</key>
+      <string>국경지방에서 %d 라운드 동안 살아남으세요. 모드에서 생존 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Overleef %d ronden in Grensgebied. Survival mode, Moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Sobreviva %d Rodadas na Fronteira. Modo  Sobrevivência, Dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>在"边境"中生存 %d 个回合。生存模式,困难难度。</string>
+    </dict>
+    <key>a98</key>
+    <dict>
+      <key>en</key>
+      <string>Выживите %d раундов на "Зал пламени". Режим Выживания, Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Überleben Sie %d Runden in "Flammensaal". Überlebensmodus, Extrem schwer.</string>
+      <key>es</key>
+      <string>Sobrevive %d rondas en: "Salón de las llamas". Modo de supervivencia, Modo difícil.</string>
+      <key>fr</key>
+      <string>Survivez pendant %d manches sur la carte "Couloir de feu". Mode Survie, niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Sopravvivi a %d round di "Sala fiammante". Modalità Sopravvivenza, difficoltà alta.</string>
+      <key>ja</key>
+      <string>炎の殿堂を%dラウンドを生き延びます。 サバイバルモード、高難度。</string>
+      <key>ko</key>
+      <string>화염의 전당에서 %d 라운드 동안 생존합니다. 서바이벌 모드, 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Overleef %d ronden in "Vuurzee". Overlevingsspeltype, moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Sobreviva %d rodadas em "Hall da chama". Modo de sobrevivência, Nível de dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>在“火焰地狱”中生存 %d 个回合。 生存模式，困难难度。</string>
+    </dict>
+    <key>a99</key>
+    <dict>
+      <key>en</key>
+      <string>Выживите %d раундов на "Расплавленная Пещера". Режим Выживания, Тяжелая сложность.</string>
+      <key>de</key>
+      <string>Überleben Sie %d Runden in "Geschmolzene Höhle". Überlebensmodus, Extrem schwer.</string>
+      <key>es</key>
+      <string>Sobrevive %d rondas en: "Cueva fundida". Modo de supervivencia, Modo difícil.</string>
+      <key>fr</key>
+      <string>Survivez pendant %d manches sur la carte "Caverne en fusion". Mode Survie, niveau de difficulté Difficile.</string>
+      <key>it</key>
+      <string>Sopravvivi a %d round di "Grotta di lava". Modalità Sopravvivenza, difficoltà alta.</string>
+      <key>ja</key>
+      <string>灼熱の洞窟を%dラウンドを生き延びます。 サバイバルモード、高難度。</string>
+      <key>ko</key>
+      <string>용암 동굴에서 %d 라운드 동안 생존합니다. 서바이벌 모드, 어려운 난이도.</string>
+      <key>nl</key>
+      <string>Overleef %d ronden in "Gesmolten grot". Overlevingsspeltype, moeilijk niveau.</string>
+      <key>pt</key>
+      <string>Sobreviva %d Rodadas em "Caverna Vulcânica". Modo de sobrevivência, Nível de dificuldade difícil.</string>
+      <key>zh-Hans</key>
+      <string>在“熔岩洞穴”中生存 %d 个回合。 生存模式，困难难度。</string>
+    </dict>
+    <key>about</key>
+    <dict>
+      <key>en</key>
+      <string>Авторы</string>
+      <key>de</key>
+      <string>Über</string>
+      <key>es</key>
+      <string>Acerca de</string>
+      <key>fr</key>
+      <string>À propos de</string>
+      <key>it</key>
+      <string>Informazioni</string>
+      <key>ja</key>
+      <string>情報</string>
+      <key>ko</key>
+      <string>정보</string>
+      <key>nl</key>
+      <string>Info</string>
+      <key>pt</key>
+      <string>Sobre</string>
+      <key>zh-Hans</key>
+      <string>关于</string>
+    </dict>
+    <key>achieveMsgFormat</key>
+    <dict>
+      <key>en</key>
+      <string>Получено Достижение %@</string>
+      <key>de</key>
+      <string>Erfolg verdient %@</string>
+      <key>es</key>
+      <string>Logro ganado %@</string>
+      <key>fr</key>
+      <string>Succès gagné %@</string>
+      <key>it</key>
+      <string>Obiettivo raggiunto %@</string>
+      <key>ja</key>
+      <string>達成成果 %@</string>
+      <key>ko</key>
+      <string>획득한 업적 %@</string>
+      <key>nl</key>
+      <string>Prestatie verdiend %@</string>
+      <key>pt</key>
+      <string>Conquistas ganhas %@</string>
+      <key>zh-Hans</key>
+      <string>已获得成就 %@</string>
+    </dict>
+    <key>achieveProgressFormat</key>
+    <dict>
+      <key>en</key>
+      <string>%d%%</string>
+    </dict>
+    <key>an1</key>
+    <dict>
+      <key>en</key>
+      <string>"Мастер Стрел"</string>
+      <key>de</key>
+      <string>"Pfeilmeister"</string>
+      <key>es</key>
+      <string>"Experto en flechas"</string>
+      <key>fr</key>
+      <string>"Maître des flèches"</string>
+      <key>it</key>
+      <string>"Maestro di frecce"</string>
+      <key>ja</key>
+      <string>"アローマスター"</string>
+      <key>ko</key>
+      <string>"화살의 달인"</string>
+      <key>nl</key>
+      <string>"Pijlmeester"</string>
+      <key>pt</key>
+      <string>"Mestre da Flecha"</string>
+      <key>zh-Hans</key>
+      <string>"箭炮大师"</string>
+    </dict>
+    <key>an110</key>
+    <dict>
+      <key>en</key>
+      <string>"Стойкий боец"</string>
+      <key>de</key>
+      <string>"Standhafter Kämpfer"</string>
+      <key>es</key>
+      <string>"Luchador acérrimo"</string>
+      <key>fr</key>
+      <string>"Combattant loyal"</string>
+      <key>it</key>
+      <string>"Combattente leale"</string>
+      <key>ja</key>
+      <string>"忠実な戦士"</string>
+      <key>ko</key>
+      <string>"힘센 투사"</string>
+      <key>nl</key>
+      <string>"Solide strijder"</string>
+      <key>pt</key>
+      <string>"Lutador ferrenho"</string>
+      <key>zh-Hans</key>
+      <string>"坚强的战士"</string>
+    </dict>
+    <key>an111</key>
+    <dict>
+      <key>en</key>
+      <string>"Стальные нервы"</string>
+      <key>de</key>
+      <string>"Nerven aus Stahl"</string>
+      <key>es</key>
+      <string>"Nervios de acero"</string>
+      <key>fr</key>
+      <string>"Nerfs d'acier"</string>
+      <key>it</key>
+      <string>"Nervi d'acciaio"</string>
+      <key>ja</key>
+      <string>"不屈の精神"</string>
+      <key>ko</key>
+      <string>"강한 담력의 소유자"</string>
+      <key>nl</key>
+      <string>"Stalen zenuwen"</string>
+      <key>pt</key>
+      <string>"Nervos de aço"</string>
+      <key>zh-Hans</key>
+      <string>"钢铁意志"</string>
+    </dict>
+    <key>an112</key>
+    <dict>
+      <key>en</key>
+      <string>"Непробиваемый"</string>
+      <key>de</key>
+      <string>"Undurchdringbar"</string>
+      <key>es</key>
+      <string>"Impenetrable"</string>
+      <key>fr</key>
+      <string>"Impénétrable"</string>
+      <key>it</key>
+      <string>"Impenetrabile"</string>
+      <key>ja</key>
+      <string>"突破不可能"</string>
+      <key>ko</key>
+      <string>"침투 불가능"</string>
+      <key>nl</key>
+      <string>"Ondoordringbaar"</string>
+      <key>pt</key>
+      <string>"Impenetrável"</string>
+      <key>zh-Hans</key>
+      <string>"铜墙铁壁"</string>
+    </dict>
+    <key>an120</key>
+    <dict>
+      <key>en</key>
+      <string>"Невероятное везение!"</string>
+      <key>de</key>
+      <string>"So ein Glück!"</string>
+      <key>es</key>
+      <string>"¡Suertudo!"</string>
+      <key>fr</key>
+      <string>"Tellement chanceux!"</string>
+      <key>it</key>
+      <string>"Che fortuna!"</string>
+      <key>ja</key>
+      <string>"超ラッキー！"</string>
+      <key>ko</key>
+      <string>"행운아!"</string>
+      <key>nl</key>
+      <string>"Mazzel!"</string>
+      <key>pt</key>
+      <string>"Sortudo!"</string>
+      <key>zh-Hans</key>
+      <string>"很幸运！"</string>
+    </dict>
+    <key>an121</key>
+    <dict>
+      <key>en</key>
+      <string>"Чистая победа"</string>
+      <key>de</key>
+      <string>"Glatter Sieg!"</string>
+      <key>es</key>
+      <string>"Victoria impecable"</string>
+      <key>fr</key>
+      <string>"Victoire indéniable"</string>
+      <key>it</key>
+      <string>"Vittoria perfetta"</string>
+      <key>ja</key>
+      <string>"完璧な勝利"</string>
+      <key>ko</key>
+      <string>"완벽한 승리"</string>
+      <key>nl</key>
+      <string>"Perfecte zege"</string>
+      <key>pt</key>
+      <string>"Vitória impecável"</string>
+      <key>zh-Hans</key>
+      <string>"完美的胜利"</string>
+    </dict>
+    <key>an122</key>
+    <dict>
+      <key>en</key>
+      <string>"За гранью реальности"</string>
+      <key>de</key>
+      <string>"Unglaublich"</string>
+      <key>es</key>
+      <string>"Increíble"</string>
+      <key>fr</key>
+      <string>"À la limite de l'entendement"</string>
+      <key>it</key>
+      <string>"Incredibile"</string>
+      <key>ja</key>
+      <string>"信じられないほど"</string>
+      <key>ko</key>
+      <string>"신념 초월"</string>
+      <key>nl</key>
+      <string>"Ongelofelijk"</string>
+      <key>pt</key>
+      <string>"Inacreditável"</string>
+      <key>zh-Hans</key>
+      <string>"难以置信"</string>
+    </dict>
+    <key>an130</key>
+    <dict>
+      <key>en</key>
+      <string>"У подножья Олимпа"</string>
+      <key>de</key>
+      <string>"Am Fuße des Olymp"</string>
+      <key>es</key>
+      <string>"Al pie del Olimpo"</string>
+      <key>fr</key>
+      <string>"Au pied de l'Olympe"</string>
+      <key>it</key>
+      <string>"Ai piedi dell'Olimpo"</string>
+      <key>ja</key>
+      <string>"オリンプスの麓にて"</string>
+      <key>ko</key>
+      <string>"올림푸스 기슭"</string>
+      <key>nl</key>
+      <string>"Aan de voet van de Olympus"</string>
+      <key>pt</key>
+      <string>"Aos pés do Olimpo"</string>
+      <key>zh-Hans</key>
+      <string>"奥林匹斯山脚下"</string>
+    </dict>
+    <key>an131</key>
+    <dict>
+      <key>en</key>
+      <string>"Эпический Бригадир"</string>
+      <key>de</key>
+      <string>"Epischer Bauleiter"</string>
+      <key>es</key>
+      <string>"Capataz épico"</string>
+      <key>fr</key>
+      <string>"Contremaître épique"</string>
+      <key>it</key>
+      <string>"Capo epico"</string>
+      <key>ja</key>
+      <string>"素晴らしいフォアマン"</string>
+      <key>ko</key>
+      <string>"용맹한 십장"</string>
+      <key>nl</key>
+      <string>"Epische ploegbaas"</string>
+      <key>pt</key>
+      <string>"Capataz Épico"</string>
+      <key>zh-Hans</key>
+      <string>"史诗般的领班"</string>
+    </dict>
+    <key>an132</key>
+    <dict>
+      <key>en</key>
+      <string>"Легендарный Инженер"</string>
+      <key>de</key>
+      <string>"Legendärer Ingenieur"</string>
+      <key>es</key>
+      <string>"Ingeniero legendario"</string>
+      <key>fr</key>
+      <string>"Ingénieur légendaire"</string>
+      <key>it</key>
+      <string>"Ingegnere leggendario"</string>
+      <key>ja</key>
+      <string>"伝説のエンジニア"</string>
+      <key>ko</key>
+      <string>"전설적 엔지니어"</string>
+      <key>nl</key>
+      <string>"Legendarische geniesoldaat"</string>
+      <key>pt</key>
+      <string>"Engenheiro Lendário"</string>
+      <key>zh-Hans</key>
+      <string>"传奇工程师"</string>
+    </dict>
+    <key>an2</key>
+    <dict>
+      <key>en</key>
+      <string>"Легендарный Пушкарь"</string>
+      <key>de</key>
+      <string>"Legendärer Kanonier"</string>
+      <key>es</key>
+      <string>"Cañonero legendario"</string>
+      <key>fr</key>
+      <string>"Artilleur légendaire"</string>
+      <key>it</key>
+      <string>"Cannoniere leggendario"</string>
+      <key>ja</key>
+      <string>"伝説の砲手"</string>
+      <key>ko</key>
+      <string>"전설적 포수"</string>
+      <key>nl</key>
+      <string>"Legendarische artillerist"</string>
+      <key>pt</key>
+      <string>"Canhoneiro Lendário"</string>
+      <key>zh-Hans</key>
+      <string>"传奇炮手"</string>
+    </dict>
+    <key>an20</key>
+    <dict>
+      <key>en</key>
+      <string>"Небесный Защитник"</string>
+      <key>de</key>
+      <string>"Verteidiger des Himmels"</string>
+      <key>es</key>
+      <string>"Defensor del cielo"</string>
+      <key>fr</key>
+      <string>"Défenseur du ciel"</string>
+      <key>it</key>
+      <string>"Difensore dei cieli"</string>
+      <key>ja</key>
+      <string>"スカイディフェンダー"</string>
+      <key>ko</key>
+      <string>"하늘 지킴이"</string>
+      <key>nl</key>
+      <string>"Luchtverdediger"</string>
+      <key>pt</key>
+      <string>"Defensor do Céu"</string>
+      <key>zh-Hans</key>
+      <string>"天空卫士"</string>
+    </dict>
+    <key>an21</key>
+    <dict>
+      <key>en</key>
+      <string>"Небесный Боец"</string>
+      <key>de</key>
+      <string>"Kämpfer des Himmels"</string>
+      <key>es</key>
+      <string>"Luchador del cielo"</string>
+      <key>fr</key>
+      <string>"Combattant du ciel"</string>
+      <key>it</key>
+      <string>"Combattente dei cieli"</string>
+      <key>ja</key>
+      <string>"スカイファイター"</string>
+      <key>ko</key>
+      <string>"하늘의 투사"</string>
+      <key>nl</key>
+      <string>"Luchtvechter"</string>
+      <key>pt</key>
+      <string>"Lutador do céu"</string>
+      <key>zh-Hans</key>
+      <string>"天空战士"</string>
+    </dict>
+    <key>an22</key>
+    <dict>
+      <key>en</key>
+      <string>"Король Неба"</string>
+      <key>de</key>
+      <string>"König des Himmels"</string>
+      <key>es</key>
+      <string>"Rey del cielo"</string>
+      <key>fr</key>
+      <string>"Roi du ciel"</string>
+      <key>it</key>
+      <string>"Re dei cieli"</string>
+      <key>ja</key>
+      <string>"スカイキング"</string>
+      <key>ko</key>
+      <string>"하늘의 왕"</string>
+      <key>nl</key>
+      <string>"Luchtkoning"</string>
+      <key>pt</key>
+      <string>"Rei dos céus"</string>
+      <key>zh-Hans</key>
+      <string>"天空之王"</string>
+    </dict>
+    <key>an23</key>
+    <dict>
+      <key>en</key>
+      <string>"Пастух"</string>
+      <key>de</key>
+      <string>"Hirte"</string>
+      <key>es</key>
+      <string>"Pastor"</string>
+      <key>fr</key>
+      <string>"Berger"</string>
+      <key>it</key>
+      <string>"Pastore"</string>
+      <key>ja</key>
+      <string>"羊飼い"</string>
+      <key>ko</key>
+      <string>"양치기"</string>
+      <key>nl</key>
+      <string>"Herder"</string>
+      <key>pt</key>
+      <string>"Pastor"</string>
+      <key>zh-Hans</key>
+      <string>"牧羊人"</string>
+    </dict>
+    <key>an24</key>
+    <dict>
+      <key>en</key>
+      <string>"Мастер Пастух"</string>
+      <key>de</key>
+      <string>"Haupthirte"</string>
+      <key>es</key>
+      <string>"Pastor experto"</string>
+      <key>fr</key>
+      <string>"Berger chevronné"</string>
+      <key>it</key>
+      <string>"Pastore maestro"</string>
+      <key>ja</key>
+      <string>"熟練の羊飼い"</string>
+      <key>ko</key>
+      <string>"마스터 양치기"</string>
+      <key>nl</key>
+      <string>"Meester-herder"</string>
+      <key>pt</key>
+      <string>"Mestre Pastor"</string>
+      <key>zh-Hans</key>
+      <string>"牧羊智者"</string>
+    </dict>
+    <key>an25</key>
+    <dict>
+      <key>en</key>
+      <string>"Шеф Пастух"</string>
+      <key>de</key>
+      <string>"Chefhirte"</string>
+      <key>es</key>
+      <string>"Pastor líder"</string>
+      <key>fr</key>
+      <string>"Chef-berger"</string>
+      <key>it</key>
+      <string>"Pastore capo"</string>
+      <key>ja</key>
+      <string>"羊飼いのチーフ"</string>
+      <key>ko</key>
+      <string>"양치기 대장"</string>
+      <key>nl</key>
+      <string>"Chef-herder"</string>
+      <key>pt</key>
+      <string>"Chefe Pastor"</string>
+      <key>zh-Hans</key>
+      <string>"牧羊人首领"</string>
+    </dict>
+    <key>an26</key>
+    <dict>
+      <key>en</key>
+      <string>"Первый Рапорт"</string>
+      <key>de</key>
+      <string>"Erster Bericht"</string>
+      <key>es</key>
+      <string>"Primer informe"</string>
+      <key>fr</key>
+      <string>"Premier rapport"</string>
+      <key>it</key>
+      <string>"Primo report"</string>
+      <key>ja</key>
+      <string>"ファーストレポート"</string>
+      <key>ko</key>
+      <string>"첫 보고서"</string>
+      <key>nl</key>
+      <string>"Eerste rapportage"</string>
+      <key>pt</key>
+      <string>"Primeiro Relatório"</string>
+      <key>zh-Hans</key>
+      <string>"第一次报告"</string>
+    </dict>
+    <key>an27</key>
+    <dict>
+      <key>en</key>
+      <string>"Беспощадный"</string>
+      <key>de</key>
+      <string>"Gnadenlos"</string>
+      <key>es</key>
+      <string>"Despiadado"</string>
+      <key>fr</key>
+      <string>"Sans pitié"</string>
+      <key>it</key>
+      <string>"Spietato"</string>
+      <key>ja</key>
+      <string>"無情"</string>
+      <key>ko</key>
+      <string>"무자비"</string>
+      <key>nl</key>
+      <string>"Genadeloos"</string>
+      <key>pt</key>
+      <string>"Cruel"</string>
+      <key>zh-Hans</key>
+      <string>"无情"</string>
+    </dict>
+    <key>an28</key>
+    <dict>
+      <key>en</key>
+      <string>"Жестокий!"</string>
+      <key>de</key>
+      <string>"Brutal!"</string>
+      <key>es</key>
+      <string>"¡Brutal!"</string>
+      <key>fr</key>
+      <string>"Brutal!"</string>
+      <key>it</key>
+      <string>"Brutale!"</string>
+      <key>ja</key>
+      <string>"残酷！"</string>
+      <key>ko</key>
+      <string>"흉포!"</string>
+      <key>nl</key>
+      <string>"Wreed!"</string>
+      <key>pt</key>
+      <string>"Brutal!"</string>
+      <key>zh-Hans</key>
+      <string>"残酷！"</string>
+    </dict>
+    <key>an29</key>
+    <dict>
+      <key>en</key>
+      <string>"Мстительный!"</string>
+      <key>de</key>
+      <string>"Rachedurstig!"</string>
+      <key>es</key>
+      <string>"¡Vengativo!"</string>
+      <key>fr</key>
+      <string>"Vindicatif!"</string>
+      <key>it</key>
+      <string>"Vendicativo!"</string>
+      <key>ja</key>
+      <string>"復讐心に燃えている！"</string>
+      <key>ko</key>
+      <string>"복수심!"</string>
+      <key>nl</key>
+      <string>"Wraakzuchtig!"</string>
+      <key>pt</key>
+      <string>"Vingativo!"</string>
+      <key>zh-Hans</key>
+      <string>"复仇！"</string>
+    </dict>
+    <key>an3</key>
+    <dict>
+      <key>en</key>
+      <string>"Ледяная хватка"</string>
+      <key>de</key>
+      <string>"Kalte Umarmung"</string>
+      <key>es</key>
+      <string>"Abrazo helado"</string>
+      <key>fr</key>
+      <string>"Étreinte glaciale"</string>
+      <key>it</key>
+      <string>"Abbraccio gelato"</string>
+      <key>ja</key>
+      <string>"凍結包囲"</string>
+      <key>ko</key>
+      <string>"얼어붙은 포용"</string>
+      <key>nl</key>
+      <string>"Bevroren omhelzing"</string>
+      <key>pt</key>
+      <string>"Abraço Congelante"</string>
+      <key>zh-Hans</key>
+      <string>"冰冻的拥抱"</string>
+    </dict>
+    <key>an30</key>
+    <dict>
+      <key>en</key>
+      <string>"Неистовство!!!"</string>
+      <key>de</key>
+      <string>"Amoklauf!!!"</string>
+      <key>es</key>
+      <string>"¡Arrasar!"</string>
+      <key>fr</key>
+      <string>"Sacccage!!!"</string>
+      <key>it</key>
+      <string>"Scatenati!!!"</string>
+      <key>ja</key>
+      <string>"大暴れ！！！"</string>
+      <key>ko</key>
+      <string>"난폭!!!"</string>
+      <key>nl</key>
+      <string>"Destructie!"</string>
+      <key>pt</key>
+      <string>"Enlouquecer!!!"</string>
+      <key>zh-Hans</key>
+      <string>"横冲直撞！！！"</string>
+    </dict>
+    <key>an4</key>
+    <dict>
+      <key>en</key>
+      <string>"Яд Кобры"</string>
+      <key>de</key>
+      <string>"Kobragift"</string>
+      <key>es</key>
+      <string>"Veneno de cobra"</string>
+      <key>fr</key>
+      <string>"Venin de cobra"</string>
+      <key>it</key>
+      <string>"Veleno di cobra"</string>
+      <key>ja</key>
+      <string>"コブラ毒"</string>
+      <key>ko</key>
+      <string>"코브라의 독"</string>
+      <key>nl</key>
+      <string>"Cobragif"</string>
+      <key>pt</key>
+      <string>"Veneno de cobra"</string>
+      <key>zh-Hans</key>
+      <string>"眼镜蛇毒液"</string>
+    </dict>
+    <key>an40</key>
+    <dict>
+      <key>en</key>
+      <string>"Я люблю строить"</string>
+      <key>de</key>
+      <string>"Ich liebe es, zu bauen"</string>
+      <key>es</key>
+      <string>"Me encanta construir"</string>
+      <key>fr</key>
+      <string>"J'aime construire"</string>
+      <key>it</key>
+      <string>"Adoro costruire"</string>
+      <key>ja</key>
+      <string>"建設するのが大好きです"</string>
+      <key>ko</key>
+      <string>"건설을 좋아해요"</string>
+      <key>nl</key>
+      <string>"Ik ben dol op bouwen"</string>
+      <key>pt</key>
+      <string>"Adoro construir"</string>
+      <key>zh-Hans</key>
+      <string>"我爱建设"</string>
+    </dict>
+    <key>an41</key>
+    <dict>
+      <key>en</key>
+      <string>"Больше пушек"</string>
+      <key>de</key>
+      <string>"Weitere Towers"</string>
+      <key>es</key>
+      <string>"Más torres"</string>
+      <key>fr</key>
+      <string>"Plus de tours"</string>
+      <key>it</key>
+      <string>"Più torri"</string>
+      <key>ja</key>
+      <string>"他のタワー"</string>
+      <key>ko</key>
+      <string>"더 많은 타워"</string>
+      <key>nl</key>
+      <string>"Meer torens"</string>
+      <key>pt</key>
+      <string>"Mais torres"</string>
+      <key>zh-Hans</key>
+      <string>"更多防御塔"</string>
+    </dict>
+    <key>an42</key>
+    <dict>
+      <key>en</key>
+      <string>"Шеф Строитель"</string>
+      <key>de</key>
+      <string>"Bauherr"</string>
+      <key>es</key>
+      <string>"Jefe constructor"</string>
+      <key>fr</key>
+      <string>"Chef-constructeur"</string>
+      <key>it</key>
+      <string>"Costruttore capo"</string>
+      <key>ja</key>
+      <string>"建設者のチーフ"</string>
+      <key>ko</key>
+      <string>"대장 건축가"</string>
+      <key>nl</key>
+      <string>"Opperbouwer"</string>
+      <key>pt</key>
+      <string>"Construtor Chefe"</string>
+      <key>zh-Hans</key>
+      <string>"建筑大师"</string>
+    </dict>
+    <key>an5</key>
+    <dict>
+      <key>en</key>
+      <string>"Молодой Тесла"</string>
+      <key>de</key>
+      <string>"Junger Tesla"</string>
+      <key>es</key>
+      <string>"Joven Tesla"</string>
+      <key>fr</key>
+      <string>"Jeune Tesla"</string>
+      <key>it</key>
+      <string>"Giovane Tesla"</string>
+      <key>ja</key>
+      <string>"若いテスラ"</string>
+      <key>ko</key>
+      <string>"젊은 테슬라"</string>
+      <key>nl</key>
+      <string>"Jonge Tesla"</string>
+      <key>pt</key>
+      <string>"Jovem Tesla"</string>
+      <key>zh-Hans</key>
+      <string>"年轻的特斯拉"</string>
+    </dict>
+    <key>an50</key>
+    <dict>
+      <key>en</key>
+      <string>"Робин Гуд"</string>
+      <key>de</key>
+      <string>"Robin Hood"</string>
+      <key>es</key>
+      <string>"Robin Hood"</string>
+      <key>fr</key>
+      <string>"Robin des Bois"</string>
+      <key>it</key>
+      <string>"Robin Hood"</string>
+      <key>ja</key>
+      <string>"ロビンフッド"</string>
+      <key>ko</key>
+      <string>"로빈 후드"</string>
+      <key>nl</key>
+      <string>"Robin Hood"</string>
+      <key>pt</key>
+      <string>"Robin Hood"</string>
+      <key>zh-Hans</key>
+      <string>"罗宾汉"</string>
+    </dict>
+    <key>an51</key>
+    <dict>
+      <key>en</key>
+      <string>"Бомбермен"</string>
+      <key>de</key>
+      <string>"Bomber Man"</string>
+      <key>es</key>
+      <string>"Bombardero"</string>
+      <key>fr</key>
+      <string>"Bombardier"</string>
+      <key>it</key>
+      <string>"Bombardiere"</string>
+      <key>ja</key>
+      <string>"ボンバーマン"</string>
+      <key>ko</key>
+      <string>"봄버 맨"</string>
+      <key>nl</key>
+      <string>"Bommenman"</string>
+      <key>pt</key>
+      <string>"Homem Bomba"</string>
+      <key>zh-Hans</key>
+      <string>"炸弹人"</string>
+    </dict>
+    <key>an52</key>
+    <dict>
+      <key>en</key>
+      <string>"Эксперт по Яду"</string>
+      <key>de</key>
+      <string>"Giftexperte"</string>
+      <key>es</key>
+      <string>"Experto en venenos"</string>
+      <key>fr</key>
+      <string>"Expert en poison"</string>
+      <key>it</key>
+      <string>"Esperto di veleni"</string>
+      <key>ja</key>
+      <string>"毒のエキスパート"</string>
+      <key>ko</key>
+      <string>"독약 전문가"</string>
+      <key>nl</key>
+      <string>"Gifexpert"</string>
+      <key>pt</key>
+      <string>"Especialista em Veneno"</string>
+      <key>zh-Hans</key>
+      <string>"毒炮专家"</string>
+    </dict>
+    <key>an53</key>
+    <dict>
+      <key>en</key>
+      <string>"Замри!"</string>
+      <key>de</key>
+      <string>"Erfrieren!"</string>
+      <key>es</key>
+      <string>"¡Congelar!"</string>
+      <key>fr</key>
+      <string>"Glace!"</string>
+      <key>it</key>
+      <string>"Congela!"</string>
+      <key>ja</key>
+      <string>"凍らせる！"</string>
+      <key>ko</key>
+      <string>"얼어라!"</string>
+      <key>nl</key>
+      <string>"Bevriezing!"</string>
+      <key>pt</key>
+      <string>"Congelar!"</string>
+      <key>zh-Hans</key>
+      <string>"冻结！"</string>
+    </dict>
+    <key>an54</key>
+    <dict>
+      <key>en</key>
+      <string>"Мегавольт"</string>
+      <key>de</key>
+      <string>"Megavolt"</string>
+      <key>es</key>
+      <string>"Megavatio"</string>
+      <key>fr</key>
+      <string>"Méga volt"</string>
+      <key>it</key>
+      <string>"Megavolt"</string>
+      <key>ja</key>
+      <string>"メガボルト"</string>
+      <key>ko</key>
+      <string>"메가볼트"</string>
+      <key>nl</key>
+      <string>"Megavolt"</string>
+      <key>pt</key>
+      <string>"Megavolt"</string>
+      <key>zh-Hans</key>
+      <string>"兆伏"</string>
+    </dict>
+    <key>an55</key>
+    <dict>
+      <key>en</key>
+      <string>"Эксперт Ракет"</string>
+      <key>de</key>
+      <string>"Raketenexperte"</string>
+      <key>es</key>
+      <string>"Experto en misiles"</string>
+      <key>fr</key>
+      <string>"Expert en roquettes"</string>
+      <key>it</key>
+      <string>"Esperto di razzi"</string>
+      <key>ja</key>
+      <string>"ロケットのエキスパート"</string>
+      <key>ko</key>
+      <string>"로켓 전문가"</string>
+      <key>nl</key>
+      <string>"Raketexpert"</string>
+      <key>pt</key>
+      <string>"Especialista em Foguetes"</string>
+      <key>zh-Hans</key>
+      <string>"火箭炮专家"</string>
+    </dict>
+    <key>an56</key>
+    <dict>
+      <key>en</key>
+      <string>"Мастер Клинка"</string>
+      <key>de</key>
+      <string>"Schwertmeister"</string>
+      <key>es</key>
+      <string>"Maestro de las cuchillas"</string>
+      <key>fr</key>
+      <string>"Maître des lames"</string>
+      <key>it</key>
+      <string>"Maestro delle lame"</string>
+      <key>ja</key>
+      <string>"ブレードマスター"</string>
+      <key>ko</key>
+      <string>"블레이드 마스터"</string>
+      <key>nl</key>
+      <string>"Zwaardmeester"</string>
+      <key>pt</key>
+      <string>"Mestre das Lâminas"</string>
+      <key>zh-Hans</key>
+      <string>"刀锋使者"</string>
+    </dict>
+    <key>an6</key>
+    <dict>
+      <key>en</key>
+      <string>"Ракетчик"</string>
+      <key>de</key>
+      <string>"Raketenschütze"</string>
+      <key>es</key>
+      <string>"Lanzador de misiles"</string>
+      <key>fr</key>
+      <string>"Tireur de roquettes"</string>
+      <key>it</key>
+      <string>"Uomo razzo"</string>
+      <key>ja</key>
+      <string>"ロケッティア"</string>
+      <key>ko</key>
+      <string>"로켓 사수"</string>
+      <key>nl</key>
+      <string>"Raketmeester"</string>
+      <key>pt</key>
+      <string>"Astronauta"</string>
+      <key>zh-Hans</key>
+      <string>"火箭炮手"</string>
+    </dict>
+    <key>an7</key>
+    <dict>
+      <key>en</key>
+      <string>"Мясорубка"</string>
+      <key>de</key>
+      <string>"Fleischwolf"</string>
+      <key>es</key>
+      <string>"Picador"</string>
+      <key>fr</key>
+      <string>"Hachoir"</string>
+      <key>it</key>
+      <string>"Tritatutto"</string>
+      <key>ja</key>
+      <string>"肉挽き機"</string>
+      <key>ko</key>
+      <string>"분쇄자"</string>
+      <key>nl</key>
+      <string>"Vleesmolen"</string>
+      <key>pt</key>
+      <string>"Moedor de carne"</string>
+      <key>zh-Hans</key>
+      <string>"绞肉机"</string>
+    </dict>
+    <key>an90</key>
+    <dict>
+      <key>en</key>
+      <string>"Кто живет в Хижине"</string>
+      <key>de</key>
+      <string>"Wer lebt in einer Hütte"</string>
+      <key>es</key>
+      <string>"El que vive en una cabaña"</string>
+      <key>fr</key>
+      <string>"Qui vit dans un refuge"</string>
+      <key>it</key>
+      <string>"Chi vive in una grotta"</string>
+      <key>ja</key>
+      <string>"小屋の住人"</string>
+      <key>ko</key>
+      <string>"막사에 누가 사는가"</string>
+      <key>nl</key>
+      <string>"Die in een hut woont"</string>
+      <key>pt</key>
+      <string>"Quem vive em uma Cabana"</string>
+      <key>zh-Hans</key>
+      <string>"谁住在小屋"</string>
+    </dict>
+    <key>an91</key>
+    <dict>
+      <key>en</key>
+      <string>"Покажите мне Огра!"</string>
+      <key>de</key>
+      <string>"Zeige mir das Ungeheuer!"</string>
+      <key>es</key>
+      <string>"¡Muéstrame el ogro!"</string>
+      <key>fr</key>
+      <string>"Montrez-moi l'ogre!"</string>
+      <key>it</key>
+      <string>"Mostrami l'Orco!"</string>
+      <key>ja</key>
+      <string>"鬼に会わせろ！"</string>
+      <key>ko</key>
+      <string>"오거를 보여줘!"</string>
+      <key>nl</key>
+      <string>"Toon me de boeman!"</string>
+      <key>pt</key>
+      <string>"Eu quero ver o Ogro!"</string>
+      <key>zh-Hans</key>
+      <string>"让我领教怪物！"</string>
+    </dict>
+    <key>an92</key>
+    <dict>
+      <key>en</key>
+      <string>"Бедуин"</string>
+      <key>de</key>
+      <string>"Beduine"</string>
+      <key>es</key>
+      <string>"Beduino"</string>
+      <key>fr</key>
+      <string>"Bédouin"</string>
+      <key>it</key>
+      <string>"Beduino"</string>
+      <key>ja</key>
+      <string>"ベドウィン"</string>
+      <key>ko</key>
+      <string>"베두인족"</string>
+      <key>nl</key>
+      <string>"Bedoeïen"</string>
+      <key>pt</key>
+      <string>"Beduíno"</string>
+      <key>zh-Hans</key>
+      <string>"贝都因人"</string>
+    </dict>
+    <key>an93</key>
+    <dict>
+      <key>en</key>
+      <string>"Король дюн"</string>
+      <key>de</key>
+      <string>"Sandkönig"</string>
+      <key>es</key>
+      <string>"Rey de las arenas"</string>
+      <key>fr</key>
+      <string>"Roi du sable"</string>
+      <key>it</key>
+      <string>"Re della sabbia"</string>
+      <key>ja</key>
+      <string>"サンドキング"</string>
+      <key>ko</key>
+      <string>"모래 왕"</string>
+      <key>nl</key>
+      <string>"Zandkoning"</string>
+      <key>pt</key>
+      <string>"Rei da Areia"</string>
+      <key>zh-Hans</key>
+      <string>"沙王"</string>
+    </dict>
+    <key>an94</key>
+    <dict>
+      <key>en</key>
+      <string>"Мистер Йети"</string>
+      <key>de</key>
+      <string>"Mr. Yeti"</string>
+      <key>es</key>
+      <string>"Sr. Yeti"</string>
+      <key>fr</key>
+      <string>"M. Yéti"</string>
+      <key>it</key>
+      <string>"Signor Yeti"</string>
+      <key>ja</key>
+      <string>"ミスターイエティー"</string>
+      <key>ko</key>
+      <string>"예티 씨"</string>
+      <key>nl</key>
+      <string>"Meneer Yeti"</string>
+      <key>pt</key>
+      <string>"Sr. Yeti"</string>
+      <key>zh-Hans</key>
+      <string>"雪人先生"</string>
+    </dict>
+    <key>an95</key>
+    <dict>
+      <key>en</key>
+      <string>"Защитить Мост"</string>
+      <key>de</key>
+      <string>"Schützen Sie die Brücke"</string>
+      <key>es</key>
+      <string>"Protege el puente"</string>
+      <key>fr</key>
+      <string>"Protégez le pont"</string>
+      <key>it</key>
+      <string>"Proteggi il ponte"</string>
+      <key>ja</key>
+      <string>"橋を守る"</string>
+      <key>ko</key>
+      <string>"다리를 보호하라"</string>
+      <key>nl</key>
+      <string>"Bescherm de brug"</string>
+      <key>pt</key>
+      <string>"Proteja a Ponte"</string>
+      <key>zh-Hans</key>
+      <string>"保护桥"</string>
+    </dict>
+    <key>an96</key>
+    <dict>
+      <key>en</key>
+      <string>"Две Крепости"</string>
+      <key>de</key>
+      <string>"Zwei Schlösser"</string>
+      <key>es</key>
+      <string>"Dos castillos"</string>
+      <key>fr</key>
+      <string>"Deux châteaux"</string>
+      <key>it</key>
+      <string>"Due castelli"</string>
+      <key>ja</key>
+      <string>"２つの城"</string>
+      <key>ko</key>
+      <string>"두 개의 성"</string>
+      <key>nl</key>
+      <string>"Twee kastelen"</string>
+      <key>pt</key>
+      <string>"Dois Castelos"</string>
+      <key>zh-Hans</key>
+      <string>"两个城堡"</string>
+    </dict>
+    <key>an97</key>
+    <dict>
+      <key>en</key>
+      <string>"Покоряя Бордерленд"</string>
+      <key>de</key>
+      <string>"Eroberer des Grenzgebiets"</string>
+      <key>es</key>
+      <string>"Conquistador de la frontera"</string>
+      <key>fr</key>
+      <string>"Conquérant de la région limitrophe"</string>
+      <key>it</key>
+      <string>"Conquistatore della zona di confine"</string>
+      <key>ja</key>
+      <string>"国境地帯の支配者"</string>
+      <key>ko</key>
+      <string>"국경지방 정복자"</string>
+      <key>nl</key>
+      <string>"Grensgebiedveroveraar"</string>
+      <key>pt</key>
+      <string>"Conquistador da Fronteira"</string>
+      <key>zh-Hans</key>
+      <string>"边疆征服者"</string>
+    </dict>
+    <key>an98</key>
+    <dict>
+      <key>en</key>
+      <string>"Было жарко !"</string>
+      <key>de</key>
+      <string>"Es war heiß!"</string>
+      <key>es</key>
+      <string>"¡Quemaba!"</string>
+      <key>fr</key>
+      <string>"C'était chaud !"</string>
+      <key>it</key>
+      <string>"Che caldo!"</string>
+      <key>ja</key>
+      <string>"熱かった！"</string>
+      <key>ko</key>
+      <string>"진짜 뜨거웠어요!"</string>
+      <key>nl</key>
+      <string>"Dat was heet!"</string>
+      <key>pt</key>
+      <string>"Estava quente!"</string>
+      <key>zh-Hans</key>
+      <string>"真热啊！"</string>
+    </dict>
+    <key>an99</key>
+    <dict>
+      <key>en</key>
+      <string>"Огнеупоная сила"</string>
+      <key>de</key>
+      <string>"Feuerfest"</string>
+      <key>es</key>
+      <string>"A prueba de fuego"</string>
+      <key>fr</key>
+      <string>"Inflammable"</string>
+      <key>it</key>
+      <string>"Ignifugo"</string>
+      <key>ja</key>
+      <string>"耐火性"</string>
+      <key>ko</key>
+      <string>"불을 이기는 자"</string>
+      <key>nl</key>
+      <string>"Vuurbestendig"</string>
+      <key>pt</key>
+      <string>"À prova de fogo"</string>
+      <key>zh-Hans</key>
+      <string>"消防员"</string>
+    </dict>
+    <key>iphone_logo_alawar</key>
+    <dict>
+      <key>en</key>
+      <string>iphone_logo_alawar-landscape-ru.jpg</string>
+    </dict>
+    <key>iphone_logo_alawar-ipad</key>
+    <dict>
+      <key>en</key>
+      <string>iphone_logo_alawar-landscape-ipad.jpg</string>
+      <key>en</key>
+      <string>iphone_logo_alawar-landscape-ru-ipad.jpg</string>
+    </dict>
+    <key>iphone_about</key>
+    <dict>
+      <key>en</key>
+      <string>about.png</string>
+    </dict>
+    <key>iphone_about-ipad</key>
+    <dict>
+      <key>en</key>
+      <string>about-hd.png</string>
+    </dict>
+    <key>apprenticeEngineer</key>
+    <dict>
+      <key>en</key>
+      <string>Способный Инженер</string>
+      <key>de</key>
+      <string>Lehrling Ingenieur</string>
+      <key>es</key>
+      <string>Aprendiz de ingeniero</string>
+      <key>fr</key>
+      <string>Apprenti Ingénieur</string>
+      <key>it</key>
+      <string>Apprendista ingegnere</string>
+      <key>ja</key>
+      <string>見習いのエンジニア</string>
+      <key>ko</key>
+      <string>견습 엔지니어</string>
+      <key>nl</key>
+      <string>Leerling-geniesoldaat</string>
+      <key>pt</key>
+      <string>Engenheiro Aprendiz</string>
+      <key>zh-Hans</key>
+      <string>见习工程师</string>
+    </dict>
+    <key>apprenticeWorker</key>
+    <dict>
+      <key>en</key>
+      <string>Способный Рабочий</string>
+      <key>de</key>
+      <string>Lehrling Arbeiter</string>
+      <key>es</key>
+      <string>Aprendiz de obrero</string>
+      <key>fr</key>
+      <string>Apprenti Ouvrier</string>
+      <key>it</key>
+      <string>Apprendista operaio</string>
+      <key>ja</key>
+      <string>見習いの労働者</string>
+      <key>ko</key>
+      <string>견습 노동자</string>
+      <key>nl</key>
+      <string>Leerling-werker</string>
+      <key>pt</key>
+      <string>Trabalhador Aprendiz</string>
+      <key>zh-Hans</key>
+      <string>学徒工</string>
+    </dict>
+    <key>diehardEngineer</key>
+    <dict>
+      <key>en</key>
+      <string>Живучий Инженер</string>
+      <key>de</key>
+      <string>Eingefleischter Ingenieur</string>
+      <key>es</key>
+      <string>Ingeniero intransigente</string>
+      <key>fr</key>
+      <string>Ingénieur irréductible</string>
+      <key>it</key>
+      <string>Ingegnere intransigente</string>
+      <key>ja</key>
+      <string>頑固なエンジニア</string>
+      <key>ko</key>
+      <string>끈질긴 엔지니어</string>
+      <key>nl</key>
+      <string>Taaie geniesoldaat</string>
+      <key>pt</key>
+      <string>Engenheiro Duro de Matar</string>
+      <key>zh-Hans</key>
+      <string>顽固的工程师</string>
+    </dict>
+    <key>elBestRound</key>
+    <dict>
+      <key>en</key>
+      <string>Лучший раунд</string>
+      <key>de</key>
+      <string>Beste Runde</string>
+      <key>es</key>
+      <string>Mejor ronda</string>
+      <key>fr</key>
+      <string>Meilleure partie</string>
+      <key>it</key>
+      <string>Round migliore</string>
+      <key>ja</key>
+      <string>ベストラウンド</string>
+      <key>ko</key>
+      <string>최고 라운드</string>
+      <key>nl</key>
+      <string>Beste ronde</string>
+      <key>pt</key>
+      <string>Melhor rodada</string>
+      <key>zh-Hans</key>
+      <string>最佳回合</string>
+    </dict>
+    <key>elBestScores</key>
+    <dict>
+      <key>en</key>
+      <string>Лучшие очки</string>
+      <key>de</key>
+      <string>Beste Punktzahlen</string>
+      <key>es</key>
+      <string>Mejores puntuaciones</string>
+      <key>fr</key>
+      <string>Meilleurs scores</string>
+      <key>it</key>
+      <string>Migliori punteggi</string>
+      <key>ja</key>
+      <string>ベストスコア</string>
+      <key>ko</key>
+      <string>최고 점수</string>
+      <key>nl</key>
+      <string>Beste scores</string>
+      <key>pt</key>
+      <string>Melhores pontuações</string>
+      <key>zh-Hans</key>
+      <string>最佳分数</string>
+    </dict>
+    <key>elDefeatMsg</key>
+    <dict>
+      <key>en</key>
+      <string>Замок был захвачен.</string>
+      <key>de</key>
+      <string>Das Schloss wurde erobert.</string>
+      <key>es</key>
+      <string>El castillo ha sido capturado.</string>
+      <key>fr</key>
+      <string>Le château a été capturé.</string>
+      <key>it</key>
+      <string>Il castello è stato conquistato.</string>
+      <key>ja</key>
+      <string>城が占領されました。</string>
+      <key>ko</key>
+      <string>성이 함락됐어요.</string>
+      <key>nl</key>
+      <string>Het kasteel is veroverd.</string>
+      <key>pt</key>
+      <string>O Castelo foi tomado.</string>
+      <key>zh-Hans</key>
+      <string>城堡已经被占领。</string>
+    </dict>
+    <key>defeat</key>
+    <dict>
+      <key>en</key>
+      <string>Поражение!</string>
+      <key>de</key>
+      <string>Verteidigen!</string>
+      <key>es</key>
+      <string>¡Derrotar!</string>
+      <key>fr</key>
+      <string>Défaite!</string>
+      <key>it</key>
+      <string>Sconfitta!</string>
+      <key>ja</key>
+      <string>退治しよう！</string>
+      <key>ko</key>
+      <string>무찌름!</string>
+      <key>nl</key>
+      <string>Verloren!</string>
+      <key>pt</key>
+      <string>Derrota!</string>
+      <key>zh-Hans</key>
+      <string>被打败！</string>
+    </dict>
+    <key>victory</key>
+    <dict>
+      <key>en</key>
+      <string>Победа!</string>
+      <key>de</key>
+      <string>Sieg!</string>
+      <key>es</key>
+      <string>¡Victoria!</string>
+      <key>fr</key>
+      <string>Victoire!</string>
+      <key>it</key>
+      <string>Vittoria!</string>
+      <key>ja</key>
+      <string>勝利！</string>
+      <key>ko</key>
+      <string>승리!</string>
+      <key>nl</key>
+      <string>Gewonnen!</string>
+      <key>pt</key>
+      <string>Vitória!</string>
+      <key>zh-Hans</key>
+      <string>胜利！</string>
+    </dict>
+    <key>gameover</key>
+    <dict>
+      <key>en</key>
+      <string>Игра завершена!</string>
+      <key>de</key>
+      <string>Spielende!</string>
+      <key>es</key>
+      <string>Fin de la partida!</string>
+      <key>fr</key>
+      <string>Partie terminée!</string>
+      <key>it</key>
+      <string>Partita finita!</string>
+      <key>ja</key>
+      <string>ゲームオーバー！</string>
+      <key>ko</key>
+      <string>게임 종료!</string>
+      <key>nl</key>
+      <string>Game over!</string>
+      <key>pt</key>
+      <string>Fim de Jogo!</string>
+      <key>zh-Hans</key>
+      <string>游戏结束！</string>
+    </dict>
+    <key>elRound</key>
+    <dict>
+      <key>en</key>
+      <string>Раунд</string>
+      <key>de</key>
+      <string>Welle</string>
+      <key>es</key>
+      <string>Onda</string>
+      <key>fr</key>
+      <string>Vague</string>
+      <key>it</key>
+      <string>Onda</string>
+      <key>ja</key>
+      <string>ウェーブ</string>
+      <key>ko</key>
+      <string>웨이브</string>
+      <key>nl</key>
+      <string>Golf</string>
+      <key>pt</key>
+      <string>Onda</string>
+      <key>zh-Hans</key>
+      <string>波次</string>
+    </dict>
+    <key>elScores</key>
+    <dict>
+      <key>en</key>
+      <string>Очки</string>
+      <key>de</key>
+      <string>Punkte</string>
+      <key>es</key>
+      <string>Puntuaciones</string>
+      <key>fr</key>
+      <string>Scores</string>
+      <key>it</key>
+      <string>Punteggi</string>
+      <key>ja</key>
+      <string>スコア</string>
+      <key>ko</key>
+      <string>점수</string>
+      <key>nl</key>
+      <string>Scores</string>
+      <key>pt</key>
+      <string>Pontuações</string>
+      <key>zh-Hans</key>
+      <string>分数</string>
+    </dict>
+    <key>elVictoryMsg</key>
+    <dict>
+      <key>en</key>
+      <string>Поздравляем! Замок спасен.</string>
+      <key>de</key>
+      <string>Herzlichen Glückwunsch! Schloss gerettet.</string>
+      <key>es</key>
+      <string>¡Enhorabuena! Castillo rescatado.</string>
+      <key>fr</key>
+      <string>Félicitations! Château sauvé.</string>
+      <key>it</key>
+      <string>Complimenti! Castello salvato.</string>
+      <key>ja</key>
+      <string>おめでとうございます！城が守られました。</string>
+      <key>ko</key>
+      <string>축하합니다! 성을 구했어요.</string>
+      <key>nl</key>
+      <string>Gefeliciteerd! Kasteel gered.</string>
+      <key>pt</key>
+      <string>Parabéns! Castelo salvo.</string>
+      <key>zh-Hans</key>
+      <string>祝贺你！城堡获救。</string>
+    </dict>
+    <key>elRank</key>
+    <dict>
+      <key>en</key>
+      <string>Ваше Звание:</string>
+      <key>de</key>
+      <string>Ihr Rang:</string>
+      <key>es</key>
+      <string>Tu categoría:</string>
+      <key>fr</key>
+      <string>Votre classement:</string>
+      <key>it</key>
+      <string>La tua posizione:</string>
+      <key>ja</key>
+      <string>あなたのランク：</string>
+      <key>ko</key>
+      <string>귀하의 순위:</string>
+      <key>nl</key>
+      <string>Je rang:</string>
+      <key>pt</key>
+      <string>Sua classificação:</string>
+      <key>zh-Hans</key>
+      <string>你的排名：</string>
+    </dict>
+    <key>enterUserName</key>
+    <dict>
+	  <key>en</key>
+      <string>Введите ваше имя:</string>
+    </dict>
+    <key>help</key>
+    <dict>
+      <key>en</key>
+      <string>Помощь</string>
+      <key>de</key>
+      <string>Hilfe</string>
+      <key>es</key>
+      <string>Ayuda</string>
+      <key>fr</key>
+      <string>Aide</string>
+      <key>it</key>
+      <string>Guida</string>
+      <key>ja</key>
+      <string>ヘルプ</string>
+      <key>ko</key>
+      <string>도움말</string>
+      <key>nl</key>
+      <string>Hulp</string>
+      <key>pt</key>
+      <string>Ajuda</string>
+      <key>zh-Hans</key>
+      <string>帮助</string>
+    </dict>
+    <key>help_drag</key>
+    <dict>
+      <key>en</key>
+      <string>Перетащите пушку для постройки</string>
+      <key>de</key>
+      <string>Ziehe Tower, um zu bauen</string>
+      <key>es</key>
+      <string>Arrastra la torre para construir</string>
+      <key>fr</key>
+      <string>Faites glisser la tour pour la construire</string>
+      <key>it</key>
+      <string>Trascina la torre da costruire</string>
+      <key>ja</key>
+      <string>タワーをドラッグして建設する</string>
+      <key>ko</key>
+      <string>타워를 끌어서 건설하세요</string>
+      <key>nl</key>
+      <string>Sleep toren om te bouwen</string>
+      <key>pt</key>
+      <string>Arraste a torre para construir</string>
+      <key>zh-Hans</key>
+      <string>拖动防御塔进行建造</string>
+    </dict>
+    <key>help_tap</key>
+    <dict>
+      <key>en</key>
+      <string>Нажмите на Пушку для Апгрейда!</string>
+      <key>de</key>
+      <string>Tippe auf Tower für Upgrade!</string>
+      <key>es</key>
+      <string>Toca la torre para mejorarla</string>
+      <key>fr</key>
+      <string>Touchez la tour à améliorer!</string>
+      <key>it</key>
+      <string>Tocca la torre da aggiornare!</string>
+      <key>ja</key>
+      <string>タワーをタップしてアップグレードしよう！</string>
+      <key>ko</key>
+      <string>타워를 터치하여 업그레이드하세요!</string>
+      <key>nl</key>
+      <string>Tik op toren om te upgraden!</string>
+      <key>pt</key>
+      <string>Toque na torre para Aprimorar!</string>
+      <key>zh-Hans</key>
+      <string>轻触防御塔即可升级！</string>
+    </dict>
+    <key>help_gem</key>
+    <dict>
+      <key>en</key>
+      <string>Кристаллы и Магазин</string>
+      <key>de</key>
+      <string>Juwelen und Shop</string>
+      <key>es</key>
+      <string>Gemas y Tienda</string>
+      <key>fr</key>
+      <string>Gemmes et boutique</string>
+      <key>it</key>
+      <string>Gemme e negozio</string>
+      <key>ja</key>
+      <string>宝石とショップ</string>
+      <key>ko</key>
+      <string>보석 및 가게</string>
+      <key>nl</key>
+      <string>Edelstenen en winkel</string>
+      <key>pt</key>
+      <string>Pedras Preciosas e Loja</string>
+      <key>zh-Hans</key>
+      <string>宝石和商店</string>
+    </dict>
+    <key>help_gem_d</key>
+    <dict>
+      <key>en</key>
+      <string>Кристаллы редко выпадают из монстров. Они нужны для покупки ценных предметов в Магазине. Нажмите на Кристалл чтобы попасть в Магазин.</string>
+      <key>de</key>
+      <string>Juwelen fallen selten von Monstern. Wertvolle Artikel müssen im Shop bezahlt werden. Tippen Sie auf das Juwelensymbol, um den Shop zu betreten</string>
+      <key>es</key>
+      <string>Rara vez caen gemas de los monstruos. Son necesarias para comprar objetos valiosos en la tienda. Toca el icono de Gema para entrar en la tienda</string>
+      <key>fr</key>
+      <string>Les monstres laissent rarement des gemmes derrière eux. Vous devez acheter les articles de valeur dans la boutique. Touchez l'icône Gemme pour entrer dans la boutiquen</string>
+      <key>it</key>
+      <string>Le gemme raramente cadono dai monasteri. È necessario pagare per gli articoli di valore in vendita nel negozio. Tocca l'icona a forma di gemma per entrare nel negozio</string>
+      <key>ja</key>
+      <string>宝石はめったにモンスターから落ちてくることはありません。ショップで貴重なアイテムを購入する必要があります。宝石のアイコンをタップしてショップに入る</string>
+      <key>ko</key>
+      <string>몬스터에게서 보석이 떨어지기는 어려워요. 가게에서 귀중한 아이템을 사려면 보석이 필요해요. 가게로 들어가려면 보석 아이콘을 터치하세요.</string>
+      <key>nl</key>
+      <string>Heel af en toe laten monsters edelstenen vallen. Die heb je nodig om waardevolle spullen in de winkel te kopen. Tik op het edelsteenicoontje om de winkel binnen te gaan</string>
+      <key>pt</key>
+      <string>Raramente pedras preciosas caem dos monstros. Elas são necessárias para pagar por itens valiosos na Loja. Toque no ícone da Pedra Preciosa para entrar na Loja</string>
+      <key>zh-Hans</key>
+      <string>宝石从怪物身上掉落极少。需要它在商店中购买宝贵的物品。轻触宝石图标进入商店</string>
+    </dict>
+    <key>help_lives</key>
+    <dict>
+      <key>en</key>
+      <string>Жизни</string>
+      <key>de</key>
+      <string>Leben</string>
+      <key>es</key>
+      <string>Vidas</string>
+      <key>fr</key>
+      <string>Vies</string>
+      <key>it</key>
+      <string>Vite</string>
+      <key>ja</key>
+      <string>ライフ</string>
+      <key>ko</key>
+      <string>생명치</string>
+      <key>nl</key>
+      <string>Levens</string>
+      <key>pt</key>
+      <string>Vidas</string>
+      <key>zh-Hans</key>
+      <string>剩余生命</string>
+    </dict>
+    <key>help_menu</key>
+    <dict>
+      <key>en</key>
+      <string>Меню</string>
+      <key>de</key>
+      <string>Menü</string>
+      <key>es</key>
+      <string>Menú</string>
+      <key>fr</key>
+      <string>Menu</string>
+      <key>it</key>
+      <string>Menu</string>
+      <key>ja</key>
+      <string>メニュー</string>
+      <key>ko</key>
+      <string>메뉴</string>
+      <key>nl</key>
+      <string>Menu</string>
+      <key>pt</key>
+      <string>Menu</string>
+      <key>zh-Hans</key>
+      <string>菜单</string>
+    </dict>
+    <key>help_money</key>
+    <dict>
+      <key>en</key>
+      <string>Деньги</string>
+      <key>de</key>
+      <string>Geld</string>
+      <key>es</key>
+      <string>Dinero</string>
+      <key>fr</key>
+      <string>Argent</string>
+      <key>it</key>
+      <string>Denaro</string>
+      <key>ja</key>
+      <string>マネー</string>
+      <key>ko</key>
+      <string>돈</string>
+      <key>nl</key>
+      <string>Geld</string>
+      <key>pt</key>
+      <string>Dinheiro</string>
+      <key>zh-Hans</key>
+      <string>金钱</string>
+    </dict>
+    <key>help_round</key>
+    <dict>
+      <key>en</key>
+      <string>Раунд</string>
+      <key>de</key>
+      <string>Runde</string>
+      <key>es</key>
+      <string>Ronda</string>
+      <key>fr</key>
+      <string>Manche</string>
+      <key>it</key>
+      <string>Round</string>
+      <key>ja</key>
+      <string>ラウンド</string>
+      <key>ko</key>
+      <string>라운드</string>
+      <key>nl</key>
+      <string>Ronde</string>
+      <key>pt</key>
+      <string>Rodada</string>
+      <key>zh-Hans</key>
+      <string>回合</string>
+    </dict>
+    <key>help_scores</key>
+    <dict>
+      <key>en</key>
+      <string>Очки</string>
+      <key>de</key>
+      <string>Punkte</string>
+      <key>es</key>
+      <string>Puntuaciones</string>
+      <key>fr</key>
+      <string>Scores</string>
+      <key>it</key>
+      <string>Punteggi</string>
+      <key>ja</key>
+      <string>スコア</string>
+      <key>ko</key>
+      <string>점수</string>
+      <key>nl</key>
+      <string>Scores</string>
+      <key>pt</key>
+      <string>Pontuações</string>
+      <key>zh-Hans</key>
+      <string>分数</string>
+    </dict>
+    <key>locked</key>
+    <dict>
+      <key>en</key>
+      <string>Закрыто</string>
+      <key>de</key>
+      <string>Gesperrt</string>
+      <key>es</key>
+      <string>Bloqueado</string>
+      <key>fr</key>
+      <string>Bloqué</string>
+      <key>it</key>
+      <string>Bloccato</string>
+      <key>ja</key>
+      <string>ロック済み</string>
+      <key>ko</key>
+      <string>잠김</string>
+      <key>nl</key>
+      <string>Vergrendeld</string>
+      <key>pt</key>
+      <string>Bloqueado</string>
+      <key>zh-Hans</key>
+      <string>已锁定</string>
+    </dict>
+    <key>lvlTitle01</key>
+    <dict>
+      <key>en</key>
+      <string>"Хижина"</string>
+      <key>de</key>
+      <string>"Verborgene Hütte"</string>
+      <key>es</key>
+      <string>"Cabaña oculta"</string>
+      <key>fr</key>
+      <string>"Refuge caché"</string>
+      <key>it</key>
+      <string>"Grotta nascosta"</string>
+      <key>ja</key>
+      <string>"隠れ小屋"</string>
+      <key>ko</key>
+      <string>"숨겨진 막사"</string>
+      <key>nl</key>
+      <string>"Verborgen hut"</string>
+      <key>pt</key>
+      <string>"Cabana Escondida"</string>
+      <key>zh-Hans</key>
+      <string>"隐藏的小屋"</string>
+    </dict>
+    <key>lvlTitle02</key>
+    <dict>
+      <key>en</key>
+      <string>"Лес Огров"</string>
+      <key>de</key>
+      <string>"Ogre's Forest"</string>
+      <key>es</key>
+      <string>"Bosque del ogro"</string>
+      <key>fr</key>
+      <string>"Forêt de l'ogre"</string>
+      <key>it</key>
+      <string>"Foresta dell'orco"</string>
+      <key>ja</key>
+      <string>"鬼の森"</string>
+      <key>ko</key>
+      <string>"오거의 숲"</string>
+      <key>nl</key>
+      <string>"Boemansbos"</string>
+      <key>pt</key>
+      <string>"Floresta do Ogro"</string>
+      <key>zh-Hans</key>
+      <string>"怪物森林"</string>
+    </dict>
+    <key>lvlTitle03</key>
+    <dict>
+      <key>en</key>
+      <string>"Токсичная Пустыня"</string>
+      <key>de</key>
+      <string>"Toxic Desert"</string>
+      <key>es</key>
+      <string>"Desierto tóxico"</string>
+      <key>fr</key>
+      <string>"Désert toxique"</string>
+      <key>it</key>
+      <string>"Deserto tossico"</string>
+      <key>ja</key>
+      <string>"毒砂漠"</string>
+      <key>ko</key>
+      <string>"유독한 사막"</string>
+      <key>nl</key>
+      <string>"Gifwoestijn"</string>
+      <key>pt</key>
+      <string>"Deserto Tóxico"</string>
+      <key>zh-Hans</key>
+      <string>"有毒的沙漠"</string>
+    </dict>
+    <key>lvlTitle04</key>
+    <dict>
+      <key>en</key>
+      <string>"Зыбучие Пески"</string>
+      <key>de</key>
+      <string>"Quicksands"</string>
+      <key>es</key>
+      <string>"Arenas movedizas"</string>
+      <key>fr</key>
+      <string>"Sables mouvants"</string>
+      <key>it</key>
+      <string>"Sabbie mobili"</string>
+      <key>ja</key>
+      <string>"流砂"</string>
+      <key>ko</key>
+      <string>"퀵샌드"</string>
+      <key>nl</key>
+      <string>"Drijfzand"</string>
+      <key>pt</key>
+      <string>"Areias Movediças"</string>
+      <key>zh-Hans</key>
+      <string>"流沙"</string>
+    </dict>
+    <key>lvlTitle05</key>
+    <dict>
+      <key>en</key>
+      <string>"Тундра"</string>
+      <key>de</key>
+      <string>"Tundra Maze"</string>
+      <key>es</key>
+      <string>"Laberinto de tundra"</string>
+      <key>fr</key>
+      <string>"Labyrinthe de la toundra"</string>
+      <key>it</key>
+      <string>"Labirinto tundra"</string>
+      <key>ja</key>
+      <string>"ツンドラの迷路"</string>
+      <key>ko</key>
+      <string>"툰드라 미로"</string>
+      <key>nl</key>
+      <string>"Toendradoolhof"</string>
+      <key>pt</key>
+      <string>"Labirinto da Tundra"</string>
+      <key>zh-Hans</key>
+      <string>"苔原迷宫"</string>
+    </dict>
+    <key>lvlTitle06</key>
+    <dict>
+      <key>en</key>
+      <string>"Ледяной Мост"</string>
+      <key>de</key>
+      <string>"Ice Bridge"</string>
+      <key>es</key>
+      <string>"Puente de hielo"</string>
+      <key>fr</key>
+      <string>"Pont de glace"</string>
+      <key>it</key>
+      <string>"Ponte di ghiaccio"</string>
+      <key>ja</key>
+      <string>"アイスブリッジ"</string>
+      <key>ko</key>
+      <string>"얼음 다리"</string>
+      <key>nl</key>
+      <string>"IJsbrug"</string>
+      <key>pt</key>
+      <string>"Ponte de Gelo"</string>
+      <key>zh-Hans</key>
+      <string>"冰桥"</string>
+    </dict>
+    <key>lvlTitle07</key>
+    <dict>
+      <key>en</key>
+      <string>"Высокогорье"</string>
+      <key>de</key>
+      <string>"Sky High"</string>
+      <key>es</key>
+      <string>"Por las nubes"</string>
+      <key>fr</key>
+      <string>"Sommet vertigineux"</string>
+      <key>it</key>
+      <string>"Cielo alto"</string>
+      <key>ja</key>
+      <string>"スカイハイ"</string>
+      <key>ko</key>
+      <string>"스카이 하이"</string>
+      <key>nl</key>
+      <string>"Hemelhoog"</string>
+      <key>pt</key>
+      <string>"Altura do Céu"</string>
+      <key>zh-Hans</key>
+      <string>"高空"</string>
+    </dict>
+    <key>lvlTitle08</key>
+    <dict>
+      <key>en</key>
+      <string>"Бордерленд"</string>
+      <key>de</key>
+      <string>"Borderland"</string>
+      <key>es</key>
+      <string>"Zona fronteriza"</string>
+      <key>fr</key>
+      <string>"Région limitrophe"</string>
+      <key>it</key>
+      <string>"Zona di confine"</string>
+      <key>ja</key>
+      <string>"国境地帯"</string>
+      <key>ko</key>
+      <string>"국경지방"</string>
+      <key>nl</key>
+      <string>"Grensgebied"</string>
+      <key>pt</key>
+      <string>"Fronteira"</string>
+      <key>zh-Hans</key>
+      <string>"边境"</string>
+    </dict>
+    <key>lvlTitle09</key>
+    <dict>
+      <key>en</key>
+      <string>"Зал пламени"</string>
+      <key>de</key>
+      <string>"Flammensaal"</string>
+      <key>es</key>
+      <string>"Salón de las llamas"</string>
+      <key>fr</key>
+      <string>"Couloir de feu"</string>
+      <key>it</key>
+      <string>"Sala fiammante"</string>
+      <key>ja</key>
+      <string>"炎の殿堂"</string>
+      <key>ko</key>
+      <string>"화염의 전당"</string>
+      <key>nl</key>
+      <string>"Vuurzee"</string>
+      <key>pt</key>
+      <string>"Hall da chama"</string>
+      <key>zh-Hans</key>
+      <string>"火焰地狱"</string>
+    </dict>
+    <key>lvlTitle10</key>
+    <dict>
+      <key>en</key>
+      <string>"Расплавленная Пещера"</string>
+      <key>de</key>
+      <string>"Geschmolzene Höhle"</string>
+      <key>es</key>
+      <string>"Cueva fundida"</string>
+      <key>fr</key>
+      <string>"Caverne en fusion"</string>
+      <key>it</key>
+      <string>"Grotta di lava"</string>
+      <key>ja</key>
+      <string>"灼熱の洞窟"</string>
+      <key>ko</key>
+      <string>"용암 동굴"</string>
+      <key>nl</key>
+      <string>"Gesmolten grot"</string>
+      <key>pt</key>
+      <string>"Caverna Vulcânica"</string>
+      <key>zh-Hans</key>
+      <string>"熔岩洞穴"</string>
+    </dict>
+    <key>modeselect_up</key>
+    <dict>
+      <key>en</key>
+      <string>Сохраненная игра будет потеряна! Вы уверены, что хотите продолжить?</string>
+      <key>de</key>
+      <string>Dadurch wird Ihr gespeichertes Spiel GELÖSCHT</string>
+      <key>es</key>
+      <string>Se ELIMINARÁ tu juego guardado</string>
+      <key>fr</key>
+      <string>Cela SUPPRIMERA votre partie sauvegardée</string>
+      <key>it</key>
+      <string>Questa operazione ELIMINERÀ la partita salvata</string>
+      <key>ja</key>
+      <string>これにより保存したゲームが消去されます</string>
+      <key>ko</key>
+      <string>이러면 저장된 게임이 삭제됩니다.</string>
+      <key>nl</key>
+      <string>Hiermee VERWIJDER je je opgeslagen spel</string>
+      <key>pt</key>
+      <string>Isso irá EXCLUIR o seu jogo salvo</string>
+      <key>zh-Hans</key>
+      <string>这将删除已保存的游戏</string>
+    </dict>
+    <key>noviceEngineer</key>
+    <dict>
+      <key>en</key>
+      <string>Новичек Инженер</string>
+      <key>de</key>
+      <string>Anfänger Ingenieur</string>
+      <key>es</key>
+      <string>Ingeniero novato</string>
+      <key>fr</key>
+      <string>Ingénieur novice</string>
+      <key>it</key>
+      <string>Ingegnere novello</string>
+      <key>ja</key>
+      <string>初心者のエンジニア</string>
+      <key>ko</key>
+      <string>초보 엔지니어</string>
+      <key>nl</key>
+      <string>Groene geniesoldaat</string>
+      <key>pt</key>
+      <string>Engenheiro Novato</string>
+      <key>zh-Hans</key>
+      <string>新手工程师</string>
+    </dict>
+    <key>noviceForeman</key>
+    <dict>
+      <key>en</key>
+      <string>Новичек Бригадир</string>
+      <key>de</key>
+      <string>Anfänger Bauleiter</string>
+      <key>es</key>
+      <string>Capataz novato</string>
+      <key>fr</key>
+      <string>Contremaître novice</string>
+      <key>it</key>
+      <string>Capo novello</string>
+      <key>ja</key>
+      <string>初心者のフォアマン</string>
+      <key>ko</key>
+      <string>초보 십장</string>
+      <key>nl</key>
+      <string>Groene ploegbaas</string>
+      <key>pt</key>
+      <string>Capataz Novato</string>
+      <key>zh-Hans</key>
+      <string>新手领班</string>
+    </dict>
+    <key>noviceWorker</key>
+    <dict>
+      <key>en</key>
+      <string>Новичок Рабочий</string>
+      <key>de</key>
+      <string>Anfänger Arbeiter</string>
+      <key>es</key>
+      <string>Obrero novato</string>
+      <key>fr</key>
+      <string>Ouvrier novice</string>
+      <key>it</key>
+      <string>Operaio novello</string>
+      <key>ja</key>
+      <string>初心者の労働者</string>
+      <key>ko</key>
+      <string>초보 노동자</string>
+      <key>nl</key>
+      <string>Groene werker</string>
+      <key>pt</key>
+      <string>Operário Novato</string>
+      <key>zh-Hans</key>
+      <string>新手工人</string>
+    </dict>
+    <key>masterForeman</key>
+    <dict>
+      <key>en</key>
+      <string>Мастер Бригадир</string>
+      <key>de</key>
+      <string>Meister Bauleiter</string>
+      <key>es</key>
+      <string>Capataz experto</string>
+      <key>fr</key>
+      <string>Contremaître chevronné</string>
+      <key>it</key>
+      <string>Capo maestro</string>
+      <key>ja</key>
+      <string>熟練のフォアマン</string>
+      <key>ko</key>
+      <string>마스터 십장</string>
+      <key>nl</key>
+      <string>Meester-ploegbaas</string>
+      <key>pt</key>
+      <string>Capataz Mestre</string>
+      <key>zh-Hans</key>
+      <string>熟练领班</string>
+    </dict>
+    <key>masterWorker</key>
+    <dict>
+      <key>en</key>
+      <string>Мастер Рабочий</string>
+      <key>de</key>
+      <string>Meister Arbeiter</string>
+      <key>es</key>
+      <string>Obrero experto</string>
+      <key>fr</key>
+      <string>Ouvrier chevronné</string>
+      <key>it</key>
+      <string>Operaio maestro</string>
+      <key>ja</key>
+      <string>熟練の労働者</string>
+      <key>ko</key>
+      <string>마스터 노동자</string>
+      <key>nl</key>
+      <string>Meester-werker</string>
+      <key>pt</key>
+      <string>Operário Mestre</string>
+      <key>zh-Hans</key>
+      <string>熟练工人</string>
+    </dict>
+    <key>pageInfo</key>
+    <dict>
+      <key>en</key>
+      <string>Страница [%i/%i]</string>
+      <key>de</key>
+      <string>Seite [%i/%i]</string>
+      <key>es</key>
+      <string>Página [%i/%i]</string>
+      <key>fr</key>
+      <string>Page [%i/%i]</string>
+      <key>it</key>
+      <string>Pagina [%i/%i]</string>
+      <key>ja</key>
+      <string>ページ [%i/%i]</string>
+      <key>ko</key>
+      <string>페이지 [%i/%i]</string>
+      <key>nl</key>
+      <string>Pagina [%i/%i]</string>
+      <key>pt</key>
+      <string>Página [%i/%i]</string>
+      <key>zh-Hans</key>
+      <string>页面 [%i/%i]</string>
+    </dict>
+    <key>play</key>
+    <dict>
+      <key>en</key>
+      <string>Играть</string>
+      <key>de</key>
+      <string>Spielen</string>
+      <key>es</key>
+      <string>Jugar</string>
+      <key>fr</key>
+      <string>Jouer</string>
+      <key>it</key>
+      <string>Gioca</string>
+      <key>ja</key>
+      <string>プレイ</string>
+      <key>ko</key>
+      <string>플레이</string>
+      <key>nl</key>
+      <string>Spelen</string>
+      <key>pt</key>
+      <string>Jogar</string>
+      <key>zh-Hans</key>
+      <string>开始</string>
+    </dict>
+    <key>defUserName</key>
+    <dict>
+      <key>en</key>
+      <string>Gamer</string>
+      <key>de</key>
+      <string>Spieler</string>
+      <key>es</key>
+      <string>Jugadores</string>
+      <key>fr</key>
+      <string>Joueurs</string>
+      <key>it</key>
+      <string>Giocatori</string>
+      <key>ja</key>
+      <string>プレイヤー</string>
+      <key>ko</key>
+      <string>플레이어</string>
+      <key>nl</key>
+      <string>Spelers</string>
+      <key>pt</key>
+      <string>Jogadores</string>
+      <key>zh-Hans</key>
+      <string>玩家</string>
+    </dict>
+    <key>pleaseWait</key>
+    <dict>
+      <key>en</key>
+      <string>Начало через: %i</string>
+      <key>de</key>
+      <string>Startwelle: %i</string>
+      <key>es</key>
+      <string>Iniciar onda: %i</string>
+      <key>fr</key>
+      <string>Déclenchez la vague: %i</string>
+      <key>it</key>
+      <string>Avvia onda: %i</string>
+      <key>ja</key>
+      <string>ウェーブの開始： %i</string>
+      <key>ko</key>
+      <string>웨이브 시작: %i</string>
+      <key>nl</key>
+      <string>Golf starten: %i</string>
+      <key>pt</key>
+      <string>Onda inicial: %i</string>
+      <key>zh-Hans</key>
+      <string>开始波： %i</string>
+    </dict>
+    <key>subscribe</key>
+    <dict>
+      <key>en</key>
+      <string>Подписаться</string>
+      <key>de</key>
+      <string>Abonnieren</string>
+      <key>es</key>
+      <string>Suscribirse</string>
+      <key>fr</key>
+      <string>S'abonner</string>
+      <key>it</key>
+      <string>Abbonati</string>
+      <key>ja</key>
+      <string>登録</string>
+      <key>ko</key>
+      <string>구독</string>
+      <key>nl</key>
+      <string>Abonneren</string>
+      <key>pt</key>
+      <string>Assinar</string>
+      <key>zh-Hans</key>
+      <string>订阅</string>
+    </dict>
+    <key>friends</key>
+    <dict>
+      <key>en</key>
+      <string>Друзья</string>
+      <key>de</key>
+      <string>Freunde</string>
+      <key>es</key>
+      <string>Amigos</string>
+      <key>fr</key>
+      <string>Amis</string>
+      <key>it</key>
+      <string>Amici</string>
+      <key>ja</key>
+      <string>友人</string>
+      <key>ko</key>
+      <string>친구</string>
+      <key>nl</key>
+      <string>Vrienden</string>
+      <key>pt</key>
+      <string>Amigos</string>
+      <key>zh-Hans</key>
+      <string>朋友</string>
+    </dict>
+    <key>moregames</key>
+    <dict>
+      <key>en</key>
+      <string>Наши игры</string>
+      <key>de</key>
+      <string>Weitere Spiele</string>
+      <key>es</key>
+      <string>Más juegos</string>
+      <key>fr</key>
+      <string>Plus de jeux</string>
+      <key>it</key>
+      <string>Altri giochi</string>
+      <key>ja</key>
+      <string>その他のゲーム</string>
+      <key>ko</key>
+      <string>게임 더 보기</string>
+      <key>nl</key>
+      <string>Meer games</string>
+      <key>pt</key>
+      <string>Mais jogos</string>
+      <key>zh-Hans</key>
+      <string>更多游戏</string>
+    </dict>
+    <key>shop</key>
+    <dict>
+      <key>en</key>
+      <string>Магазин</string>
+      <key>de</key>
+      <string>Laden</string>
+      <key>es</key>
+      <string>Tienda</string>
+      <key>fr</key>
+      <string>Boutique</string>
+      <key>it</key>
+      <string>Negozio</string>
+      <key>ja</key>
+      <string>ショップ</string>
+      <key>ko</key>
+      <string>가게</string>
+      <key>nl</key>
+      <string>Winkel</string>
+      <key>pt</key>
+      <string>Loja</string>
+      <key>zh-Hans</key>
+      <string>商店</string>
+    </dict>
+    <key>trophies</key>
+    <dict>
+      <key>en</key>
+      <string>Награды</string>
+      <key>de</key>
+      <string>Trophäen</string>
+      <key>es</key>
+      <string>Trofeos</string>
+      <key>fr</key>
+      <string>Trophées</string>
+      <key>it</key>
+      <string>Trofei</string>
+      <key>ja</key>
+      <string>トロフィー</string>
+      <key>ko</key>
+      <string>전리품</string>
+      <key>nl</key>
+      <string>Trofeeën</string>
+      <key>pt</key>
+      <string>Troféus</string>
+      <key>zh-Hans</key>
+      <string>奖品</string>
+    </dict>
+    <key>resume</key>
+    <dict>
+      <key>en</key>
+      <string>Продолжить</string>
+      <key>de</key>
+      <string>Fortsetzen</string>
+      <key>es</key>
+      <string>Reanudar</string>
+      <key>fr</key>
+      <string>Reprendre</string>
+      <key>it</key>
+      <string>Riprendi</string>
+      <key>ja</key>
+      <string>再開</string>
+      <key>ko</key>
+      <string>다시하기</string>
+      <key>nl</key>
+      <string>Verder</string>
+      <key>pt</key>
+      <string>Retomar</string>
+      <key>zh-Hans</key>
+      <string>恢复</string>
+    </dict>
+    <key>restart</key>
+    <dict>
+      <key>en</key>
+      <string>Переиграть</string>
+      <key>de</key>
+      <string>Neustart</string>
+      <key>es</key>
+      <string>Reiniciar</string>
+      <key>fr</key>
+      <string>Recommencer</string>
+      <key>it</key>
+      <string>Riavvia</string>
+      <key>ja</key>
+      <string>再起動</string>
+      <key>ko</key>
+      <string>다시 시작</string>
+      <key>nl</key>
+      <string>Opnieuw</string>
+      <key>pt</key>
+      <string>Reiniciar</string>
+      <key>zh-Hans</key>
+      <string>重新开始</string>
+    </dict>
+    <key>savequit</key>
+    <dict>
+      <key>en</key>
+      <string>Выход</string>
+      <key>de</key>
+      <string>Beenden</string>
+      <key>es</key>
+      <string>Salir</string>
+      <key>fr</key>
+      <string>Quitter</string>
+      <key>it</key>
+      <string>Esci</string>
+      <key>ja</key>
+      <string>保存/終了</string>
+      <key>ko</key>
+      <string>저장/종료</string>
+      <key>nl</key>
+      <string>Stoppen</string>
+      <key>pt</key>
+      <string>Sair</string>
+      <key>zh-Hans</key>
+      <string>保存/退出</string>
+    </dict>
+    <key>apply</key>
+    <dict>
+      <key>en</key>
+      <string>Применить</string>
+      <key>de</key>
+      <string>Übernehmen</string>
+      <key>es</key>
+      <string>Aplicar</string>
+      <key>fr</key>
+      <string>Appliquer</string>
+      <key>it</key>
+      <string>Applica</string>
+      <key>ja</key>
+      <string>適用</string>
+      <key>ko</key>
+      <string>적용</string>
+      <key>nl</key>
+      <string>Toepassen</string>
+      <key>pt</key>
+      <string>Aplicar</string>
+      <key>zh-Hans</key>
+      <string>应用</string>
+    </dict>
+    <key>campaign</key>
+    <dict>
+      <key>en</key>
+      <string>Кампания</string>
+      <key>de</key>
+      <string>Kampagne</string>
+      <key>es</key>
+      <string>Campaña</string>
+      <key>fr</key>
+      <string>Campagne</string>
+      <key>it</key>
+      <string>Campagna</string>
+      <key>ja</key>
+      <string>キャンペーン</string>
+      <key>ko</key>
+      <string>캠페인</string>
+      <key>nl</key>
+      <string>Campagne</string>
+      <key>pt</key>
+      <string>Campanha</string>
+      <key>zh-Hans</key>
+      <string>战役</string>
+    </dict>
+    <key>survival</key>
+    <dict>
+      <key>en</key>
+      <string>Выживание</string>
+      <key>de</key>
+      <string>Überleben</string>
+      <key>es</key>
+      <string>Supervivencia</string>
+      <key>fr</key>
+      <string>Survie</string>
+      <key>it</key>
+      <string>Sopravvivenza</string>
+      <key>ja</key>
+      <string>生き残り</string>
+      <key>ko</key>
+      <string>생존</string>
+      <key>nl</key>
+      <string>Survival</string>
+      <key>pt</key>
+      <string>Sobrevivência</string>
+      <key>zh-Hans</key>
+      <string>生存</string>
+    </dict>
+    <key>options</key>
+    <dict>
+      <key>en</key>
+      <string>Настройки</string>
+      <key>de</key>
+      <string>Optionen</string>
+      <key>es</key>
+      <string>Opciones</string>
+      <key>fr</key>
+      <string>Options</string>
+      <key>it</key>
+      <string>Opzioni</string>
+      <key>ja</key>
+      <string>オプション</string>
+      <key>ko</key>
+      <string>옵션</string>
+      <key>nl</key>
+      <string>Opties</string>
+      <key>pt</key>
+      <string>Opções</string>
+      <key>zh-Hans</key>
+      <string>选项</string>
+    </dict>
+    <key>extra</key>
+    <dict>
+      <key>en</key>
+      <string>Экстра</string>
+      <key>de</key>
+      <string>Extra</string>
+      <key>es</key>
+      <string>Extra</string>
+      <key>fr</key>
+      <string>Extra</string>
+      <key>it</key>
+      <string>Extra</string>
+      <key>ja</key>
+      <string>特別</string>
+      <key>ko</key>
+      <string>추가</string>
+      <key>nl</key>
+      <string>Extra</string>
+      <key>pt</key>
+      <string>Extra</string>
+      <key>zh-Hans</key>
+      <string>额外</string>
+    </dict>
+    <key>scores</key>
+    <dict>
+      <key>en</key>
+      <string>Очки</string>
+      <key>de</key>
+      <string>Punkte</string>
+      <key>es</key>
+      <string>Puntuaciones</string>
+      <key>fr</key>
+      <string>Scores</string>
+      <key>it</key>
+      <string>Punteggi</string>
+      <key>ja</key>
+      <string>スコア</string>
+      <key>ko</key>
+      <string>점수</string>
+      <key>nl</key>
+      <string>Scores</string>
+      <key>pt</key>
+      <string>Pontuações</string>
+      <key>zh-Hans</key>
+      <string>分数</string>
+    </dict>
+	<key>scoresColon</key>
+    <dict>
+      <key>en</key>
+      <string>Очки:</string>
+      <key>de</key>
+      <string>Punkte:</string>
+      <key>es</key>
+      <string>Puntuaciones:</string>
+      <key>fr</key>
+      <string>Scores:</string>
+      <key>it</key>
+      <string>Punteggi:</string>
+      <key>ja</key>
+      <string>スコア:</string>
+      <key>ko</key>
+      <string>점수:</string>
+      <key>nl</key>
+      <string>Scores:</string>
+      <key>pt</key>
+      <string>Pontuações:</string>
+      <key>zh-Hans</key>
+      <string>分数:</string>
+    </dict>
+    <key>continue</key>
+    <dict>
+      <key>en</key>
+      <string>Далее</string>
+      <key>de</key>
+      <string>Fortsetzen</string>
+      <key>es</key>
+      <string>Continuar</string>
+      <key>fr</key>
+      <string>Continuer</string>
+      <key>it</key>
+      <string>Continua</string>
+      <key>ja</key>
+      <string>続行</string>
+      <key>ko</key>
+      <string>계속</string>
+      <key>nl</key>
+      <string>Doorgaan</string>
+      <key>pt</key>
+      <string>Continuar</string>
+      <key>zh-Hans</key>
+      <string>继续</string>
+    </dict>
+    <key>music</key>
+    <dict>
+      <key>en</key>
+      <string>Музыка</string>
+      <key>de</key>
+      <string>Musik</string>
+      <key>es</key>
+      <string>Música</string>
+      <key>fr</key>
+      <string>Musique</string>
+      <key>it</key>
+      <string>Musica</string>
+      <key>ja</key>
+      <string>音楽</string>
+      <key>ko</key>
+      <string>음악</string>
+      <key>nl</key>
+      <string>Muziek</string>
+      <key>pt</key>
+      <string>Música</string>
+      <key>zh-Hans</key>
+      <string>音乐</string>
+    </dict>
+    <key>sound</key>
+    <dict>
+      <key>en</key>
+      <string>Звук</string>
+      <key>de</key>
+      <string>Ton</string>
+      <key>es</key>
+      <string>Sonido</string>
+      <key>fr</key>
+      <string>Son</string>
+      <key>it</key>
+      <string>Audio</string>
+      <key>ja</key>
+      <string>サウンド</string>
+      <key>ko</key>
+      <string>사운드</string>
+      <key>nl</key>
+      <string>Geluid</string>
+      <key>pt</key>
+      <string>Som</string>
+      <key>zh-Hans</key>
+      <string>声音</string>
+    </dict>
+    <key>soundvideo</key>
+    <dict>
+      <key>en</key>
+      <string>Звук/Видео</string>
+    </dict>
+    <key>easy</key>
+    <dict>
+      <key>en</key>
+      <string>Легко</string>
+      <key>de</key>
+      <string>Einfach</string>
+      <key>es</key>
+      <string>Fácil</string>
+      <key>fr</key>
+      <string>Facile</string>
+      <key>it</key>
+      <string>Facile</string>
+      <key>ja</key>
+      <string>初級</string>
+      <key>ko</key>
+      <string>쉬움</string>
+      <key>nl</key>
+      <string>Makkelijk</string>
+      <key>pt</key>
+      <string>Fácil</string>
+      <key>zh-Hans</key>
+      <string>简单</string>
+    </dict>
+    <key>hard</key>
+    <dict>
+      <key>en</key>
+      <string>Тяжело</string>
+      <key>de</key>
+      <string>Schwierig</string>
+      <key>es</key>
+      <string>Difícil</string>
+      <key>fr</key>
+      <string>Difficile</string>
+      <key>it</key>
+      <string>Difficile</string>
+      <key>ja</key>
+      <string>高</string>
+      <key>ko</key>
+      <string>어려움</string>
+      <key>nl</key>
+      <string>Moeilijk</string>
+      <key>pt</key>
+      <string>Difícil</string>
+      <key>zh-Hans</key>
+      <string>困难</string>
+    </dict>
+    <key>normal</key>
+    <dict>
+      <key>en</key>
+      <string>Средне</string>
+      <key>de</key>
+      <string>Normal</string>
+      <key>es</key>
+      <string>Normal</string>
+      <key>fr</key>
+      <string>Normal</string>
+      <key>it</key>
+      <string>Normale</string>
+      <key>ja</key>
+      <string>中級</string>
+      <key>ko</key>
+      <string>보통</string>
+      <key>nl</key>
+      <string>Normaal</string>
+      <key>pt</key>
+      <string>Normal</string>
+      <key>zh-Hans</key>
+      <string>标准</string>
+    </dict>
+    <key>difficulty</key>
+    <dict>
+      <key>en</key>
+      <string>Сложность</string>
+      <key>de</key>
+      <string>Schwierigkeitsgrad</string>
+      <key>es</key>
+      <string>Dificultad</string>
+      <key>fr</key>
+      <string>Difficulté</string>
+      <key>it</key>
+      <string>Difficoltà</string>
+      <key>ja</key>
+      <string>難易度</string>
+      <key>ko</key>
+      <string>난이도</string>
+      <key>nl</key>
+      <string>Niveau</string>
+      <key>pt</key>
+      <string>Dificuldade</string>
+      <key>zh-Hans</key>
+      <string>难度级别</string>
+    </dict>
+    <key>skilledForeman</key>
+    <dict>
+      <key>en</key>
+      <string>Умелый Бригадир</string>
+      <key>de</key>
+      <string>Erfahrener Bauleiter</string>
+      <key>es</key>
+      <string>Capataz hábil</string>
+      <key>fr</key>
+      <string>Contremaître qualifié</string>
+      <key>it</key>
+      <string>Capo abile</string>
+      <key>ja</key>
+      <string>経験豊富なフォアマン</string>
+      <key>ko</key>
+      <string>숙련된 십장</string>
+      <key>nl</key>
+      <string>Vaardige ploegbaas</string>
+      <key>pt</key>
+      <string>Capataz Experiente</string>
+      <key>zh-Hans</key>
+      <string>熟练领班</string>
+    </dict>
+    <key>wavesSurvive</key>
+    <dict>
+      <key>en</key>
+      <string>Раундов пройдено %i (%@)</string>
+      <key>de</key>
+      <string>Wellen überlebt %i (%@)</string>
+      <key>es</key>
+      <string>Ondas superadas %i (%@)</string>
+      <key>fr</key>
+      <string>Vagues ayant survécu %i (%@)</string>
+      <key>it</key>
+      <string>Sopravvissuto alle onde %i (%@)</string>
+      <key>ja</key>
+      <string>ウェーブは生き延びました %i (%@)</string>
+      <key>ko</key>
+      <string>생존한 웨이브 %i (%@)</string>
+      <key>nl</key>
+      <string>Overleefde golven %i (%@)</string>
+      <key>pt</key>
+      <string>Ondas sobrevividas %i (%@)</string>
+      <key>zh-Hans</key>
+      <string>幸存的波次 %i (%@)</string>
+    </dict>
+    <key>buy</key>
+    <dict>
+      <key>en</key>
+      <string>Купить</string>
+      <key>de</key>
+      <string>Kaufen</string>
+      <key>es</key>
+      <string>Comprar</string>
+      <key>fr</key>
+      <string>Acheter</string>
+      <key>it</key>
+      <string>Acquista</string>
+      <key>ja</key>
+      <string>購入</string>
+      <key>ko</key>
+      <string>구입</string>
+      <key>nl</key>
+      <string>Kopen</string>
+      <key>pt</key>
+      <string>Comprar</string>
+      <key>zh-Hans</key>
+      <string>购买</string>
+    </dict>
+    <key>yourgems</key>
+    <dict>
+      <key>en</key>
+      <string>У вас:</string>
+      <key>de</key>
+      <string>Sie haben:</string>
+      <key>es</key>
+      <string>Tienes:</string>
+      <key>fr</key>
+      <string>Vous avez:</string>
+      <key>it</key>
+      <string>Hai:</string>
+      <key>ja</key>
+      <string>所持：</string>
+      <key>ko</key>
+      <string>보유량:</string>
+      <key>nl</key>
+      <string>Je hebt:</string>
+      <key>pt</key>
+      <string>Você tem:</string>
+      <key>zh-Hans</key>
+      <string>你拥有：</string>
+    </dict>
+    <key>yes</key>
+    <dict>
+      <key>en</key>
+      <string>Да</string>
+      <key>de</key>
+      <string>Ja</string>
+      <key>es</key>
+      <string>Sí</string>
+      <key>fr</key>
+      <string>Oui</string>
+      <key>it</key>
+      <string>Sì</string>
+      <key>ja</key>
+      <string>はい</string>
+      <key>ko</key>
+      <string>예</string>
+      <key>nl</key>
+      <string>Ja</string>
+      <key>pt</key>
+      <string>Sim</string>
+      <key>zh-Hans</key>
+      <string>是</string>
+    </dict>
+    <key>no</key>
+    <dict>
+      <key>en</key>
+      <string>Нет</string>
+      <key>de</key>
+      <string>Nein</string>
+      <key>es</key>
+      <string>No</string>
+      <key>fr</key>
+      <string>Non</string>
+      <key>it</key>
+      <string>No</string>
+      <key>ja</key>
+      <string>いいえ</string>
+      <key>ko</key>
+      <string>아니오</string>
+      <key>nl</key>
+      <string>Nee</string>
+      <key>pt</key>
+      <string>Não</string>
+      <key>zh-Hans</key>
+      <string>否</string>
+    </dict>
+    <key>later</key>
+    <dict>
+      <key>en</key>
+      <string>Позже</string>
+      <key>de</key>
+      <string>Später</string>
+      <key>es</key>
+      <string>Más tarde</string>
+      <key>fr</key>
+      <string>Ultérieurement</string>
+      <key>it</key>
+      <string>Un'altra volta</string>
+      <key>ja</key>
+      <string>後で</string>
+      <key>ko</key>
+      <string>나중에</string>
+      <key>nl</key>
+      <string>Later</string>
+      <key>pt</key>
+      <string>Depois</string>
+      <key>zh-Hans</key>
+      <string>以后再说</string>
+    </dict>
+    <key>alert_tower_up_title</key>
+    <dict>
+      <key>en</key>
+      <string>Супер-Улучшение недоступно</string>
+      <key>de</key>
+      <string>Super-Upgrade nicht verfügbar</string>
+      <key>es</key>
+      <string>Súper mejora no disponible</string>
+      <key>fr</key>
+      <string>Super amélioration indisponible</string>
+      <key>it</key>
+      <string>Super-aggiornamento non disponibile</string>
+      <key>ja</key>
+      <string>スーパーアップグレードは利用できません</string>
+      <key>ko</key>
+      <string>수퍼 업그레이드를 이용할 수 없음</string>
+      <key>nl</key>
+      <string>Super-upgrade niet beschikbaar</string>
+      <key>pt</key>
+      <string>O super aprimoramento não está disponível</string>
+      <key>zh-Hans</key>
+      <string>超级升级不可用</string>
+    </dict>
+    <key>alert_tower_up_msg</key>
+    <dict>
+      <key>en</key>
+      <string>Необходимо купить %@</string>
+      <key>de</key>
+      <string>Sie müssen %@ kaufen</string>
+      <key>es</key>
+      <string>Necesitas comprar %@</string>
+      <key>fr</key>
+      <string>Vous devez acheter %@</string>
+      <key>it</key>
+      <string>Devi acquistare %@</string>
+      <key>ja</key>
+      <string>%@ を購入する必要があります</string>
+      <key>ko</key>
+      <string>%@ 을(를) 구입해야 해요.</string>
+      <key>nl</key>
+      <string>Je moet %@ kopen</string>
+      <key>pt</key>
+      <string>Você precisa comprar %@</string>
+      <key>zh-Hans</key>
+      <string>你需要购买 %@</string>
+    </dict>
+    <key>alert_tower_up_nogems_msg</key>
+    <dict>
+      <key>en</key>
+      <string>Недостаточно Кристаллов, хотите купить?</string>
+      <key>de</key>
+      <string>Nicht genug Juwelen; möchten Sie Juwelen kaufen?</string>
+      <key>es</key>
+      <string>No tienes suficientes gemas. ¿Deseas comprar más?</string>
+      <key>fr</key>
+      <string>Nombre de gemmes insuffisant; souhaitez-vous en acheter?</string>
+      <key>it</key>
+      <string>Gemme insufficienti; desideri comprarne qualcuna?</string>
+      <key>ja</key>
+      <string>十分な宝石がありません。何か購入しますか？</string>
+      <key>ko</key>
+      <string>보석이 부족한가요! 더 구입하시겠어요?</string>
+      <key>nl</key>
+      <string>Niet genoeg edelstenen; wil je ze kopen?</string>
+      <key>pt</key>
+      <string>Não há pedras preciosas suficientes. Deseja comprar algumas?</string>
+      <key>zh-Hans</key>
+      <string>宝石不够；你要买一些吗？</string>
+    </dict>
+    <key>alert_buy_level_title</key>
+    <dict>
+      <key>en</key>
+      <string>Нет пропуска</string>
+      <key>de</key>
+      <string>Sie haben keinen Zugang</string>
+      <key>es</key>
+      <string>No tienes un pase</string>
+      <key>fr</key>
+      <string>Vous n'avez pas de laisser-passer</string>
+      <key>it</key>
+      <string>Non hai un pass</string>
+      <key>ja</key>
+      <string>パスがありません</string>
+      <key>ko</key>
+      <string>통과할 수 없어요.</string>
+      <key>nl</key>
+      <string>Geen doorgang</string>
+      <key>pt</key>
+      <string>Você não possui um passe</string>
+      <key>zh-Hans</key>
+      <string>你没有通行证</string>
+    </dict>
+    <key>alert_buy_level_msg</key>
+    <dict>
+      <key>en</key>
+      <string>Нужно купить %@. Войти в магазин?</string>
+      <key>de</key>
+      <string>Sie müssen %@ kaufen. Zum Shop gehen?</string>
+      <key>es</key>
+      <string>Necesitas comprar %@. ¿Deseas ir a la tienda?</string>
+      <key>fr</key>
+      <string>Vous devez acheter %@. Accéder à la boutique?</string>
+      <key>it</key>
+      <string>Devi acquistare %@. Vai al negozio?</string>
+      <key>ja</key>
+      <string>%@ を購入する必要がありますショップに行きますか？</string>
+      <key>ko</key>
+      <string>%@ 을(를) 구입해야 해요. 가게로 이동할까요?</string>
+      <key>nl</key>
+      <string>Je moet %@ kopen. Winkelen?</string>
+      <key>pt</key>
+      <string>Você precisa comprar %@. Ir à loja?</string>
+      <key>zh-Hans</key>
+      <string>你需要购买 %@。去商店？</string>
+    </dict>
+    <key>item1</key>
+    <dict>
+      <key>en</key>
+      <string>Бонусные Овцы дают в 3 раза больше Золота</string>
+      <key>de</key>
+      <string>Bonusrunde Schaf gibt dreimal mehr Gold</string>
+      <key>es</key>
+      <string>La oveja de ronda de bonificación otorga 3 veces más oro</string>
+      <key>fr</key>
+      <string>Le mouton de la partie bonus donne 3 fois plus d'or</string>
+      <key>it</key>
+      <string>Con il round bonus Pecora ottieni una quantità tripla di oro</string>
+      <key>ja</key>
+      <string>ボーナスラウンドでは、羊から３倍のゴールドが貰えます</string>
+      <key>ko</key>
+      <string>보너스 라운드의 양은 금을 3배 더 줘요.</string>
+      <key>nl</key>
+      <string>De bonusronde-schapen produceren 3 keer meer goud</string>
+      <key>pt</key>
+      <string>As ovelhas da rodada de bônus dão 3 vezes mais ouro</string>
+      <key>zh-Hans</key>
+      <string>奖励回合中的羊将给出 3 倍之多的金子</string>
+    </dict>
+    <key>item10</key>
+    <dict>
+      <key>en</key>
+      <string>Супер-Апгрейд для всех пушек. Экономия 30%</string>
+      <key>de</key>
+      <string>Super-Upgrade für alle Towers. Sparen Sie 30%</string>
+      <key>es</key>
+      <string>Súper mejora para todas las torres. Ahorra 30%</string>
+      <key>fr</key>
+      <string>Super amélioration pour toutes les tours. Économisez 30 %</string>
+      <key>it</key>
+      <string>Super-aggiornamento per tutte le torri. Risparmia il 30%</string>
+      <key>ja</key>
+      <string>すべてのタワーをスーパーアップグレードする30%保存</string>
+      <key>ko</key>
+      <string>모든 탑의 수퍼 업그레이드. 30% 저렴</string>
+      <key>nl</key>
+      <string>Super-upgrade voor alle torens. Bespaar 30%</string>
+      <key>pt</key>
+      <string>Super aprimoramento para todas as torres. Economize 30%</string>
+      <key>zh-Hans</key>
+      <string>所有防御塔都可用的超级升级。节省 30%</string>
+    </dict>
+    <key>item10d</key>
+    <dict>
+      <key>en</key>
+      <string>Вы получаете возможность делать Супер-Апгрейд у всех пушек. Экономия 30%</string>
+      <key>de</key>
+      <string>Sie erhalten Zugriff, um das Super-Upgrade für alle Pistolen durchzuführen. Sparen Sie 30%</string>
+      <key>es</key>
+      <string>Obtienes acceso para realizar la súper mejora de todas las armas. Ahorra 30%</string>
+      <key>fr</key>
+      <string>Vous pouvez appliquer la Super amélioration à toutes les armes. Économisez 30 %</string>
+      <key>it</key>
+      <string>Hai ottenuto l'accesso al Super-aggiornamento per tutte le pistole. Risparmia il 30%</string>
+      <key>ja</key>
+      <string>すべてのガンをスーパーアップグレードするアクセスを取得しました。 30% 저렴</string>
+      <key>ko</key>
+      <string>모든 대포에 대해 수퍼 업그레이드를 이용할 수 있어요. 30% 저렴</string>
+      <key>nl</key>
+      <string>Je kunt zo de super-upgrade voor alle geweren maken. Bespaar 30%</string>
+      <key>pt</key>
+      <string>Você obtém acesso para fazer Super Aprimoramento em todas as armas. Economize 30%</string>
+      <key>zh-Hans</key>
+      <string>你可以获取所有防御塔都可用的超级升级 节省 30%</string>
+    </dict>
+    <key>item11</key>
+    <dict>
+      <key>en</key>
+      <string>Супер Апгрейд пушки</string>
+      <key>de</key>
+      <string>Super Upgrade für alle Towers</string>
+      <key>es</key>
+      <string>Súper mejora para todas las torres</string>
+      <key>fr</key>
+      <string>Super amélioration pour toutes les tours</string>
+      <key>it</key>
+      <string>Super aggiornamento per tutte le torri</string>
+      <key>ja</key>
+      <string>すべてのタワーをスーパーアップグレードする</string>
+      <key>ko</key>
+      <string>모든 타워의 수퍼 업그레이드</string>
+      <key>nl</key>
+      <string>Super upgrade voor alle torens</string>
+      <key>pt</key>
+      <string>Super Aprimoramento para todas as torres</string>
+      <key>zh-Hans</key>
+      <string>所有防御塔都可用的超级升级</string>
+    </dict>
+    <key>item11d01</key>
+    <dict>
+      <key>en</key>
+      <string>Супер Апгрейд Арбалета</string>
+      <key>de</key>
+      <string>Super Upgrade Light Tower</string>
+      <key>es</key>
+      <string>Súper mejora de la Torre ligera</string>
+      <key>fr</key>
+      <string>Super amélioration pour phare</string>
+      <key>it</key>
+      <string>Super aggiornamento torre leggera</string>
+      <key>ja</key>
+      <string>ライトタワーをスーパーアップグレードする</string>
+      <key>ko</key>
+      <string>라이트 타워 수퍼 업그레이드</string>
+      <key>nl</key>
+      <string>Super upgrade lichte toren</string>
+      <key>pt</key>
+      <string>Super aprimoramento para a Torre de Luz</string>
+      <key>zh-Hans</key>
+      <string>超级升级轻型炮塔</string>
+    </dict>
+    <key>item11d02</key>
+    <dict>
+      <key>en</key>
+      <string>Супер Апгрейд Тяжелой Пушки</string>
+      <key>de</key>
+      <string>Super Upgrade Heavy Tower</string>
+      <key>es</key>
+      <string>Súper mejora de la Torre pesada</string>
+      <key>fr</key>
+      <string>Super amélioration pour tour lourde</string>
+      <key>it</key>
+      <string>Super aggiornamento torre pesante</string>
+      <key>ja</key>
+      <string>ヘビータワーをスーパーアップグレードする</string>
+      <key>ko</key>
+      <string>헤비 타워 수퍼 업그레이드</string>
+      <key>nl</key>
+      <string>Super upgrade zware toren</string>
+      <key>pt</key>
+      <string>Super aprimoramento para a Torre Pesada</string>
+      <key>zh-Hans</key>
+      <string>超级升级重火炮塔</string>
+    </dict>
+    <key>item11d03</key>
+    <dict>
+      <key>en</key>
+      <string>Супер Апгрейд Лёд Пушки</string>
+      <key>de</key>
+      <string>Super Upgrade Ice Tower</string>
+      <key>es</key>
+      <string>Súper mejora de la Torre de hielo</string>
+      <key>fr</key>
+      <string>Super amélioration pour tour de glace</string>
+      <key>it</key>
+      <string>Super aggiornamento torre di ghiaccio</string>
+      <key>ja</key>
+      <string>アイスタワーをスーパーアップグレードする</string>
+      <key>ko</key>
+      <string>얼음 타워 수퍼 업그레이드</string>
+      <key>nl</key>
+      <string>Super upgrade ijstoren</string>
+      <key>pt</key>
+      <string>Super aprimoramento para a Torre de Gelo</string>
+      <key>zh-Hans</key>
+      <string>超级升级冰塔</string>
+    </dict>
+    <key>item11d04</key>
+    <dict>
+      <key>en</key>
+      <string>Супер Апгрейд Ядовитой Пушки</string>
+      <key>de</key>
+      <string>Super Upgrade Poison Tower</string>
+      <key>es</key>
+      <string>Súper mejora de la Torre de veneno</string>
+      <key>fr</key>
+      <string>Super amélioration pour tour de poison</string>
+      <key>it</key>
+      <string>Super aggiornamento torre velenosa</string>
+      <key>ja</key>
+      <string>毒タワーをスーパーアップグレードする</string>
+      <key>ko</key>
+      <string>독약 타워 수퍼 업그레이드</string>
+      <key>nl</key>
+      <string>Super upgrade giftoren</string>
+      <key>pt</key>
+      <string>Super aprimoramento para a Torre de Veneno</string>
+      <key>zh-Hans</key>
+      <string>超级升级毒炮塔</string>
+    </dict>
+    <key>item11d05</key>
+    <dict>
+      <key>en</key>
+      <string>Супер Апгрейд Электро Пушки</string>
+      <key>de</key>
+      <string>Super Upgrade Tesla Tower</string>
+      <key>es</key>
+      <string>Súper mejora de la Torre Tesla</string>
+      <key>fr</key>
+      <string>Super amélioration pour tour Tesla</string>
+      <key>it</key>
+      <string>Super aggiornamento torre Tesla</string>
+      <key>ja</key>
+      <string>テスラタワーをスーパーアップグレードする</string>
+      <key>ko</key>
+      <string>테슬라 타워 수퍼 업그레이드</string>
+      <key>nl</key>
+      <string>Super upgrade Tesla toren</string>
+      <key>pt</key>
+      <string>Super aprimoramento para a Torre de Tesla</string>
+      <key>zh-Hans</key>
+      <string>超级升级特斯拉电炮塔</string>
+    </dict>
+    <key>item11d06</key>
+    <dict>
+      <key>en</key>
+      <string>Супер Апгрейд Демон Пушки</string>
+      <key>de</key>
+      <string>Super Upgrade Demon Tower</string>
+      <key>es</key>
+      <string>Súper mejora de la Torre diabólica</string>
+      <key>fr</key>
+      <string>Super amélioration pour tour maléfique</string>
+      <key>it</key>
+      <string>Super aggiornamento torre di demoni</string>
+      <key>ja</key>
+      <string>デーモンタワーをスーパーアップグレードする</string>
+      <key>ko</key>
+      <string>악마 타워 수퍼 업그레이드</string>
+      <key>nl</key>
+      <string>Super upgrade Demontoren</string>
+      <key>pt</key>
+      <string>Super aprimoramento para a Torre do Demônio</string>
+      <key>zh-Hans</key>
+      <string>超级升级恶魔塔</string>
+    </dict>
+    <key>item11d07</key>
+    <dict>
+      <key>en</key>
+      <string>Супер Апгрейд Блейд Пушки</string>
+      <key>de</key>
+      <string>Super-Upgrade Blade Tower.</string>
+      <key>es</key>
+      <string>Súper mejora de la Torre cuchilla.</string>
+      <key>fr</key>
+      <string>Super amélioration pour tour tranchante.</string>
+      <key>it</key>
+      <string>Super-aggiornamento torre lama.</string>
+      <key>ja</key>
+      <string>ブレードタワーをスーパーアップグレードします。</string>
+      <key>ko</key>
+      <string>블레이드 타워를 수퍼 업그레이드합니다.</string>
+      <key>nl</key>
+      <string>Super-upgrade zwaardtoren.</string>
+      <key>pt</key>
+      <string>Super aprimoramento para a Torre de Lâminas.</string>
+      <key>zh-Hans</key>
+      <string>超级升级刀锋防御塔。</string>
+    </dict>
+    <key>item300</key>
+    <dict>
+      <key>en</key>
+      <string>Увеличивает стартовое золото в 3 раза</string>
+      <key>de</key>
+      <string>Erhöhen Sie das Startgold um das Dreifache</string>
+      <key>es</key>
+      <string>Aumenta la acumulación de oro 3 veces</string>
+      <key>fr</key>
+      <string>Triplez l'or disponible en début de partie</string>
+      <key>it</key>
+      <string>Aumenta l'oro iniziale di tre volte</string>
+      <key>ja</key>
+      <string>最初のゴールドを３倍に増やす</string>
+      <key>ko</key>
+      <string>초기 금의 양을 3배 늘립니다</string>
+      <key>nl</key>
+      <string>Verhoog het startgoud 3 keer</string>
+      <key>pt</key>
+      <string>Aumente o ouro inicial em 3 vezes</string>
+      <key>zh-Hans</key>
+      <string>增加 3 倍启动金子</string>
+    </dict>
+    <key>exit</key>
+    <dict>
+      <key>en</key>
+      <string>Выход</string>
+    </dict>
+    <key>fullscreen</key>
+    <dict>
+      <key>en</key>
+      <string>Во весь экран</string>
+    </dict>
+    <key>areYouSure</key>
+    <dict>
+      <key>en</key>
+      <string>Внимание!</string>
+    </dict>
+    <key>adwizer-logo-ipad</key>
+    <dict>
+      <key>en</key>
+      <string>adwizer-logo-ipad.png</string>
+    </dict>
+    <key>cancel</key>
+    <dict>
+      <key>en</key>
+      <string>Отмена</string>
+    </dict>
+    <key>selectPlayer</key>
+    <dict>
+      <key>en</key>
+      <string>Выберите игрока</string>
+    </dict>
+    <key>deleteConfirmMsg</key>
+    <dict>
+      <key>en</key>
+      <string>Вы уверены, что хотите удалить профиль %s?</string>
+    </dict>
+    <key>exitConfirmMsg</key>
+    <dict>
+      <key>en</key>
+      <string>Вы уверены, что хотите выйти из игры?</string>
+    </dict>
+    <key>languageButton</key>
+    <dict>
+      <key>en</key>
+      <string>Язык</string>
+    </dict>
+    <key>language</key>
+    <dict>
+      <key>en</key>
+      <string>Русский</string>
+    </dict>
+    <key>languageMsg</key>
+    <dict>
+      <key>en</key>
+      <string>Выберите язык:</string>
+    </dict>
+    <key>publisherName</key>
+   <dict>
+      <key>en</key>
+      <string>Free Games</string>
+    </dict>
+    <key>developer</key>
+    <dict>
+      <key>en</key>
+      <string>Developers:</string>
+      <key>en</key>
+      <string>Разработчики:</string>
+    </dict>
+    <key>developerName</key>
+    <dict>
+      <key>en</key>
+      <string>Adwizer llc.</string>
+    </dict>
+    <key>producer</key>
+    <dict>
+      <key>en</key>
+      <string>Producer:</string>
+      <key>en</key>
+      <string>Продюсер:</string>
+    </dict>
+    <key>producerName</key>
+    <dict>
+      <key>en</key>
+      <string>Alexander Sister</string>
+      <key>en</key>
+      <string>Александр Систер</string>
+    </dict>
+    <key>art</key>
+    <dict>
+      <key>en</key>
+      <string>Art:</string>
+      <key>en</key>
+      <string>Арт:</string>
+    </dict>
+    <key>artName1</key>
+    <dict>
+      <key>en</key>
+      <string>Igor Podmogilnikov</string>
+      <key>en</key>
+      <string>Игорь Подмогильников</string>
+    </dict>
+    <key>artName2</key>
+    <dict>
+      <key>en</key>
+      <string>Oleg Shuldyakov</string>
+      <key>en</key>
+      <string>Олег Шулдяков</string>
+    </dict>
+    <key>artName3</key>
+    <dict>
+      <key>en</key>
+      <string>Vladimir Malakhovskiy</string>
+      <key>en</key>
+      <string>Владимир Малаховский</string>
+    </dict>
+    <key>artName4</key>
+    <dict>
+      <key>en</key>
+      <string>Victor Cherniakov</string>
+      <key>en</key>
+      <string>Виктор Черняков</string>
+    </dict>
+    <key>artName5</key>
+    <dict>
+      <key>en</key>
+      <string>Vlasova Ulyana</string>
+      <key>en</key>
+      <string>Власова Ульяна</string>
+    </dict>
+    <key>programmer</key>
+    <dict>
+      <key>en</key>
+      <string>Programming:</string>
+      <key>en</key>
+      <string>Программист:</string>
+    </dict>
+    <key>programmerName</key>
+    <dict>
+      <key>en</key>
+      <string>Maxim Piskunov</string>
+      <key>en</key>
+      <string>Максим Пискунов</string>
+    </dict>
+    <key>pm</key>
+    <dict>
+      <key>en</key>
+      <string>PM:</string>
+      <key>en</key>
+      <string>Менеджер проекта:</string>
+    </dict>
+    <key>pmName</key>
+    <dict>
+      <key>en</key>
+      <string>Andrey Ovsyannikov</string>
+      <key>en</key>
+      <string>Андрей Овсянников</string>
+    </dict>
+    <key>qa</key>
+    <dict>
+      <key>en</key>
+      <string>QA:</string>
+      <key>en</key>
+      <string>Контроль качества:</string>
+    </dict>
+    <key>qaName1</key>
+    <dict>
+      <key>en</key>
+      <string>Ivan Orlov</string>
+      <key>en</key>
+      <string>Иван Орлов</string>
+    </dict>
+    <key>qaName2</key>
+    <dict>
+      <key>en</key>
+      <string>Yury Dyadchenko</string>
+      <key>en</key>
+      <string>Юрий Дядченко</string>
+    </dict>
+    <key>musician</key>
+    <dict>
+      <key>en</key>
+      <string>Музыка:</string>
+      <key>de</key>
+      <string>Musik:</string>
+      <key>es</key>
+      <string>Música:</string>
+      <key>fr</key>
+      <string>Musique:</string>
+      <key>it</key>
+      <string>Musica:</string>
+      <key>ja</key>
+      <string>音楽:</string>
+      <key>ko</key>
+      <string>음악:</string>
+      <key>nl</key>
+      <string>Muziek:</string>
+      <key>pt</key>
+      <string>Música:</string>
+      <key>zh-Hans</key>
+      <string>音乐:</string>
+    </dict>
+    <key>musicianName</key>
+    <dict>
+      <key>en</key>
+      <string>Nikita Barey</string>
+    </dict>
+    <key>gameCursor</key>
+    <dict>
+      <key>en</key>
+      <string>Игровой курсор</string>
+    </dict>
+	<key>wrongName</key>
+    <dict>
+      <key>en</key>
+      <string>Нельзя создать профиль с таким именем, введите другое имя.</string>
+    </dict>
+	<key>existingName</key>
+    <dict>
+      <key>en</key>
+      <string>Профиль с таким именем уже существует, введите другое имя.</string>
+    </dict>
+	<key>page_1_0</key>
+    <dict>
+      <key>en</key>
+      <string>page_1_0</string>
+      <key>en</key>
+      <string>В игре вам нужно расставлять пушки по полю, чтобы не дать монстрам добраться до Замка. Перетащите мышкой иконку Пушки на игровом поле.\nНажмите на Пушку, чтобы сделать апгрейд или продать, или просто посмотреть, как изменится сила Пушки после апгрейда.</string>
+    </dict>
+	<key>page_2_0</key>
+    <dict>
+      <key>en</key>
+      <string>page_2_0</string>
+      <key>en</key>
+      <string>На некоторых картах нет дорожек, поэтому вам нужно выстраивать дорожку из пушек так, чтобы врагам сложнее было добраться до Замка. Не забывайте, что воздушные враги летят поверх пушек.</string>
+    </dict>
+	<key>page_3_0</key>
+    <dict>
+      <key>en</key>
+      <string>page_3_0</string>
+      <key>en</key>
+      <string>В начале игры вам дается 4 пушки, остальные открываются после прохождения миссий в режиме "Кампания". Делайте пушкам апгрейды, чтобы увеличить их эффективность.</string>
+    </dict>
+	<key>page_4_0</key>
+    <dict>
+      <key>en</key>
+      <string>page_4_0</string>
+      <key>en</key>
+      <string>Враги в игре разделяются на воздушных и наземных, и все имеют разную скорость и количество жизней. Воздушные враги не летают по дорожкам, поэтому они очень коварные.</string>
+    </dict>
+	
+	<key>page_6_0</key>
+    <dict>
+      <key>en</key>
+      <string>page_6_0</string>
+      <key>en</key>
+      <string>Некоторые враги имеют уникальные способности:</string>
+    </dict>
+	<key>page_6_1</key>
+    <dict>
+      <key>en</key>
+      <string>page_6_1</string>
+      <key>en</key>
+      <string>Спаунеры. Эти монстры могут плодиться после смерти.</string>
+    </dict>
+	<key>page_6_2</key>
+    <dict>
+      <key>en</key>
+      <string>page_6_2</string>
+      <key>en</key>
+      <string>Бессмертные. Умеют воскрешаться после смерти, и даже не один раз!</string>
+    </dict>	
+	<key>page_6_3</key>
+    <dict>
+      <key>en</key>
+      <string>page_6_3</string>
+      <key>en</key>
+      <string>Враги с иммунитетом к определенным пушкам. Танки неуязвимы к яду, Электроны устойчивы к молниям, а Гиганты неуязвимы к заморозке, их нельзя замедлить.</string>
+    </dict>
+	
+	<key>page_7_0</key>
+    <dict>
+      <key>en</key>
+      <string>page_7_0</string>
+      <key>en</key>
+      <string>Режимы игры</string>
+    </dict>
+	<key>page_7_1</key>
+    <dict>
+      <key>en</key>
+      <string>page_7_1</string>
+      <key>en</key>
+      <string>- Игра по сценарию, вам нужно пройти всю карту Кампании и спасти Королевство.\n- Пройденные карты становятся доступными в режиме "Выживание".\n- За победу вы получаете новую пушку.</string>
+    </dict>
+	<key>page_7_2</key>
+    <dict>
+      <key>en</key>
+      <string>page_7_2</string>
+      <key>en</key>
+      <string>- Вам нужно отразить как можно больше атак.\n- Соревнуйтесь очками между другими профилями игроков.</string>
+    </dict>
+	
+	<key>page_8_0</key>
+    <dict>
+      <key>en</key>
+      <string>page_8_0</string>
+      <key>en</key>
+      <string>Режимы сложности</string>
+    </dict>
+	<key>page_8_1</key>
+    <dict>
+      <key>en</key>
+      <string>page_8_1</string>
+      <key>en</key>
+      <string>- Обычный режим игры для новичков.\n- Победный бонус = 5 Кристаллов за каждую звезду на режиме "Кампания".</string>
+    </dict>
+	<key>page_8_2</key>
+    <dict>
+      <key>en</key>
+      <string>page_8_2</string>
+      <key>en</key>
+      <string>- Для профессионалов. У врагов больше жизней.\n- Вы получаете в 2 раза больше очков.\n- Победный бонус = 15 Кристаллов за каждую звезду на режиме "Кампания".</string>
+    </dict>	
+	
+	<key>victory_bonus</key>
+    <dict>
+      <key>en</key>
+      <string>Победный бонус +%d</string>
+    </dict>	
+	<key>victory_bonus1</key>
+    <dict>
+      <key>en</key>
+      <string>Победный бонус:</string>
+    </dict>	
+	
+	<key>restart_confirm</key>
+    <dict>
+      <key>en</key>
+      <string>Вы уверены, что хотите начать уровень заново?</string>
+    </dict>	
+  </dict>
+</plist>
