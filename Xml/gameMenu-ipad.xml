@@ -1,0 +1,3039 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Menu>
+  <!-- HUD -->
+  <HUD>
+    <Assets>
+      <Atlas>hud-hd.plist</Atlas>
+      <Atlas>achieve-hd.plist</Atlas>
+    </Assets>
+    <!-- IMAGES -->
+    <Images>
+      <!-- BACK -->
+      <Img pos="48 48" cache="YES">
+        <Rotation>-90</Rotation>
+        <File>control_back.png</File>
+      </Img>
+      <Img pos="48 720" cache="YES">
+        <Rotation>0</Rotation>
+        <File>control_back.png</File>
+      </Img>
+      <Img pos="976 720" cache="YES">
+        <Flip>YES NO</Flip>
+        <Rotation>0</Rotation>
+        <File>control_back.png</File>
+      </Img>
+      <!--Score-->
+      <Img pos="150 744" cache="YES">
+        <Flip>YES NO</Flip>
+        <Rotation>0</Rotation>
+        <File>ico_score.png</File>
+      </Img>
+      <!--Money-->
+      <!--Img pos="330 744" cache="YES">
+        <Flip>YES NO</Flip>
+        <Rotation>0</Rotation>
+        <File>ico_money.png</File>
+      </Img-->
+      <!--Wave-->
+      <Img pos="640 744" cache="YES">
+        <Rotation>0</Rotation>
+        <File>ico_wave.png</File>
+      </Img>
+      <!--Gem-->
+      <!--Img pos="480 610" cache="YES">
+        <File>ico_gem.png</File>
+      </Img-->
+    </Images>
+    <Labels>
+      <!-- SCORES -->
+      <Label pos="340 740" tag="1">
+        <Font size="32">Arial-BoldMT</Font>
+        <Text color="255 255 255 255" dimensions="320 40" align="left">0</Text>
+        <shadow>3 -3</shadow>
+      </Label>
+      <!-- MONEY -->
+      <Label pos="480 740" tag="2">
+        <Font size="32">Arial-BoldMT</Font>
+        <Text color="255 255 255 255" dimensions="240 40" align="left">0</Text>
+        <shadow>3 -3</shadow>
+      </Label>
+      <!-- WAVE -->
+      <Label pos="825 740" tag="4">
+        <Font size="32">Arial-BoldMT</Font>
+        <Text color="255 255 255 255" dimensions="320 40" align="left">0</Text>
+        <shadow>3 -3</shadow>
+      </Label>
+      <!-- SHILD -->
+      <Label pos="980 740" tag="3">
+        <Font size="32">Arial-BoldMT</Font>
+        <Text color="255 255 255 255" align="left" dimensions="320 40">0</Text>
+        <shadow>3 -3</shadow>
+      </Label>
+      <!--Gem-->
+      <Label pos="644 740" tag="5">
+        <Font size="32">Arial-BoldMT</Font>
+        <Text color="255 255 255 255" dimensions="240 40" align="left">0</Text>
+        <shadow>3 -3</shadow>
+      </Label>
+    </Labels>
+    <!-- SFX -->
+    <Sfx>
+      <Buy>placing.wav</Buy>
+    </Sfx>
+    <!-- CONTROLS -->
+    <Controls>
+      <!-- Shield -->
+      <Shield pos="795 744">
+        <Normal>ico_shield.png</Normal>
+        <Disabled>ico_shield.png</Disabled>
+        <Flip>YES NO</Flip>
+        <Rotation>0</Rotation>
+      </Shield>
+      <!-- Money -->
+      <Money pos="330 744">
+        <Normal>ico_money.png</Normal>
+        <Disabled>ico_money.png</Disabled>
+        <Flip>YES NO</Flip>
+        <Rotation>0</Rotation>
+      </Money>
+      <!--Gem-->
+      <Gem pos="485 740">
+        <Normal>ico_gem.png</Normal>
+        <ScaleFactor>0.9</ScaleFactor>
+      </Gem>
+      <!-- PAUSE -->
+      <Pause pos="48 720">
+        <Normal>pause.png</Normal>
+        <Selected>play.png</Selected>
+        <Disabled></Disabled>
+      </Pause>
+      <!-- OPTIONS -->
+      <Options pos="48 52">
+        <Normal>options_on.png</Normal>
+        <Selected>options_off.png</Selected>
+        <Disabled>options_off.png</Disabled>
+      </Options>
+      <!-- SPEED -->
+      <Speed pos="976 720">
+        <Normal>rew_off.png</Normal>
+        <Selected>rew_on.png</Selected>
+        <Disabled></Disabled>
+      </Speed>
+      <!-- TOWER LIGTH -->
+      <TowerLigth pos="900 60">
+        <Normal>tower_ligth_on.png</Normal>
+        <Disabled>tower_ligth_off.png</Disabled>
+        <ScaleFactor>0.9</ScaleFactor>
+        <Label offset="32 0">
+          <Font size="26">Arial-BoldMT</Font>
+          <Text align="center" dimensions="80 40" color="0 0 0 255">0</Text>
+        </Label>
+      </TowerLigth>
+      <!-- TOWER HEAVY -->
+      <TowerHeavy pos="436 60">
+        <Normal>tower_heavy_on.png</Normal>
+        <Disabled>tower_heavy_off.png</Disabled>
+        <ScaleFactor>0.9</ScaleFactor>
+        <Label offset="32 0">
+          <Font size="26">Arial-BoldMT</Font>
+          <Text align="center" dimensions="80 40" color="0 0 0 255">0</Text>
+        </Label>
+      </TowerHeavy>
+      <!-- TOWER ICE -->
+      <TowerIce pos="552 60">
+        <Normal>tower_ice_on.png</Normal>
+        <Disabled>tower_ice_off.png</Disabled>
+        <ScaleFactor>0.9</ScaleFactor>
+        <Label offset="32 0">
+          <Font size="26">Arial-BoldMT</Font>
+          <Text align="center" dimensions="80 40" color="0 0 0 255">0</Text>
+        </Label>
+      </TowerIce>
+      <!-- TOWER LIGHTNING -->
+      <TowerLightning pos="668 60">
+        <Normal>tower_lightning_on.png</Normal>
+        <Disabled>tower_lightning_off.png</Disabled>
+        <ScaleFactor>0.9</ScaleFactor>
+        <Label offset="32 0">
+          <Font size="26">Arial-BoldMT</Font>
+          <Text align="center" dimensions="80 40" color="0 0 0 255">0</Text>
+        </Label>
+      </TowerLightning>
+      <!-- TOWER POISON -->
+      <TowerPoison pos="784 60">
+        <Normal>tower_poison_on.png</Normal>
+        <Disabled>tower_poison_off.png</Disabled>
+        <ScaleFactor>0.9</ScaleFactor>
+        <Label offset="32 0">
+          <Font size="26">Arial-BoldMT</Font>
+          <Text align="center" dimensions="80 40" color="0 0 0 255">0</Text>
+        </Label>
+      </TowerPoison>
+      <!-- TOWER MEGA -->
+      <TowerMega pos="450 30">
+        <Normal>tower_mega_on.png</Normal>
+        <Disabled>tower_mega_off.png</Disabled>
+        <ScaleFactor>0.9</ScaleFactor>
+        <Label offset="32 0">
+          <Font size="26">Arial-BoldMT</Font>
+          <Text align="center" dimensions="80 40" color="0 0 0 255">0</Text>
+        </Label>
+      </TowerMega>
+      <!-- PLEASE WAIT -->
+      <PleaseWait pos="500 600">
+        <Font size="32">Arial-BoldMT</Font>
+        <Text color="255 255 255 255">Wait</Text>
+        <shadow>4 -4</shadow>
+      </PleaseWait>
+      <!--TOWER BLADE-->
+      <TowerBlade pos="450 30">
+        <Normal>tower_blade_on.png</Normal>
+        <Disabled>tower_blade_off.png</Disabled>
+        <ScaleFactor>0.9</ScaleFactor>
+        <Label offset="32 0">
+          <Font size="26">Arial-BoldMT</Font>
+          <Text align="center" dimensions="80 40" color="0 0 0 255">0</Text>
+        </Label>
+      </TowerBlade>
+    </Controls>
+    <!-- SHIELD -->
+    <Shield>
+      <Time>0.2</Time>
+      <ScaleFactor>1.2</ScaleFactor>
+      <Icon pos="795 744" cache="YES">
+        <Flip>YES NO</Flip>
+        <Rotation>0</Rotation>
+        <File>ico_shield.png</File>
+      </Icon>
+      <Snd>castle_hit.wav</Snd>
+    </Shield>
+    <Tower>
+      <RightTop>964 60</RightTop>
+      <Offset>116</Offset>
+    </Tower>
+  </HUD>
+  <!-- WAIT NEXT WAVE -->
+  <WaitNextWave>
+    <msgAlias>pleaseWait</msgAlias>
+    <waitTime>5</waitTime>
+    <children>
+      <menu pos="0 0" z="16" tag="16">
+        <Items>
+          <ScaleLabelButton pos="480 512" tag="1">
+            <Normal rect="0 0 1200 40" color="32 32 32 64" />
+            <Label offset="100 0">
+              <Text dimensions="440 40" align="center" alias="NO" color="255 255 255 255"></Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbSkip:</Callback>
+          </ScaleLabelButton>
+        </Items>
+      </menu>
+    </children>
+  </WaitNextWave>
+  <!-- TOWER MENU -->
+  <TowerMenu>
+    <Assets>
+      <Atlas>hud-hd.plist</Atlas>
+    </Assets>
+    <alertTowerUp>
+      <title>alert_tower_up_title</title>
+      <msg>alert_tower_up_msg</msg>
+    </alertTowerUp>
+    <!-- CONTROLS -->
+    <Controls>
+      <!-- SELL -->
+      <Sell pos="-50 30">
+        <Normal>sale.png</Normal>
+        <Disabled></Disabled>
+        <ScaleFactor>0.9</ScaleFactor>
+        <Label offset="32 0">
+          <Font size="26">Arial-BoldMT</Font>
+          <Text align="center" dimensions="80 40" color="0 0 0 255">0</Text>
+        </Label>
+        <Sfx>selling.wav</Sfx>
+      </Sell>
+      <!-- UP -->
+      <Up pos="150 30">
+        <Normal>lvl_up.png</Normal>
+        <Disabled>lvl_cantup.png</Disabled>
+        <ScaleFactor>0.9</ScaleFactor>
+        <Label offset="32 0">
+          <Font size="26">Arial-BoldMT</Font>
+          <Text align="center" dimensions="80 40" color="0 0 0 255">0</Text>
+        </Label>
+        <Sfx>upgrade.wav</Sfx>
+      </Up>
+      <!-- MAX -->
+      <Max pos="150 30">
+        <Normal>lvl_max.png</Normal>
+        <Disabled>lvl_max.png</Disabled>
+        <ScaleFactor>0.9</ScaleFactor>
+        <Label offset="32 0">
+          <Font size="26">Arial</Font>
+          <Text align="center" dimensions="80 40" color="0 0 0 255"></Text>
+        </Label>
+      </Max>
+      <!-- SHOP -->
+      <Shop pos="150 30">
+        <Normal>lvl_needbuy.png</Normal>
+        <Disabled>lvl_needbuy.png</Disabled>
+        <ScaleFactor>0.9</ScaleFactor>
+        <Label offset="32 0">
+          <Font size="26">Arial-BoldMT</Font>
+          <Text align="center" dimensions="80 40" color="0 0 0 255"></Text>
+        </Label>
+      </Shop>
+    </Controls>
+    <children>
+      <node pos="50 120" tag="20">
+        <children>
+          <graph cache="YES" pos="0 0" tag="0">
+            <file>lvl_up_info.png</file>
+          </graph>
+          <label pos="-48 -20" tag="1">
+            <font size="26">Arial-BoldMT</font>
+            <text align="center" color="0 0 0 255" dimensions="120 40">0</text>
+          </label>
+          <label pos="48 -20" tag="2">
+            <font size="26">Arial-BoldMT</font>
+            <text align="center" color="0 0 0 255" dimensions="120 40">0</text>
+          </label>
+        </children>
+      </node>
+      <node pos="150 -70" tag="22" z="22">
+        <children>
+          <graph cache="YES" pos="0 16" tag="0" z="-1">
+            <file>lvl_up_gem.png</file>
+          </graph>
+          <label pos="8 12" tag="21">
+            <font size="26">Arial-BoldMT</font>
+            <text align="center" color="0 0 0 255" dimensions="120 40">--</text>
+          </label>
+        </children>
+      </node>
+    </children>
+  </TowerMenu>
+  <!-- GAME MENU -->
+  <GameMenu>
+    <Assets>
+      <Atlas>mainMenu-hd.plist</Atlas>
+    </Assets>
+    <FadeColor>8 8 8 200</FadeColor>
+    <children>
+      <graph cache="NO" pos="512 384" z="1">
+        <file>el_bkg-hd.png</file>
+      </graph>
+      <menu modal="YES" z="2" tag="1">
+        <Items>
+          <!--ScaleLabelButton pos="512 510">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">resume</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbResume:</Callback>
+          </ScaleLabelButton-->
+          <!--close-->
+          <ScaleLabelButton pos="680 595" tag="20">
+            <Normal>btn_m_close.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="20 20">
+              <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+              <Font size="32">Arial-BoldMT</Font>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbResume:</Callback>
+          </ScaleLabelButton>
+          <ScaleLabelButton pos="512 510">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">help</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbHelp:</Callback>
+          </ScaleLabelButton>
+          <ScaleLabelButton pos="512 430">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">restart</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbRestart:</Callback>
+          </ScaleLabelButton>
+          <ScaleLabelButton pos="512 350">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">soundvideo</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbOptions:</Callback>
+          </ScaleLabelButton>
+          <ScaleLabelButton pos="512 270">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">savequit</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbQuit:</Callback>
+          </ScaleLabelButton>
+          <ScaleLabelButton pos="512 190">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">shop</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>onShop:</Callback>
+          </ScaleLabelButton>
+        </Items>
+      </menu>
+    </children>
+  </GameMenu>
+  <!-- MORE GAMES -->
+  <MoreGames>
+    <Assets>
+      <Atlas>mainMenu-hd.plist</Atlas>
+    </Assets>
+    <FadeColor>8 8 8 200</FadeColor>
+    <children>
+      <menu modal="YES" pos="0 0" z="2" tag="1">
+        <Items>
+		  <!--close-->
+          <ScaleLabelButton pos="880 650" tag="20">
+            <Normal>btn_m_close.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="20 20">
+              <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+              <Font size="32">Arial-BoldMT</Font>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbBack:</Callback>
+          </ScaleLabelButton>          
+        </Items>
+      </menu>
+    </children>
+  </MoreGames>
+  <!-- GAME OPTIONS -->
+  <GameOptions>
+    <Assets>
+      <Atlas>mainMenu-hd.plist</Atlas>
+    </Assets>
+    <FadeColor>8 8 8 200</FadeColor>
+    <children>
+      <graph cache="NO" pos="512 384" z="1">
+        <file>el_bkg-hd.png</file>
+      </graph>
+      <menu modal="YES" pos="0 0" z="2" tag="1">
+        <Items>
+          <!-- APLAY -->
+          <ScaleLabelButton pos="512 190">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">apply</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbAplay:</Callback>
+          </ScaleLabelButton>
+          <!-- CURSOR -->
+          <ScaleLabelButton pos="400 270" tag="6">
+            <Normal>star_d-hd.png</Normal>
+            <Disabled>star-hd.png</Disabled>
+            <Sfx>button_wood.wav</Sfx>
+            <Label offset="60 -20">
+              <Text dimensions="320 72" align="left" alias="YES" color="238 231 72 255">gameCursor</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <Color>
+              <Normal>238 231 72 255</Normal>
+              <Disabled>128 128 128 255</Disabled>
+            </Color>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbCursorOn:</Callback>
+          </ScaleLabelButton>
+          <ScaleLabelButton pos="400 270" tag="5">
+            <Normal>star-hd.png</Normal>
+            <Disabled>star_d-hd.png</Disabled>
+            <Sfx>button_wood.wav</Sfx>
+            <Label offset="60 -20">
+              <Text dimensions="320 72" align="left" alias="YES" color="238 231 72 255">gameCursor</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <Color>
+              <Normal>238 231 72 255</Normal>
+              <Disabled>128 128 128 255</Disabled>
+            </Color>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbCursorOff:</Callback>
+          </ScaleLabelButton>
+          <!-- FULLSCREEN -->
+          <ScaleLabelButton pos="400 330" tag="4">
+            <Normal>star_d-hd.png</Normal>
+            <Disabled>star-hd.png</Disabled>
+            <Sfx>button_wood.wav</Sfx>
+            <Label offset="60 -20">
+              <Text dimensions="320 72" align="left" alias="YES" color="238 231 72 255">fullscreen</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <Color>
+              <Normal>238 231 72 255</Normal>
+              <Disabled>128 128 128 255</Disabled>
+            </Color>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbFullscreenOn:</Callback>
+          </ScaleLabelButton>
+          <ScaleLabelButton pos="400 330" tag="3">
+            <Normal>star-hd.png</Normal>
+            <Disabled>star_d-hd.png</Disabled>
+            <Sfx>button_wood.wav</Sfx>
+            <Label offset="60 -20">
+              <Text dimensions="320 72" align="left" alias="YES" color="238 231 72 255">fullscreen</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <Color>
+              <Normal>238 231 72 255</Normal>
+              <Disabled>128 128 128 255</Disabled>
+            </Color>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbFullscreenOff:</Callback>
+          </ScaleLabelButton>
+          <!-- SFX -->
+          <Slider pos="512 480" size="500 82" border="80" offsetY="8" tag="2" horizontal="YES">
+            <Bkg cache="NO">sl_bkg_h-hd.png</Bkg>
+            <Thumb>
+              <Normal cache="YES">thumb.png</Normal>
+            </Thumb>
+            <Callback>cbSfx:</Callback>
+          </Slider>
+          <!-- MUSIC -->
+          <Slider pos="512 380" size="500 82" border="80" offsetY="8" tag="1" horizontal="YES">
+            <Bkg cache="NO">sl_bkg_h-hd.png</Bkg>
+            <Thumb>
+              <Normal cache="YES">thumb.png</Normal>
+            </Thumb>
+            <Callback>cbMusic:</Callback>
+          </Slider>
+          <!-- back -->
+          <_ScaleLabelButton pos="880 52">
+            <Normal>btn_m_back.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="20 20">
+              <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+              <Font size="32">Arial-BoldMT</Font>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbBack:</Callback>
+          </_ScaleLabelButton>
+          <!--close-->
+          <ScaleLabelButton pos="680 595" tag="20">
+            <Normal>btn_m_close.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="20 20">
+              <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+              <Font size="32">Arial-BoldMT</Font>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbBack:</Callback>
+          </ScaleLabelButton>
+        </Items>
+      </menu>
+      <label pos="512 540" z="3">
+        <text dimensions="220 40" align="center" alias="YES" color="238 213 72 255">sound</text>
+        <font size="32">Arial-BoldMT</font>
+        <shadow>4 -4</shadow>
+      </label>
+      <label pos="512 440" z="3">
+        <text dimensions="220 40" align="center" alias="YES" color="238 213 72 255">music</text>
+        <font size="32">Arial-BoldMT</font>
+        <shadow>4 -4</shadow>
+      </label>
+    </children>
+  </GameOptions>
+  <!-- GAME OVER -->
+  <GameOver>
+    <Sfx>
+      <Show>defeat.wav</Show>
+    </Sfx>
+    <FadeColor>8 8 8 200</FadeColor>
+    <Images>
+      <Img cache="NO" pos="512 384" zorder="1">
+        <File>el_bkg-hd.png</File>
+      </Img>
+    </Images>
+    <Labels>
+      <Label pos="512 535" zorder="2">
+        <Text dimensions="220 40" align="center" alias="YES" color="255 255 255 255">elScores</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="480 505" zorder="2" tag="5">
+        <Text dimensions="160 40" align="left" alias="NO" color="255 255 255 255">username</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="670 505" zorder="2" tag="1">
+        <Text dimensions="160 40" align="left" alias="NO" color="255 255 255 255">0</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 455" zorder="2" tag="9">
+        <Text dimensions="220 40" align="center" alias="YES" color="238 213 72 255">elBestScores</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="480 425" zorder="2" tag="6">
+        <Text dimensions="160 40" align="left" alias="NO" color="255 255 255 255">username</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="670 425" zorder="2" tag="2">
+        <Text dimensions="160 40" align="left" alias="NO" color="255 255 255 255">0</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 375" zorder="2" tag="10">
+        <Text dimensions="220 40" align="center" alias="YES" color="255 255 255 255">elRound</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="480 345" zorder="2" tag="7">
+        <Text dimensions="160 40" align="left" alias="NO" color="255 255 255 255">username</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="670 345" zorder="2" tag="3">
+        <Text dimensions="160 40" align="left" alias="NO" color="255 255 255 255">0</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 295" zorder="2" tag="11">
+        <Text dimensions="220 40" align="center" alias="YES" color="238 213 72 255">elBestRound</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="480 265" zorder="2" tag="8">
+        <Text dimensions="160 40" align="left" alias="NO" color="255 255 255 255">username</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="670 265" zorder="2" tag="4">
+        <Text dimensions="160 40" align="left" alias="NO" color="255 255 255 255">0</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 600" zorder="2" tag="12">
+        <Text dimensions="400 60" align="center" alias="YES" color="255 102 51 255">gameover</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>
+    </Labels>
+    <Main modal="YES">
+      <Items>
+        <!-- SUBMIT -->
+        <!--ScaleLabelButton pos="240 110">
+          <Normal>btn_long.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="0 0">
+            <Text dimensions="320 72" align="center" alias="NO" color="238 231 72 255">gm_submit</Text>
+            <Font size="32">Arial-BoldMT</Font>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbSubmit:</Callback>
+        </ScaleLabelButton-->
+        <!-- CONTINUE -->
+        <ScaleLabelButton pos="512 190">
+          <Normal>btn_medium.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">continue</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbContinue:</Callback>
+        </ScaleLabelButton>
+      </Items>
+    </Main>
+    <children>
+      <graph cache="YES" pos="565 510" z="2" tag="13">
+        <file>ico_score.png</file>
+      </graph>
+      <graph cache="YES" pos="565 430" z="2" tag="14">
+        <file>ico_score.png</file>
+      </graph>
+      <graph cache="YES" pos="565 345" z="2" tag="15">
+        <file>ico_wave.png</file>
+      </graph>
+      <graph cache="YES" pos="565 265" z="2" tag="16">
+        <file>ico_wave.png</file>
+      </graph>
+    </children>
+  </GameOver>
+  <!-- VICTORY -->
+  <Victory>
+    <Sfx>
+      <Show>victory.wav</Show>
+    </Sfx>
+    <FadeColor>8 8 8 200</FadeColor>
+    <Images>
+      <Img cache="NO" pos="512 384" zorder="1">
+        <File>el_bkg-hd.png</File>
+      </Img>
+    </Images>
+    <Labels>
+      <Label pos="512 600" zorder="2">
+        <Text dimensions="400 60" align="center" alias="YES" color="120 230 40 255">victory</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>
+      <Label pos="512 380" zorder="2">
+        <Text dimensions="280 320" align="center" alias="YES" color="255 255 255 255">elVictoryMsg</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 440" zorder="2">
+        <Text dimensions="320 80" align="center" alias="YES" color="238 213 72 255">elRank</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="480 260" zorder="2" tag="10">
+        <Text dimensions="300 50" align="center" alias="YES" color="238 213 72 255">victory_bonus</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+    </Labels>
+    <children>
+      <graph cache="YES" pos="650 270" z="2" tag="13">
+        <file>ico_gem.png</file>
+      </graph>
+    </children>
+    <Rank zorder="3" pos="512 340">
+      <Star pos="0 0" offset="64 0">
+        <Off cache="NO">
+          <File>star_d-hd.png</File>
+        </Off>
+        <On cache="NO">
+          <File>star-hd.png</File>
+        </On>
+      </Star>
+      <Label pos="0 60" zorder="2">
+        <Text dimensions="320 80" align="center" alias="YES" color="238 213 72 255">elVictoryMsg</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>
+    </Rank>
+    <Main modal="YES">
+      <Items>
+        <!-- CONTINUE -->
+        <ScaleLabelButton pos="512 190">
+          <Normal>btn_medium.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">continue</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbContinue:</Callback>
+        </ScaleLabelButton>
+      </Items>
+    </Main>
+  </Victory>
+  <!-- DEFEAT -->
+  <Defeat>
+    <Sfx>
+      <Show>defeat.wav</Show>
+    </Sfx>
+    <FadeColor>255 8 8 200</FadeColor>
+    <Labels>
+      <Label pos="512 380" zorder="2">
+        <Text dimensions="280 320" align="center" alias="YES" color="255 255 255 255">elDefeatMsg</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 600" zorder="2">
+        <Text dimensions="400 60" align="center" alias="YES" color="255 102 51 255">defeat</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>
+    </Labels>
+    <Images>
+      <Img cache="NO" pos="512 384" zorder="1">
+        <File>el_bkg-hd.png</File>
+      </Img>
+    </Images>
+    <Main modal="YES">
+      <Items>
+        <!-- CONTINUE -->
+        <ScaleLabelButton pos="512 190">
+          <Normal>btn_medium.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">continue</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbContinue:</Callback>
+        </ScaleLabelButton>
+      </Items>
+    </Main>
+  </Defeat>
+  <!-- ARE YOU SURE? (SCREEN) -->
+  <AreYouSure>
+    <FadeColor>8 8 8 200</FadeColor>
+    <Labels>
+      <Label pos="512 380" zorder="2">
+        <Text dimensions="280 320" align="center" alias="YES" color="255 255 255 255">areYouSureMsg</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 600" zorder="2">
+        <Text dimensions="400 60" align="center" alias="YES" color="255 102 51 255">areYouSure</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>
+    </Labels>
+    <Images>
+      <Img cache="NO" pos="512 384" zorder="1">
+        <File>el_bkg-hd.png</File>
+      </Img>
+    </Images>
+    <Main modal="YES">
+      <Items>
+        <!-- CONTINUE -->
+        <ScaleLabelButton pos="512 290">
+          <Normal>btn_medium.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">yes</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbYes:</Callback>
+        </ScaleLabelButton>
+        <ScaleLabelButton pos="512 190">
+          <Normal>btn_medium.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">no</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbNo:</Callback>
+        </ScaleLabelButton>
+      </Items>
+    </Main>
+  </AreYouSure>
+  <!-- DELETE CONFIRM -->
+  <DeleteConfirm>
+    <Labels>
+      <Label pos="512 380" zorder="2" tag="5">
+        <Text dimensions="280 320" align="center" alias="YES" color="255 255 255 255">deleteConfirmMsg</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 600" zorder="2">
+        <Text dimensions="400 60" align="center" alias="YES" color="255 102 51 255">areYouSure</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>
+    </Labels>
+    <Images>
+      <Img cache="NO" pos="512 384" zorder="1">
+        <File>el_bkg-hd.png</File>
+      </Img>
+    </Images>
+    <Main modal="YES">
+      <Items>
+        <!-- CONTINUE -->
+        <ScaleLabelButton pos="512 290">
+          <Normal>btn_medium.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">yes</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbYes:</Callback>
+        </ScaleLabelButton>
+        <ScaleLabelButton pos="512 190">
+          <Normal>btn_medium.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">no</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbNo:</Callback>
+        </ScaleLabelButton>
+      </Items>
+    </Main>
+  </DeleteConfirm>
+  <!-- EXIT CONFIRM -->
+  <ExitConfirm>
+    <FadeColor>8 8 8 200</FadeColor>
+    <Labels>
+      <Label pos="512 380" zorder="2">
+        <Text dimensions="280 320" align="center" alias="YES" color="255 255 255 255">exitConfirmMsg</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 600" zorder="2">
+        <Text dimensions="400 60" align="center" alias="YES" color="255 102 51 255">areYouSure</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>
+    </Labels>
+    <Images>
+      <Img cache="NO" pos="512 384" zorder="1">
+        <File>el_bkg-hd.png</File>
+      </Img>
+    </Images>
+    <Main modal="YES">
+      <Items>
+        <!-- CONTINUE -->
+        <ScaleLabelButton pos="512 290">
+          <Normal>btn_medium.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">yes</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbYes:</Callback>
+        </ScaleLabelButton>
+        <ScaleLabelButton pos="512 190">
+          <Normal>btn_medium.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">no</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbNo:</Callback>
+        </ScaleLabelButton>
+      </Items>
+    </Main>
+  </ExitConfirm>
+  <!-- RESTART CONFIRM -->
+  <RestartConfirm>
+    <FadeColor>8 8 8 200</FadeColor>
+    <Labels>
+      <Label pos="512 380" zorder="2">
+        <Text dimensions="280 320" align="center" alias="YES" color="255 255 255 255">restart_confirm</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 600" zorder="2">
+        <Text dimensions="400 60" align="center" alias="YES" color="255 102 51 255">areYouSure</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>
+    </Labels>
+    <Images>
+      <Img cache="NO" pos="512 384" zorder="1">
+        <File>el_bkg-hd.png</File>
+      </Img>
+    </Images>
+    <Main modal="YES">
+      <Items>
+        <!-- CONTINUE -->
+        <ScaleLabelButton pos="512 290">
+          <Normal>btn_medium.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">yes</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbYes:</Callback>
+        </ScaleLabelButton>
+        <ScaleLabelButton pos="512 190">
+          <Normal>btn_medium.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">no</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbNo:</Callback>
+        </ScaleLabelButton>
+      </Items>
+    </Main>
+  </RestartConfirm>
+  <!-- MAIN MENU -->
+  <MainMenu>
+    <Assets>
+      <Atlas>mainMenu-hd.plist</Atlas>
+      <Atlas>commonGUI-hd.plist</Atlas>
+      <Sfx>button_metall.wav</Sfx>
+      <Sfx>button_wood.wav</Sfx>
+    </Assets>
+    <Music>MainMenu.wav</Music>
+    <Profile pos="380 695" tag="1" z="2">
+      <Normal>name_bkg_off.png</Normal>
+      <Selected>name_bkg_on.png</Selected>
+      <Sfx>button_wood.wav</Sfx>
+      <Label offset="0 0">
+        <Text dimensions="385 85" align="center" alias="YES" color="238 231 72 255">defUserName</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>
+      <ScaleFactor>0.95</ScaleFactor>
+    </Profile>
+    <children>
+      <graph cache="NO" pos="512 384" z="1">
+        <file format="RGB565" rect="0 0 1024 768">main_menu_bkg-ipad.png</file>
+      </graph>
+      <page pos="0 0" tag="3" z="5">
+        <children>
+          <!-- MAIN -->
+          <menu pos="0 0">
+            <Items>
+              <!-- PLAY -->
+              <ScaleLabelButton pos="840 650">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">play</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onPlay:</Callback>
+              </ScaleLabelButton>
+              <!-- SCORES -->
+              <!--ScaleLabelButton pos="840 550">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">scores</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onScores:</Callback>
+              </ScaleLabelButton-->
+              <!-- TROPHIES -->
+              <ScaleLabelButton pos="840 550">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">trophies</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onTrophies:</Callback>
+              </ScaleLabelButton>
+              <!-- SETTINGS -->
+              <ScaleLabelButton pos="840 450">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">options</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onSettings:</Callback>
+              </ScaleLabelButton>
+              <!-- EXIT -->
+              <ScaleLabelButton pos="840 350">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">exit</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onExit:</Callback>
+              </ScaleLabelButton>
+              <!-- EXTRA -->
+              <ScaleLabelButton pos="840 250" tag="5">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">moregames</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onMoreGames:</Callback>
+              </ScaleLabelButton>
+              <!-- DEBUG: SHOP -->
+              <!--ScaleLabelButton pos="100 200">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="NO" color="238 231 72 255">Shop (Temp)</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onShop:</Callback>
+              </ScaleLabelButton-->
+            </Items>
+          </menu>
+          <!-- play -->
+          <menu pos="0 0">
+            <Items>
+              <ScaleLabelButton pos="840 650" tag="2">
+                <Normal>btn_long.png</Normal>
+                <Disabled>btn_long_d.png</Disabled>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">resume</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <Color>
+                  <Normal>238 231 72 255</Normal>
+                  <Disabled>72 72 72 255</Disabled>
+                </Color>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onResume:</Callback>
+              </ScaleLabelButton>
+              <ScaleLabelButton pos="840 550">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="85 200 21 255">campaign</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onCampaign:</Callback>
+              </ScaleLabelButton>
+              <ScaleLabelButton pos="840 450">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="255 102 51 255">survival</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onSurvival:</Callback>
+              </ScaleLabelButton>
+              <ScaleLabelButton pos="880 52" tag="12">
+                <Normal>btn_m_back.png</Normal>
+                <Sfx>button_wood.wav</Sfx>
+                <Label offset="20 20">
+                  <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onMain:</Callback>
+              </ScaleLabelButton>
+            </Items>
+          </menu>
+          <!-- settings -->
+          <menu pos="0 0">
+            <Items>
+              <ScaleLabelButton pos="840 650" tag="2">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">soundvideo</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onOptions:</Callback>
+              </ScaleLabelButton>
+              <!--ScaleLabelButton pos="840 550">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">languageButton</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onLanguage:</Callback>
+              </ScaleLabelButton-->
+              <ScaleLabelButton pos="840 550">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">about</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onAbout:</Callback>
+              </ScaleLabelButton>
+              <ScaleLabelButton pos="840 450">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">help</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onHelp:</Callback>
+              </ScaleLabelButton>
+              <ScaleLabelButton pos="880 52" tag="13">
+                <Normal>btn_m_back.png</Normal>
+                <Sfx>button_wood.wav</Sfx>
+                <Label offset="20 20">
+                  <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onMain:</Callback>
+              </ScaleLabelButton>
+            </Items>
+          </menu>
+          <!-- extra -->
+          <menu pos="0 0">
+            <Items>
+              <ScaleLabelButton pos="840 650" tag="2">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Disabled>btn_long.png</Disabled>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">subscribe</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onSubscribe:</Callback>
+              </ScaleLabelButton>
+              <ScaleLabelButton pos="840 550">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">friends</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onFriends:</Callback>
+              </ScaleLabelButton>
+              <ScaleLabelButton pos="840 450">
+                <Normal>btn_long.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="0 0">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">moregames</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onMoreGames:</Callback>
+              </ScaleLabelButton>
+              <!--ScaleButton pos="440 64">
+                <Normal>btn_twitter.png</Normal>
+                <ScaleFactor>0.9</ScaleFactor>
+                <Sfx>button_wood.wav</Sfx>
+                <Callback>onTwitter:</Callback>
+              </ScaleButton>
+              <ScaleButton pos="390 64">
+                <Normal>btn_facebook.png</Normal>
+                <Sfx>button_wood.wav</Sfx>
+                <ScaleFactor>0.9</ScaleFactor>
+                <Callback>onFacebook:</Callback>
+              </ScaleButton-->
+              <ScaleLabelButton pos="880 52" tag="14">
+                <Normal>btn_m_back.png</Normal>
+                <Sfx>button_wood.wav</Sfx>
+                <Label offset="20 20">
+                  <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+                  <Font size="36">Arial-BoldMT</Font>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onMain:</Callback>
+              </ScaleLabelButton>
+            </Items>
+          </menu>
+        </children>
+      </page>
+    </children>
+  </MainMenu>
+  <!-- Help dialog -->
+  <HelpDlg>
+    <Assets>
+      <Atlas>mainMenu-hd.plist</Atlas>
+    </Assets>
+    <Images>
+      <Img cache="NO" pos="512 384" zorder="1">
+        <File>frame_bkg-ipad.png</File>		
+      </Img>
+	  <Img cache="NO" pos="512 384" zorder="0">
+        <File>frame_back-ipad.png</File>		
+      </Img>	  
+    </Images>
+    <Labels>
+      <Label pos="512 600" zorder="2" tag="10">
+        <Text dimensions="700 200" align="center" alias="YES" color="238 213 72 255">page_1_0</Text>
+        <Font size="24">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 600" zorder="2" tag="20">
+        <Text dimensions="700 200" align="center" alias="YES" color="238 213 72 255">page_2_0</Text>
+        <Font size="24">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 600" zorder="2" tag="30">
+        <Text dimensions="700 200" align="center" alias="YES" color="238 213 72 255">page_3_0</Text>
+        <Font size="24">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 600" zorder="2" tag="40">
+        <Text dimensions="700 200" align="center" alias="YES" color="238 213 72 255">page_4_0</Text>
+        <Font size="24">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 600" zorder="2" tag="60">
+        <Text dimensions="700 200" align="center" alias="YES" color="238 213 72 255">page_6_0</Text>
+        <Font size="24">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="700 510" zorder="2" tag="61">
+        <Text dimensions="400 200" align="left" alias="YES" color="238 213 72 255">page_6_1</Text>
+        <Font size="24">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="700 380" zorder="2" tag="62">
+        <Text dimensions="400 200" align="left" alias="YES" color="238 213 72 255">page_6_2</Text>
+        <Font size="24">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="700 250" zorder="2" tag="63">
+        <Text dimensions="400 200" align="left" alias="YES" color="238 213 72 255">page_6_3</Text>
+        <Font size="24">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 600" zorder="2" tag="70">
+        <Text dimensions="700 200" align="center" alias="YES" color="238 213 72 255">page_7_0</Text>
+        <Font size="28">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 520" zorder="2" tag="71">
+        <Text dimensions="700 200" align="left" alias="YES" color="85 200 21 255">campaign</Text>
+        <Font size="28">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 470" zorder="2" tag="72">
+        <Text dimensions="700 200" align="left" alias="YES" color="238 213 72 255">page_7_1</Text>
+        <Font size="24">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 300" zorder="2" tag="73">
+        <Text dimensions="700 200" align="left" alias="YES" color="255 102 51 255">survival</Text>
+        <Font size="28">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 250" zorder="2" tag="74">
+        <Text dimensions="700 200" align="left" alias="YES" color="238 213 72 255">page_7_2</Text>
+        <Font size="24">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 600" zorder="2" tag="80">
+        <Text dimensions="700 200" align="center" alias="YES" color="238 213 72 255">page_8_0</Text>
+        <Font size="28">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 520" zorder="2" tag="81">
+        <Text dimensions="700 200" align="left" alias="YES" color="85 200 21 255">normal</Text>
+        <Font size="28">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 470" zorder="2" tag="82">
+        <Text dimensions="700 200" align="left" alias="YES" color="238 213 72 255">page_8_1</Text>
+        <Font size="24">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 300" zorder="2" tag="83">
+        <Text dimensions="700 200" align="left" alias="YES" color="255 102 51 255">hard</Text>
+        <Font size="28">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 250" zorder="2" tag="84">
+        <Text dimensions="700 200" align="left" alias="YES" color="238 213 72 255">page_8_2</Text>
+        <Font size="24">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 64" zorder="2" tag="5">
+        <Text dimensions="320 50" align="center" alias="YES" color="238 213 72 255">pageInfo</Text>
+        <Font size="26">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </Label>
+    </Labels>
+    <children>
+      <menu pos="0 0" z="6" tag="6">
+        <Items>
+          <!-- next -->
+          <ScaleButton pos="924 405">
+            <Normal>btn_next.png</Normal>
+            <Sfx>button_wood.wav</Sfx>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbNext:</Callback>
+          </ScaleButton>
+          <!-- prev -->
+          <ScaleButton pos="100 405">
+            <Normal>btn_prev.png</Normal>
+            <Sfx>button_wood.wav</Sfx>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbPrev:</Callback>
+          </ScaleButton>
+        </Items>
+      </menu>
+    </children>
+    <Cfg>
+      <Scroll>
+        <MaxSpeed>1000</MaxSpeed>
+        <MinSpeed>200</MinSpeed>
+        <Damping>-2000</Damping>
+        <ShortTouchLen>96</ShortTouchLen>
+        <ClickingError>32</ClickingError>
+        <ContentSize>480 200</ContentSize>
+        <Position>512 420</Position>
+        <Horizontal>YES</Horizontal>
+        <ItemSize>960 640</ItemSize>
+        <ItemBorder>0</ItemBorder>
+      </Scroll>
+    </Cfg>
+    <Back pos="120 64">
+      <Normal>btn_m_back.png</Normal>
+      <ScaleFactor time="0.05">0.9</ScaleFactor>
+      <Sfx>button_wood.wav</Sfx>
+    </Back>
+    <Pages>
+      <Page>helpPage01-hd.png</Page>
+      <Page>helpPage02-hd.png</Page>
+      <Page>helpPage03-hd.png</Page>
+      <Page>helpPage04-hd.png</Page>
+      <Page>helpPage05-hd.png</Page>
+      <Page>helpPage06-hd.png</Page>
+      <Page>helpPage00-hd.png</Page>
+      <Page>helpPage00-hd.png</Page>
+    </Pages>
+  </HelpDlg>
+  <!-- About -->
+  <About>
+    <Assets>
+      <Atlas>mainMenu-hd.plist</Atlas>
+    </Assets>
+    <Back pos="120 64">
+      <Normal>btn_m_back.png</Normal>
+      <ScaleFactor time="0.05">0.9</ScaleFactor>
+      <Sfx>button_wood.wav</Sfx>
+    </Back>
+    <Labels>
+      <Label pos="495 650" zorder="2">
+        <Text dimensions="320 36" align="center" alias="YES" color="238 231 72 255">publisherName</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="320 620" zorder="2">
+        <Text dimensions="320 36" align="right" alias="YES" color="238 231 72 255">producer</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="650 620" zorder="2">
+        <Text dimensions="320 36" align="left" alias="YES" color="255 255 255 255">producerName</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="320 550" zorder="2">
+        <Text dimensions="320 36" align="right" alias="YES" color="238 231 72 255">developer</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="650 550" zorder="2">
+        <Text dimensions="320 36" align="left" alias="YES" color="238 231 72 255">developerName</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="320 520" zorder="2">
+        <Text dimensions="320 36" align="right" alias="YES" color="238 231 72 255">art</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="650 520" zorder="2">
+        <Text dimensions="320 36" align="left" alias="YES" color="255 255 255 255">artName1</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="650 490" zorder="2">
+        <Text dimensions="320 36" align="left" alias="YES" color="255 255 255 255">artName2</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="650 460" zorder="2">
+        <Text dimensions="320 36" align="left" alias="YES" color="255 255 255 255">artName3</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="650 430" zorder="2">
+        <Text dimensions="320 36" align="left" alias="YES" color="255 255 255 255">artName4</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="650 400" zorder="2">
+        <Text dimensions="320 36" align="left" alias="YES" color="255 255 255 255">artName5</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="320 370" zorder="2">
+        <Text dimensions="320 36" align="right" alias="YES" color="238 231 72 255">programmer</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="650 370" zorder="2">
+        <Text dimensions="320 36" align="left" alias="YES" color="255 255 255 255">programmerName</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="320 340" zorder="2">
+        <Text dimensions="320 36" align="right" alias="YES" color="238 231 72 255">pm</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="650 340" zorder="2">
+        <Text dimensions="320 36" align="left" alias="YES" color="255 255 255 255">pmName</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="320 310" zorder="2">
+        <Text dimensions="320 36" align="right" alias="YES" color="238 231 72 255">qa</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="650 310" zorder="2">
+        <Text dimensions="320 36" align="left" alias="YES" color="255 255 255 255">qaName1</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="650 280" zorder="2">
+        <Text dimensions="320 36" align="left" alias="YES" color="255 255 255 255">qaName2</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <!--Label pos="650 280" zorder="2">
+        <Text dimensions="320 36" align="left" alias="YES" color="255 255 255 255">qaName3</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label-->
+      <Label pos="320 250" zorder="2">
+        <Text dimensions="320 36" align="right" alias="YES" color="238 231 72 255">musician</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+      <Label pos="650 250" zorder="2">
+        <Text dimensions="320 36" align="left" alias="YES" color="255 255 255 255">musicianName</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </Label>
+    </Labels>
+    <children>
+      <!-- Alawar logo -->
+      <node pos="0 0" tag="1">
+        <children>
+          <graph pos="512 384" tag="1" z="1">
+            <file format="RGB565" alias="YES">iphone_about-ipad</file>
+          </graph>
+        </children>
+      </node>
+    </children>
+    <Music>MainMenu.wav</Music>
+  </About>
+  <!-- Play Mode Selector Menu -->
+  <PlayModeSelectorMenu>
+    <FadeColor>8 8 8 200</FadeColor>
+    <Labels>
+      <Label pos="512 340" zorder="2">
+        <Text dimensions="250 320" align="center" alias="YES" color="255 255 255 255">modeselect_up</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 600" zorder="2">
+        <Text dimensions="400 60" align="center" alias="YES" color="255 102 51 255">areYouSure</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>
+    </Labels>
+    <Images>
+      <Img cache="NO" pos="512 384" zorder="1">
+        <File>el_bkg-hd.png</File>
+      </Img>
+    </Images>
+    <Main modal="YES">
+      <Items>
+        <!-- CONTINUE -->
+        <ScaleLabelButton pos="512 290">
+          <Normal>btn_medium.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">yes</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbYes:</Callback>
+        </ScaleLabelButton>
+        <ScaleLabelButton pos="512 190">
+          <Normal>btn_medium.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">cancel</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbNo:</Callback>
+        </ScaleLabelButton>
+      </Items>
+    </Main>
+  </PlayModeSelectorMenu>
+  <!-- Campaign Screen -->
+  <CampaignScreen>
+    <Assets>
+      <Atlas>shop-hd.plist</Atlas>
+      <Atlas>mainMenu-hd.plist</Atlas>
+      <Atlas>commonGUI-hd.plist</Atlas>
+    </Assets>
+    <Music>MainMenu.wav</Music>
+    <alertBuyLevel>
+      <title>alert_buy_level_title</title>
+      <msg>alert_buy_level_msg</msg>
+    </alertBuyLevel>
+    <Castles>
+      <Castle pos="450 390">
+        <Normal>camp_castle01.png</Normal>
+        <Disabled>camp_castle01.png</Disabled>
+        <Selected>camp_castle01.png</Selected>
+        <Sfx>button_wood.wav</Sfx>
+      </Castle>
+      <Castle pos="660 438">
+        <Normal>camp_castle02.png</Normal>
+        <Disabled>camp_castle02.png</Disabled>
+        <Selected>camp_castle02.png</Selected>
+        <Sfx>button_wood.wav</Sfx>
+      </Castle>
+      <Castle pos="900 400">
+        <Normal>camp_castle03.png</Normal>
+        <Disabled>camp_castle03.png</Disabled>
+        <Selected>camp_castle03.png</Selected>
+        <Sfx>button_wood.wav</Sfx>
+      </Castle>
+      <Castle pos="830 280">
+        <Normal>camp_castle04.png</Normal>
+        <Disabled>camp_castle04.png</Disabled>
+        <Selected>camp_castle04.png</Selected>
+        <Sfx>button_wood.wav</Sfx>
+      </Castle>
+      <Castle pos="260 600">
+        <Normal>camp_castle05.png</Normal>
+        <Disabled>camp_castle05.png</Disabled>
+        <Selected>camp_castle05.png</Selected>
+        <Sfx>button_wood.wav</Sfx>
+      </Castle>
+      <Castle pos="140 510">
+        <Normal>camp_castle06.png</Normal>
+        <Disabled>camp_castle06.png</Disabled>
+        <Selected>camp_castle06.png</Selected>
+        <Sfx>button_wood.wav</Sfx>
+      </Castle>
+      <Castle pos="180 350">
+        <Normal>camp_castle07.png</Normal>
+        <Disabled>camp_castle07.png</Disabled>
+        <Selected>camp_castle07.png</Selected>
+        <Sfx>button_wood.wav</Sfx>
+      </Castle>
+      <Castle pos="330 290">
+        <Normal>camp_castle08.png</Normal>
+        <Disabled>camp_castle08.png</Disabled>
+        <Selected>camp_castle08.png</Selected>
+        <Sfx>button_wood.wav</Sfx>
+      </Castle>
+      <Castle pos="700 620">
+        <Normal>camp_castle09.png</Normal>
+        <Disabled>camp_castle09.png</Disabled>
+        <Selected>camp_castle09.png</Selected>
+        <Sfx>button_wood.wav</Sfx>
+      </Castle>
+      <Castle pos="860 580">
+        <Normal>camp_castle10.png</Normal>
+        <Disabled>camp_castle10.png</Disabled>
+        <Selected>camp_castle10.png</Selected>
+        <Sfx>button_wood.wav</Sfx>
+      </Castle>
+    </Castles>
+    <EmptyCastle>
+      <Normal>camp_castle_00.png</Normal>
+      <Sfx>button_wood.wav</Sfx>
+    </EmptyCastle>
+    <NeedBuy>camp_needbuy.png</NeedBuy>
+    <Flag col="4" row="4" offset="20 12">
+      <File>camp_flag-hd.png</File>
+      <Ani delay="0.05" loop="YES" play="YES">
+        <Frame>0 7</Frame>
+      </Ani>
+    </Flag>
+    <Axe col="4" row="4">
+      <File>camp_flag-hd.png</File>
+      <Ani delay="0.05" loop="NO" play="NO">
+        <Frame>8 15</Frame>
+      </Ani>
+    </Axe>
+    <Rank z="17" pos="54 0">
+      <Star pos="0 0" offset="32 0">
+        <Off cache="NO">
+          <File>star_d-hd.png</File>
+        </Off>
+        <On cache="NO">
+          <File>star-hd.png</File>
+        </On>
+      </Star>
+    </Rank>
+    <children>
+	  <graph cache="NO" pos="512 384" z="0">
+        <file>frame_back-ipad.png</file>		
+      </graph>
+      <graph cache="NO" pos="512 436" z="0">
+        <file>camp_bkg-hd.png</file>
+      </graph>
+      <graph cache="NO" pos="512 384" z="1">
+        <file>frame_bkg-ipad.png</file>
+      </graph>
+      <menu pos="0 0" z="16" tag="16">
+        <Items>
+          <!-- btn: BACK -->
+          <ScaleButton pos="120 64">
+            <Normal>btn_m_back.png</Normal>
+            <Sfx>button_wood.wav</Sfx>
+            <ScaleFactor>0.9</ScaleFactor>
+            <Callback>cbBack:</Callback>
+          </ScaleButton>
+          <!-- btn: PLAY -->
+          <ScaleButton pos="904 64" tag="32">
+            <Normal>btn_m_play.png</Normal>
+            <Disabled>btn_m_play_d.png</Disabled>
+            <Sfx>button_wood.wav</Sfx>
+            <ScaleFactor>0.9</ScaleFactor>
+            <Callback>cbPlay:</Callback>
+          </ScaleButton>
+          <!-- btn: SHOP -->
+          <ScaleLabelButton pos="512 64">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">shop</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbShop:</Callback>
+          </ScaleLabelButton>
+        </Items>
+      </menu>
+    </children>
+  </CampaignScreen>
+  <!-- Survival Screen -->
+  <SurvivalScreen>
+    <Assets>
+      <Atlas>survival-hd.plist</Atlas>
+      <Atlas>mainMenu-hd.plist</Atlas>
+      <Atlas>commonGUI-hd.plist</Atlas>
+    </Assets>
+    <Music>MainMenu.wav</Music>
+    <Cfg>
+      <Scroll>
+        <MaxSpeed>2000</MaxSpeed>
+        <MinSpeed>400</MinSpeed>
+        <Damping>-4000</Damping>
+        <ShortTouchLen>120</ShortTouchLen>
+        <ClickingError>64</ClickingError>
+        <ContentSize>480 200</ContentSize>
+        <Position>512 450</Position>
+        <Horizontal>YES</Horizontal>
+        <ItemSize>340 220</ItemSize>
+        <ItemBorder>64</ItemBorder>
+        <ItemScale>1</ItemScale>
+      </Scroll>
+      <DynamicBkg pos="240 245" enable="NO">
+        <FadeTime>0.5</FadeTime>
+        <Scale>2.6</Scale>
+        <MinOpacity>0</MinOpacity>
+        <MaxOpacity>128</MaxOpacity>
+      </DynamicBkg>
+    </Cfg>
+    <children>
+	  <graph cache="NO" pos="512 384" z="0">
+        <file>frame_back-ipad.png</file>		
+      </graph>
+      <graph cache="NO" pos="512 384" z="2">
+        <file>frame_bkg-ipad.png</file>
+      </graph>
+      <graph cache="NO" pos="512 450" z="10">
+        <file>loading-frame-hd.png</file>
+      </graph>
+      <label pos="512 660" zorder="12" tag="4">
+        <text alias="NO" color="255 255 255 255">Locked</text>
+        <font size="26">Arial-BoldMT</font>
+        <shadow>2 -2</shadow>
+      </label>
+      <label pos="512 275" zorder="12" tag="6">
+        <text alias="NO" color="238 231 72 255">username</text>
+        <font size="26">Arial-BoldMT</font>
+        <shadow>2 -2</shadow>
+      </label>
+      <label pos="512 235" zorder="12" tag="5">
+        <text alias="NO" color="255 255 255 255">Best wave </text>
+        <font size="26">Arial-BoldMT</font>
+        <shadow>2 -2</shadow>
+      </label>
+	  <label pos="512 195" zorder="12" tag="7">
+        <text alias="NO" color="255 255 255 255">elScores</text>
+        <font size="26">Arial-BoldMT</font>
+        <shadow>2 -2</shadow>
+      </label>	 
+      <menu pos="0 0" z="16" tag="16">
+        <Items>
+          <!-- next -->
+          <ScaleButton pos="710 455">
+            <Normal>btn_next.png</Normal>
+            <Sfx>button_wood.wav</Sfx>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbNext:</Callback>
+          </ScaleButton>
+          <!-- prev -->
+          <ScaleButton pos="314 455">
+            <Normal>btn_prev.png</Normal>
+            <Sfx>button_wood.wav</Sfx>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbPrev:</Callback>
+          </ScaleButton>
+          <!-- btn: BACK -->
+          <ScaleButton pos="120 64">
+            <Normal>btn_m_back.png</Normal>
+            <Sfx>button_wood.wav</Sfx>
+            <ScaleFactor>0.9</ScaleFactor>
+            <Callback>cbBack:</Callback>
+          </ScaleButton>
+          <!-- btn: PLAY -->
+          <ScaleButton pos="904 64" tag="32">
+            <Normal>btn_m_play.png</Normal>
+            <Disabled>btn_m_play_d.png</Disabled>
+            <Sfx>button_wood.wav</Sfx>
+            <ScaleFactor>0.9</ScaleFactor>
+            <Callback>cbPlay:</Callback>
+          </ScaleButton>
+          <!-- btn: SHOP -->
+          <ScaleLabelButton pos="512 64">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">shop</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbShop:</Callback>
+          </ScaleLabelButton>
+        </Items>
+      </menu>
+    </children>
+  </SurvivalScreen>
+  <!-- Difficulty CAMPAIGN -->
+  <Difficulty>
+    <Assets>
+      <Atlas>mainMenu-hd.plist</Atlas>
+	  <Atlas>hud-hd.plist</Atlas>
+    </Assets>
+    <FadeColor>8 8 8 200</FadeColor>
+    <children>
+      <menu pos="0 0" z="16" tag="16" modal="YES">
+        <Items>
+          <!--easy-->
+          <_ScaleLabelButton pos="512 490" tag="1">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="85 200 21 255">easy</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbDifficulty:</Callback>
+          </_ScaleLabelButton>
+		  
+          <!--normal-->
+          <ScaleLabelButton pos="512 410" tag="2">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="85 200 21 255">normal</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbDifficulty:</Callback>
+          </ScaleLabelButton>
+          <!--hard-->
+          <ScaleLabelButton pos="512 200" tag="3">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="255 102 51 255">hard</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbDifficulty:</Callback>
+          </ScaleLabelButton>
+          <!-- back -->
+          <_ScaleLabelButton pos="120 64">
+            <Normal>btn_m_back.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="20 20">
+              <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+              <Font size="32">Arial-BoldMT</Font>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbBack:</Callback>
+          </_ScaleLabelButton>
+          <!--close-->
+          <ScaleLabelButton pos="680 595" tag="20">
+            <Normal>btn_m_close.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="20 20">
+              <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+              <Font size="32">Arial-BoldMT</Font>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbBack:</Callback>
+          </ScaleLabelButton>
+        </Items>
+      </menu>
+      <graph cache="NO" pos="512 384" z="1">
+        <file>el_bkg-hd.png</file>
+      </graph>
+	  <graph cache="YES" pos="580 270" z="2" tag="12">
+        <file>ico_gem.png</file>
+      </graph>
+	  <graph cache="YES" pos="580 480" z="2" tag="13">
+        <file>ico_gem.png</file>
+      </graph>
+	  <graph cache="NO" pos="460 270" z="2" tag="14">
+        <file>star-hd.png</file>
+      </graph>
+	  <graph cache="NO" pos="460 480" z="2" tag="15">
+        <file>star-hd.png</file>
+      </graph>
+    </children>
+    <Labels>
+      <Label pos="512 600" zorder="2">
+        <Text dimensions="400 60" align="center" alias="YES" color="238 231 72 255">difficulty</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>
+	  <Label pos="512 530" zorder="2">
+        <Text dimensions="300 50" align="center" alias="YES" color="255 255 255 255">victory_bonus1</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+	  <Label pos="512 320" zorder="2">
+        <Text dimensions="300 50" align="center" alias="YES" color="255 255 255 255">victory_bonus1</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>	  
+	  <Label pos="512 470" zorder="2" tag="17">
+        <Text dimensions="400 60" align="center" alias="NO" color="238 231 72 255">= 5</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>	
+	  <Label pos="512 260" zorder="2" tag="18">
+        <Text dimensions="400 60" align="center" alias="NO" color="238 231 72 255">= 15</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>	
+    </Labels>
+  </Difficulty>
+  <!-- Difficulty SURVIVAL -->
+  <DifficultySurvival>
+    <Assets>
+      <Atlas>mainMenu-hd.plist</Atlas>
+	  <Atlas>hud-hd.plist</Atlas>
+    </Assets>
+    <FadeColor>8 8 8 200</FadeColor>
+    <children>
+      <menu pos="0 0" z="16" tag="16" modal="YES">
+        <Items>
+          <!--easy-->
+          <_ScaleLabelButton pos="512 490" tag="1">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="85 200 21 255">easy</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbDifficulty:</Callback>
+          </_ScaleLabelButton>
+		  
+          <!--normal-->
+          <ScaleLabelButton pos="512 410" tag="2">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="85 200 21 255">normal</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbDifficulty:</Callback>
+          </ScaleLabelButton>
+          <!--hard-->
+          <ScaleLabelButton pos="512 200" tag="3">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="255 102 51 255">hard</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbDifficulty:</Callback>
+          </ScaleLabelButton>
+          <!-- back -->
+          <_ScaleLabelButton pos="120 64">
+            <Normal>btn_m_back.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="20 20">
+              <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+              <Font size="32">Arial-BoldMT</Font>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbBack:</Callback>
+          </_ScaleLabelButton>
+          <!--close-->
+          <ScaleLabelButton pos="680 595" tag="20">
+            <Normal>btn_m_close.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="20 20">
+              <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+              <Font size="32">Arial-BoldMT</Font>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbBack:</Callback>
+          </ScaleLabelButton>
+        </Items>
+      </menu>
+      <graph cache="NO" pos="512 384" z="1">
+        <file>el_bkg-hd.png</file>
+      </graph>	  
+	  <graph cache="NO" pos="480 270" z="2" tag="14">
+        <file>star_blue-hd.png</file>
+      </graph>
+	  <graph cache="NO" pos="480 480" z="2" tag="15">
+        <file>star_blue-hd.png</file>
+      </graph>
+    </children>
+    <Labels>
+      <Label pos="512 600" zorder="2">
+        <Text dimensions="400 60" align="center" alias="YES" color="238 231 72 255">difficulty</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>
+	  <Label pos="512 530" zorder="2">
+        <Text dimensions="300 50" align="center" alias="YES" color="255 255 255 255">scoresColon</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+	  <Label pos="512 320" zorder="2">
+        <Text dimensions="300 50" align="center" alias="YES" color="255 255 255 255">scoresColon</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>	  
+	  <Label pos="532 470" zorder="2" tag="17">
+        <Text dimensions="400 60" align="center" alias="NO" color="238 231 72 255">= 5</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>	
+	  <Label pos="532 260" zorder="2" tag="18">
+        <Text dimensions="400 60" align="center" alias="NO" color="238 231 72 255">= 15</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>	
+    </Labels>
+  </DifficultySurvival>
+  <!-- ProfileSelect -->
+  <ProfileSelect>
+    <FadeColor>8 8 8 200</FadeColor>
+    <Labels>
+      <Label pos="480 590" zorder="2">
+        <Text dimensions="400 60" align="center" alias="YES" color="238 231 72 255">selectPlayer</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>
+    </Labels>
+    <Images>
+      <Img cache="NO" pos="512 384" zorder="1">
+        <File>el_bkg-hd.png</File>
+      </Img>
+    </Images>
+    <Main modal="YES">
+      <Items>
+        <ScaleLabelButton pos="530 540" tag="101">
+          <Normal>empty.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="0 0">
+            <Text dimensions="250 30" align="left" alias="YES" color="255 255 255 255">defUserName</Text>
+            <Font size="26">Arial-BoldMT</Font>
+            <shadow>2 -2</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbSelectPlayer:</Callback>
+        </ScaleLabelButton>
+        <ScaleLabelButton pos="530 490" tag="102">
+          <Normal>empty.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="0 0">
+            <Text dimensions="250 30" align="left" alias="YES" color="255 255 255 255">defUserName</Text>
+            <Font size="26">Arial-BoldMT</Font>
+            <shadow>2 -2</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbSelectPlayer:</Callback>
+        </ScaleLabelButton>
+        <ScaleLabelButton pos="530 440" tag="103">
+          <Normal>empty.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="0 0">
+            <Text dimensions="250 30" align="left" alias="YES" color="255 255 255 255">defUserName</Text>
+            <Font size="26">Arial-BoldMT</Font>
+            <shadow>2 -2</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbSelectPlayer:</Callback>
+        </ScaleLabelButton>
+        <ScaleLabelButton pos="530 390" tag="104">
+          <Normal>empty.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="0 0">
+            <Text dimensions="250 30" align="left" alias="YES" color="255 255 255 255">defUserName</Text>
+            <Font size="26">Arial-BoldMT</Font>
+            <shadow>2 -2</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbSelectPlayer:</Callback>
+        </ScaleLabelButton>
+        <ScaleLabelButton pos="530 340" tag="105">
+          <Normal>empty.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="0 0">
+            <Text dimensions="250 30" align="left" alias="YES" color="255 255 255 255">defUserName</Text>
+            <Font size="26">Arial-BoldMT</Font>
+            <shadow>2 -2</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbSelectPlayer:</Callback>
+        </ScaleLabelButton>
+        <!-- ADD NEW PLAYER -->
+        <ScaleButton pos="460 270" tag="10">
+          <Normal>btn_add_player.png</Normal>
+          <Disabled>btn_add_player_d.png</Disabled>
+          <Sfx>button_metall.wav</Sfx>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbAdd:</Callback>
+        </ScaleButton>
+        <!-- DELETE PLAYER -->
+        <ScaleButton pos="564 270" tag="11">
+          <Normal>btn_remove_player.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbDelete:</Callback>
+        </ScaleButton>
+        <!-- CONTINUE -->
+        <ScaleLabelButton pos="512 190">
+          <Normal>btn_medium.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">apply</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbYes:</Callback>
+        </ScaleLabelButton>
+        <!-- back -->
+        <_ScaleLabelButton pos="880 52">
+          <Normal>btn_m_back.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="20 20">
+            <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+            <Font size="32">Arial-BoldMT</Font>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbBack:</Callback>
+        </_ScaleLabelButton>
+        <!--close-->
+        <ScaleLabelButton pos="680 595" tag="20">
+          <Normal>btn_m_close.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="20 20">
+            <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+            <Font size="32">Arial-BoldMT</Font>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbBack:</Callback>
+        </ScaleLabelButton>
+      </Items>
+    </Main>
+    <children>
+      <graph cache="NO" pos="0 0" z="2" tag="228">
+        <file>star-hd.png</file>
+      </graph>
+    </children>
+  </ProfileSelect>
+  <!-- EnterUserName -->
+  <EnterUserName>
+    <Labels>
+      <Label pos="512 380" zorder="2">
+        <Text dimensions="280 320" align="center" alias="YES" color="255 255 255 255">enterUserName</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label offset="0 0" zorder="2" tag="2">
+        <Text dimensions="385 85" align="center" alias="YES" color="238 231 72 255">defUserName</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>
+      <Label pos="512 180" zorder="2" tag="3">
+        <Text dimensions="280 320" align="center" alias="YES" color="238 213 72 255">wrongName</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 180" zorder="2" tag="4">
+        <Text dimensions="280 320" align="center" alias="YES" color="238 213 72 255">existingName</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+    </Labels>
+    <Images>
+      <Img cache="NO" pos="512 384" zorder="1">
+        <File>el_bkg-hd.png</File>
+      </Img>
+    </Images>
+    <Main modal="YES">
+      <Items>
+        <!-- CONTINUE -->
+        <ScaleLabelButton pos="512 190" tag="5">
+          <Normal>btn_medium.png</Normal>
+          <Disabled>btn_medium_d.png</Disabled>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">apply</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <Color>
+            <Normal>238 231 72 255</Normal>
+            <Disabled>72 72 72 255</Disabled>
+          </Color>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbYes:</Callback>
+        </ScaleLabelButton>
+        <!-- back -->
+        <_ScaleLabelButton pos="880 52">
+          <Normal>btn_m_back.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="20 20">
+            <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+            <Font size="32">Arial-BoldMT</Font>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbBack:</Callback>
+        </_ScaleLabelButton>
+        <!--close-->
+        <ScaleLabelButton pos="680 595" tag="20">
+          <Normal>btn_m_close.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="20 20">
+            <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+            <Font size="32">Arial-BoldMT</Font>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbBack:</Callback>
+        </ScaleLabelButton>
+      </Items>
+    </Main>
+  </EnterUserName>
+  <!-- Language Select-->
+  <LanguageSelect>
+    <FadeColor>8 8 8 200</FadeColor>
+    <Labels>
+      <Label pos="512 380" zorder="2">
+        <Text dimensions="280 320" align="center" alias="YES" color="255 255 255 255">languageMsg</Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="512 280" zorder="2" tag="4">
+        <Text dimensions="280 320" align="center" alias="YES" color="238 231 72 255">language</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>4 -4</shadow>
+      </Label>
+    </Labels>
+    <Images>
+      <Img cache="NO" pos="512 384" zorder="1">
+        <File>el_bkg-hd.png</File>
+      </Img>
+      <Img cache="YES" pos="512 350" zorder="2" tag="5">
+        <File>ru.png</File>
+      </Img>
+    </Images>
+    <Main modal="YES">
+      <Items>
+        <!-- next -->
+        <ScaleButton pos="620 350">
+          <Normal>btn_next.png</Normal>
+          <Sfx>button_wood.wav</Sfx>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbNext:</Callback>
+        </ScaleButton>
+        <!-- prev -->
+        <ScaleButton pos="404 350">
+          <Normal>btn_prev.png</Normal>
+          <Sfx>button_wood.wav</Sfx>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbPrev:</Callback>
+        </ScaleButton>
+        <!-- CONTINUE -->
+        <ScaleLabelButton pos="512 190">
+          <Normal>btn_medium.png</Normal>
+          <Disabled>btn_medium_d.png</Disabled>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">apply</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <Color>
+            <Normal>238 231 72 255</Normal>
+            <Disabled>72 72 72 255</Disabled>
+          </Color>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbYes:</Callback>
+        </ScaleLabelButton>
+        <!-- back -->
+        <_ScaleLabelButton pos="880 52">
+          <Normal>btn_m_back.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="20 20">
+            <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+            <Font size="32">Arial-BoldMT</Font>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbBack:</Callback>
+        </_ScaleLabelButton>
+        <!--close-->
+        <ScaleLabelButton pos="680 595" tag="20">
+          <Normal>btn_m_close.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="20 20">
+            <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+            <Font size="32">Arial-BoldMT</Font>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbBack:</Callback>
+        </ScaleLabelButton>
+      </Items>
+    </Main>
+  </LanguageSelect>
+  <!-- Score -->
+  <!--Scores>
+    <Assets>
+      <Atlas>survival.plist</Atlas>
+      <Atlas>mainMenu.plist</Atlas>
+      <Atlas>scores.plist</Atlas>
+    </Assets>
+    <Images>
+      <Img cache="NO" pos="240 160" zorder="2">
+        <File>frame_bkg.png</File>
+      </Img>
+      <Img cache="NO" pos="80 180" zorder="1">
+        <File>score_map_selected.png</File>
+      </Img>
+      <Img cache="NO" pos="290 140" zorder="1" tag="4">
+        <File>score_bkg_loading.png</File>
+      </Img>
+    </Images>
+    <Labels>
+      <Label pos="290 160" zorder="2" tag="2">
+        <Text alias="YES" color="238 213 72 255">pleaseWaitScore</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>0 0</shadow>
+      </Label>
+      <Label pos="290 160" zorder="2" tag="3">
+        <Text alias="YES" color="238 213 72 255">cantRetrieveScore</Text>
+        <Font size="32">Arial-BoldMT</Font>
+        <shadow>0 0</shadow>
+      </Label>
+      <Label pos="290 160" zorder="2" tag="5">
+        <Text alias="YES" color="238 213 72 255" align="center" dimensions="250 100">notSupported</Text>
+        <Font size="32">Arial-BoldMT</Font>
+      </Label>
+    </Labels>
+    <Cfg>
+      <Scroll>
+        <MaxSpeed>1000</MaxSpeed>
+        <MinSpeed>200</MinSpeed>
+        <Damping>-2000</Damping>
+        <ShortTouchLen>64</ShortTouchLen>
+        <ClickingError>32</ClickingError>
+        <ContentSize>120 250</ContentSize>
+        <Position>80 180</Position>
+        <Horizontal>NO</Horizontal>
+        <ItemSize>64 64</ItemSize>
+        <ItemBorder>4</ItemBorder>
+        <ItemScale>0.5</ItemScale>
+      </Scroll>
+    </Cfg>
+    <Back pos="120 64">
+      <Normal>btn_m_back.png</Normal>
+      <ScaleFactor>0.9</ScaleFactor>
+      <Sfx>button_wood.wav</Sfx>
+    </Back>
+    <Table pos="140 250">
+      <Title offset="0 0">
+        <Font size="26">Arial-BoldMT</Font>
+      </Title>
+      <Line offset="0 -25" padding="-15">
+        <Font size="26">Arial</Font>
+      </Line>
+      <Col offset="0 0" dimensions="25 25" align="right" tag="1"></Col>
+      <Col title="tsName" offset="125 0" dimensions="130 25" align="left" tag="2"></Col>
+      <Col title="tsScore" offset="155 0" dimensions="100 25" align="right" tag="3"></Col>
+      <Col title="tsWave" offset="235 0" dimensions="70 25" align="center" tag="4"></Col>
+      <Col title="tsDifficulty" offset="285 0" dimensions="70 25" align="center" tag="5"></Col>
+    </Table>
+    <OnLine pos="290 32">
+      <Normal>score_btn_global.png</Normal>
+      <Disabled>score_btn_global_p.png</Disabled>
+      <ScaleFactor>0.9</ScaleFactor>
+      <Sfx>button_metall.wav</Sfx>
+    </OnLine>
+    <OffLine pos="190 32">
+      <Normal>score_btn_local.png</Normal>
+      <Disabled>score_btn_local_p.png</Disabled>
+      <ScaleFactor>0.9</ScaleFactor>
+      <Sfx>button_metall.wav</Sfx>
+    </OffLine>
+    <Retrieve pos="290 130">
+      <Normal>score_btn_refresh.png</Normal>
+      <Disabled>score_btn_refresh.png</Disabled>
+      <ScaleFactor>0.9</ScaleFactor>
+      <Sfx>button_metall.wav</Sfx>
+    </Retrieve>
+    <Bar horisontal="YES" pos="290 140" zorder="10">
+      <Bkg rect="0 0 196 10" color="0 0 0" />
+      <Bar rect="0 0 196 10" color="255 235 56" />
+    </Bar>
+    <Colors>
+      <Player>238 213 72 </Player>
+      <Default>255 255 255</Default>
+    </Colors>
+  </Scores-->
+  <ScoresScr>
+    <Assets>
+      <Atlas>survival-hd.plist</Atlas>
+      <Atlas>commonGUI-hd.plist</Atlas>
+      <Atlas>mainMenu-hd.plist</Atlas>
+    </Assets>
+    <children>
+      <menu pos="0 0" tag="1" z="12">
+        <Items>
+          <!-- openfeint -->
+          <ScaleLabelButton pos="422 520" tag="1">
+            <Normal>scores_of.png</Normal>
+            <Disabled>scores_of_d.png</Disabled>
+            <Sfx>button_metall.wav</Sfx>
+            <_Label offset="0 0">
+              <Text dimensions="320 72" align="center" alias="NO" color="238 231 72 255">Open Feint</Text>
+              <Font size="32">Arial-BoldMT</Font>
+            </_Label>
+            <_Color>
+              <Normal>238 231 72 255</Normal>
+              <Disabled>119 115 36 255</Disabled>
+              <Selected>238 231 72 255</Selected>
+            </_Color>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>onOpenFeint:</Callback>
+          </ScaleLabelButton>
+          <!-- game center -->
+          <ScaleLabelButton pos="602 520" tag="2">
+            <Normal>scores_gc.png</Normal>
+            <Disabled>scores_gc_d.png</Disabled>
+            <Sfx>button_metall.wav</Sfx>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>onGameCenter:</Callback>
+          </ScaleLabelButton>
+          <!-- back -->
+          <ScaleLabelButton pos="120 64">
+            <Normal>btn_m_back.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>onBack:</Callback>
+          </ScaleLabelButton>
+        </Items>
+      </menu>
+      <page pos="0 0" tag="2" z="12">
+        <children>
+          <!-- OPEN FEINT -->
+          <menu>
+            <Items>
+              <ScaleLabelButton pos="512 200">
+                <Normal>scores_ofmenu.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onOFDashboard:</Callback>
+              </ScaleLabelButton>
+              <ScaleLabelButton pos="512 280">
+                <Normal>btn_medium.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="-4 -4">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">trophies</Text>
+                  <Font size="32">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onOFAchievement:</Callback>
+              </ScaleLabelButton>
+              <ScaleLabelButton pos="512 360">
+                <Normal>btn_medium.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="-4 -4">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">scores</Text>
+                  <Font size="32">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onOFLeaderboard:</Callback>
+              </ScaleLabelButton>
+            </Items>
+          </menu>
+          <!-- GAME CENTER -->
+          <menu>
+            <Items>
+              <ScaleLabelButton pos="512 360">
+                <Normal>btn_medium.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="-4 -4">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">scores</Text>
+                  <Font size="32">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onGCLeaderboard:</Callback>
+              </ScaleLabelButton>
+              <ScaleLabelButton pos="512 280">
+                <Normal>btn_medium.png</Normal>
+                <Sfx>button_metall.wav</Sfx>
+                <Label offset="-4 -4">
+                  <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">trophies</Text>
+                  <Font size="32">Arial-BoldMT</Font>
+                  <shadow>4 -4</shadow>
+                </Label>
+                <ScaleFactor>0.95</ScaleFactor>
+                <Callback>onGCAchievement:</Callback>
+              </ScaleLabelButton>
+            </Items>
+          </menu>
+        </children>
+      </page>
+      <graph pos="512 384" z="2">
+        <file>frame_bkg-ipad.png</file>
+      </graph>
+      <label pos="512 660" z="3">
+        <text dimensions="920 80" align="center" alias="YES" color="255 255 255 255">SelectNetworkScore</text>
+        <font size="26">Arial-BoldMT</font>
+        <shadow>2 -2</shadow>
+      </label>
+    </children>
+  </ScoresScr>
+  <!-- ACHIEVE -->
+  <Achieve>
+    <Assets>
+      <Atlas>achieve-hd.plist</Atlas>
+      <Atlas>mainMenu-hd.plist</Atlas>
+    </Assets>
+    <!--Images>
+      <Img cache="NO" pos="512 384" zorder="2">
+        <File>frame_bkg-ipad.png</File>
+      </Img>
+    </Images-->
+    <children>
+	  <graph cache="NO" pos="512 384" z="0">
+        <file>frame_back-ipad.png</file>		
+      </graph>
+      <graph cache="NO" pos="512 384" z="1">
+        <file>frame_bkg-ipad.png</file>
+      </graph>
+    </children>
+    <Main modal="YES">
+      <Items>
+        <Slider pos="990 440" size="500 82" border="80" offsetY="8" tag="2" horizontal="YES">
+          <Bkg cache="NO">sl_bkg_h-hd.png</Bkg>
+          <Thumb>
+            <Normal cache="YES">thumb.png</Normal>
+          </Thumb>
+          <Callback>cbPull:</Callback>
+        </Slider>
+      </Items>
+    </Main>
+    <Cfg>
+      <Scroll>
+        <MaxSpeed>2000</MaxSpeed>
+        <MinSpeed>400</MinSpeed>
+        <Damping>-4000</Damping>
+        <ShortTouchLen>1200</ShortTouchLen>
+        <ClickingError>64</ClickingError>
+        <ContentSize>120 250</ContentSize>
+        <Position>160 360</Position>
+        <ItemSize>168 120</ItemSize>
+      </Scroll>
+    </Cfg>
+    <Back pos="120 64">
+      <Normal>btn_m_back.png</Normal>
+      <ScaleFactor>0.9</ScaleFactor>
+      <Sfx>button_wood.wav</Sfx>
+    </Back>
+    <Table>
+      <ItemSize>100 240</ItemSize>
+      <LabelDesc pos="440 -28">
+        <Text alias="NO" dimensions="600 100" align="left" color="255 255 255 255"></Text>
+        <Font size="26">Arial</Font>
+		<shadow>2 -2</shadow>
+      </LabelDesc>
+      <LabelName pos="420 4">
+        <Text alias="NO" dimensions="600 100" align="left" color="238 213 72 255"></Text>
+        <Font size="26">Arial-BoldMT</Font>
+		<shadow>2 -2</shadow>
+      </LabelName>
+      <!--<LabelPoint pos="50 0">
+        <Text alias="NO" dimensions="30 18" align="center" color="238 213 72 255"></Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </LabelPoint>-->
+      <LabelProgress pos="0 0">
+        <Text alias="YES" dimensions="80 36" align="center" color="238 213 72 255">achieveProgressFormat</Text>
+        <Font size="26">Arial-BoldMT</Font>
+      </LabelProgress>
+    </Table>
+  </Achieve>
+  <!-- Loader -->
+  <Loader>
+    <speed>40</speed>
+    <children>
+      <graph cache="NO" pos="512 80" z="9" tag="100">
+        <file rect="0 0 392 20">loadingStripe-hd.png</file>
+      </graph>
+      <graph cache="NO" pos="512 80" z="10">
+        <file>loadingBar-hd.png</file>
+      </graph>
+    </children>
+  </Loader>
+  <!-- Level Loader -->
+  <LevelLoader>
+    <Assets>
+      <Atlas>survival-hd.plist</Atlas>
+    </Assets>
+    <children>
+      <graph cache="NO" pos="512 380" z="1" tag="1">
+        <file>loading-frame-hd.png</file>
+        <scale>1.3 1.3</scale>
+      </graph>
+      <graph cache="NO" pos="512 80" z="10">
+        <file>loadingBar-hd.png</file>
+      </graph>
+    </children>
+    <BkgSize>436 630</BkgSize>
+    <Bar horisontal="YES" pos="512 80">
+      <Bkg rect="0 0 392 20" color="0 0 0" />
+      <Bar rect="0 0 392 20" color="255 235 56">
+        <File>loadingStripe-hd.png</File>
+      </Bar>
+    </Bar>
+  </LevelLoader>
+  <!-- MSG VIEW -->
+  <MsgView>
+    <Board>
+      <Icon pos="-170 0" zorder="501" tag="1" />
+      <Bkg cache="NO" pos="70 -4" zorder="1000" tag="2">
+        <File>info_bkg-hd.png</File>
+      </Bkg>
+      <Desc pos="70 0" zorder="502" tag="3">
+        <Text alias="NO" color="255 255 255 255" align="center" dimensions="340 100"></Text>
+        <Font size="26">Arial-BoldMT</Font>
+        <shadow>2 -2</shadow>
+      </Desc>
+      <Delay>3</Delay>
+      <FadeTime>0.5</FadeTime>
+    </Board>
+    <Start>256 440</Start>
+    <Finish>256 390</Finish>
+    <Time>0.2</Time>
+    <Offset>128</Offset>
+    <Sfx>achieve.wav</Sfx>
+  </MsgView>
+  <!-- SHOP -->
+  <Shop>
+    <Assets>
+      <Atlas>shop-hd.plist</Atlas>
+      <Atlas>mainMenu-hd.plist</Atlas>
+      <Atlas>commonGUI-hd.plist</Atlas>
+    </Assets>
+    <Main pos="0 0" z="16" modal="YES">
+      <Items>
+        <!-- back -->
+        <ScaleLabelButton pos="120 64">
+          <Normal>btn_m_back.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="20 20">
+            <Text dimensions="0 0" align="center" alias="NO" color="238 231 72 255"></Text>
+            <Font size="32">Arial-BoldMT</Font>
+			
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbMainMenu:</Callback>
+        </ScaleLabelButton>
+        <Slider pos="990 440" size="500 82" border="80" offsetY="8" tag="2" horizontal="YES">
+          <Bkg cache="NO">sl_bkg_h-hd.png</Bkg>
+          <Thumb>
+            <Normal cache="YES">thumb.png</Normal>
+          </Thumb>
+          <Callback>cbPull:</Callback>
+        </Slider>
+        <!-- buy gear -->
+        <!--ScaleLabelButton pos="512 136" tag="0">
+          <Normal>btn_buy_cant.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="40 0">
+            <Text dimensions="320 72" align="left" alias="NO" color="238 231 72 255"></Text>
+            <Font size="32">Arial-BoldMT</Font>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>cbBuyGear:</Callback>
+        </ScaleLabelButton-->
+        <!--Restore-->
+        <!--ScaleLabelButton pos="840 52" tag="0">
+          <Normal>btn_medium.png</Normal>
+          <Sfx>button_metall.wav</Sfx>
+          <Label offset="-4 -4">
+            <Text dimensions="320 72" align="center" alias="NO" color="238 231 72 255">Restore</Text>
+            <Font size="32">Arial-BoldMT</Font>
+            <shadow>4 -4</shadow>
+          </Label>
+          <ScaleFactor>0.95</ScaleFactor>
+          <Callback>onRestore:</Callback>
+        </ScaleLabelButton-->
+      </Items>
+    </Main>
+    <children>
+	  <graph cache="NO" pos="512 384" z="0">
+        <file>frame_back-ipad.png</file>		
+      </graph>
+      <graph pos="512 384" z="2">
+        <file>frame_bkg-ipad.png</file>
+      </graph>
+      <!--graph pos="512 134" z="10">
+        <file>btn_buy_cant_bkg-hd.png</file>
+      </graph-->
+      <!-- MY GEAR -->
+      <node pos="500 60" z="20" tag="2">
+        <children>
+          <graph pos="-40 0" z="1" cache="NO">
+            <file>ico_gem-hd.png</file>
+          </graph>
+          <label pos="90 0" z="1" tag="2">
+            <text alias="NO" dimensions="180 40" align="left" color="238 213 72 255">0</text>
+            <font size="32">Arial-BoldMT</font>
+			<shadow>4 -4</shadow>
+          </label>
+          <label pos="-200 0" z="1">
+            <text alias="YES" dimensions="240 40" align="right" color="238 213 72 255">yourgems</text>
+            <font size="32">Arial-BoldMT</font>
+			<shadow>4 -4</shadow>
+          </label>
+        </children>
+      </node>
+    </children>
+    <itemTable>
+      <node pos="0 0" z="1" tag="1" />
+      <label pos="300 0" z="1" tag="2">
+        <text alias="NO" dimensions="480 80" align="left" color="238 213 72 255">0</text>
+        <font size="26">Arial-BoldMT</font>
+		<shadow>2 -2</shadow>
+      </label>
+      <graph pos="660 0" z="1" tag="4" cache="YES">
+        <file>btn_buy_done.png</file>
+      </graph>
+      <menu pos="0 0" z="1" tag="3">
+        <Items>
+          <ScaleLabelButton pos="660 0" tag="1">
+            <Normal>btn_buy_can.png</Normal>
+            <Disabled>btn_buy_can_d.png</Disabled>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="44 -12">
+              <Text dimensions="360 72" align="left" alias="NO" color="238 231 72 255">0</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.90</ScaleFactor>
+            <Callback>cbBuyItem:</Callback>
+            <Color>
+              <Normal>238 231 72 255</Normal>
+              <Disabled>238 231 72 255</Disabled>
+            </Color>
+          </ScaleLabelButton>
+          <!--ScaleLabelButton pos="320 0" tag="2">
+            <Normal>btn_buy_can.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="40 0">
+              <Text dimensions="320 72" align="left" alias="NO" color="238 231 72 255">0</Text>
+              <Font size="32">Arial-BoldMT</Font>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbBuyGear:</Callback>
+          </ScaleLabelButton-->
+        </Items>
+      </menu>
+    </itemTable>
+    <Cfg>
+      <Scroll>
+        <MaxSpeed>2000</MaxSpeed>
+        <MinSpeed>400</MinSpeed>
+        <Damping>-4000</Damping>
+        <ShortTouchLen>120</ShortTouchLen>
+        <ClickingError>64</ClickingError>
+        <ContentSize>120 250</ContentSize>
+        <Position>160 360</Position>
+        <Horizontal>NO</Horizontal>
+        <ItemSize>168 120</ItemSize>
+      </Scroll>
+    </Cfg>
+  </Shop>
+  <!-- BUY ITEM -->
+  <BuyItem>
+    <Sfx>
+      <Show>button_metall.wav</Show>
+    </Sfx>
+    <Assets>
+      <Atlas>commonGUI-hd.plist</Atlas>
+      <Atlas>mainMenu-hd.plist</Atlas>
+      <Atlas>shop-hd.plist</Atlas>
+    </Assets>
+    <FadeColor>8 8 8 200</FadeColor>
+    <children>
+      <graph cache="NO" pos="512 384" z="1">
+        <file>el_bkg-hd.png</file>
+      </graph>
+      <!-- icon -->
+      <node pos="512 500" z="2" tag="1" />
+      <!-- desc -->
+      <label pos="512 280" z="2" tag="2">
+        <text dimensions="360 320" align="center" alias="NO" color="255 255 255 255"></text>
+        <font size="26">Arial-BoldMT</font>
+        <shadow>2 -2</shadow>
+      </label>
+      <!-- group price -->
+      <node pos="512 250" z="2" tag="4">
+        <children>
+          <graph cache="NO" pos="-60 0" tag="2">
+            <file>ico_gem-hd.png</file>
+          </graph>
+          <!-- price -->
+          <label pos="140 0" tag="1">
+            <text dimensions="320 40" align="left" alias="NO" color="238 213 72 255">0</text>
+            <font size="32">Arial-BoldMT</font>
+            <shadow>4 -4</shadow>
+          </label>
+        </children>
+      </node>
+      <!-- menu -->
+      <menu pos="0 0" z="16" tag="3" modal="YES">
+        <Items>
+          <!-- buy -->
+          <ScaleLabelButton pos="512 180" tag="1">
+            <Normal>btn_medium.png</Normal>
+            <Disabled>btn_medium_d.png</Disabled>
+            <Sfx>selling.wav</Sfx>
+            <Label offset="-4 -4">
+              <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">buy</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <Color>
+              <Normal>238 231 72 255</Normal>
+              <Disabled>72 72 72 255</Disabled>
+            </Color>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbBuy:</Callback>
+          </ScaleLabelButton>
+          <!-- back -->
+          <_ScaleLabelButton pos="120 64">
+            <Normal>btn_m_back.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="20 20">
+              <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+              <Font size="32">Arial-BoldMT</Font>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbBack:</Callback>
+          </_ScaleLabelButton>
+          <!--close-->
+          <ScaleLabelButton pos="680 595" tag="20">
+            <Normal>btn_m_close.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="20 20">
+              <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+              <Font size="32">Arial-BoldMT</Font>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbBack:</Callback>
+          </ScaleLabelButton>
+        </Items>
+      </menu>
+    </children>
+  </BuyItem>
+  <!-- BUY GEAR -->
+  <BuyGear>
+    <Assets>
+      <Atlas>commonGUI-hd.plist</Atlas>
+    </Assets>
+    <FadeColor>8 8 8 200</FadeColor>
+    <children>
+      <graph cache="NO" pos="512 384" z="1">
+        <file>el_bkg-hd.png</file>
+      </graph>
+      <label pos="500 490" tag="11" z="2">
+        <text dimensions="320 60" align="left" alias="NO" color="238 213 72 255">150</text>
+        <font size="32">Arial-BoldMT</font>
+        <shadow>4 -4</shadow>
+      </label>
+      <label pos="500 410" tag="12" z="2">
+        <text dimensions="320 60" align="left" alias="NO" color="238 213 72 255">400</text>
+        <font size="32">Arial-BoldMT</font>
+        <shadow>4 -4</shadow>
+      </label>
+      <label pos="500 330" tag="13" z="2">
+        <text dimensions="320 60" align="left" alias="NO" color="238 213 72 255">750</text>
+        <font size="32">Arial-BoldMT</font>
+        <shadow>4 -4</shadow>
+      </label>
+      <label pos="500 250" tag="14" z="2">
+        <text dimensions="320 60" align="left" alias="NO" color="238 213 72 255">1500</text>
+        <font size="32">Arial-BoldMT</font>
+        <shadow>4 -4</shadow>
+      </label>
+      <menu pos="0 0" z="16" tag="3" modal="YES">
+        <Items>
+          <!--Earn-->
+          <ScaleLabelButton pos="512 190" tag="5">
+            <Normal>btn_medium.png</Normal>
+            <Sfx>selling.wav</Sfx>
+            <Label offset="0 0">
+              <Text dimensions="320 72" align="center" alias="YES" color="238 231 72 255">earn</Text>
+              <Font size="32">Arial-BoldMT</Font>
+              <shadow>4 -4</shadow>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>onOfferWall:</Callback>
+          </ScaleLabelButton>
+          <!-- back -->
+          <ScaleLabelButton pos="120 64">
+            <Normal>btn_m_back.png</Normal>
+            <Sfx>button_metall.wav</Sfx>
+            <Label offset="20 20">
+              <Text dimensions="0 0" align="center" alias="YES" color="238 231 72 255">back</Text>
+              <Font size="32">Arial-BoldMT</Font>
+            </Label>
+            <ScaleFactor>0.95</ScaleFactor>
+            <Callback>cbBack:</Callback>
+          </ScaleLabelButton>
+        </Items>
+      </menu>
+      <label pos="512 600" z="55">
+        <text dimensions="920 60" align="center" alias="YES" color="238 231 72 255">buygems</text>
+        <font size="32">Arial-BoldMT</font>
+        <shadow>4 -4</shadow>
+      </label>
+    </children>
+  </BuyGear>
+  <!-- Wait -->
+  <Wait>
+    <FadeColor>8 8 8 200</FadeColor>
+    <children>
+      <label pos="512 384" tag="1">
+        <text dimensions="480 72" align="center" alias="YES" color="238 213 72 255">pleaseWaitScore</text>
+        <font size="32">Arial-BoldMT</font>
+        <shadow>4 -4</shadow>
+      </label>
+      <menu pos="0 0" z="16" tag="16" modal="YES">
+        <Items></Items>
+      </menu>
+    </children>
+  </Wait>
+  <!-- SPLASH -->
+  <Splash>
+    <cfg>
+      <delay>2.4</delay>
+      <fadeIn>0.2</fadeIn>
+      <fadeOut>0.2</fadeOut>
+      <firstSkip>YES</firstSkip>
+      <canSkip>YES</canSkip>
+      <position>512 384</position>
+      <maxSplashCount>4</maxSplashCount>
+    </cfg>
+  </Splash>
+  <!-- SPLASH -->
+  <!--Splash>
+    <cfg>
+      <delay>2.4</delay>
+      <fadeIn>0.2</fadeIn>
+      <fadeOut>0.2</fadeOut>
+      <firstSkip>YES</firstSkip>
+      <canSkip>YES</canSkip>
+    </cfg>
+    <children>
+      
+      <node pos="0 0" tag="1">
+        <children>
+          <graph pos="512 384" tag="1" z="1">
+            <file format="RGB565" alias="YES">adwizer-logo-ipad</file>
+          </graph>
+        </children>
+      </node>
+      
+      <node pos="0 0" tag="2">
+        <children>
+          <graph pos="512 384" tag="1" z="1">
+            <file format="RGB565" alias="NO">iphone_logo_alawar-hd.png</file>
+          </graph>
+        </children>
+      </node>
+    </children>
+  </Splash-->
+  <!-- DebugMenu -->
+  <DebugMenu>
+    <FadeColor>8 8 8 200</FadeColor>
+  </DebugMenu>
+</Menu>

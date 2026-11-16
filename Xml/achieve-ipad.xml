@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- HELPER 
+        
+    typedef enum {
+        ENEMY_UNKNOWN       = -1,
+        ENEMY_SKELET        = 0,
+        ENEMY_SPIDER        = 1,
+        ENEMY_OGRE          = 2,
+        ENEMY_GHOST         = 3,
+        ENEMY_GARGOYLE      = 4,
+        ENEMY_TANK          = 5,
+        ENEMY_SHEEP         = 6,
+        ENEMY_DEMON         = 7,
+        ENEMY_ZAPP          = 8,
+        ENEMY_ICE_MAN       = 9,
+        ENEMY_RAT           = 10,
+        ENEMY_SKULL         = 11,
+        ENEMY_ELECTRON      = 12,
+        ENEMY_COUNT,
+    } enemy_t;
+     
+     
+     typedef enum {
+        TOWER_UNKNOWN = -1,
+        TOWER_LIGTH,
+        TOWER_HEAVY,
+        TOWER_ICE,
+        TOWER_ELECTRIC,
+        TOWER_POISON,
+        TOWER_ROCKET,
+        TOWER_COUNT,
+     } tower_t;
+     
+     
+     typedef enum {
+        BULLET_UNKNOWN = -1,
+        BULLET_ARRAY,
+        BULLET_BOMB,
+        BULLET_LIGHTNING,
+        BULLET_MISSILE,
+        BULLET_FIRE,
+        BULLET_BLADE,
+        BULLET_COUNT,
+     } bullet_info_t;
+     
+     
+     typedef enum {
+        DIF_UNKNOWN = -1,
+        DIF_EASY,
+        DIF_NORMAL,
+        DIF_HARD,
+        DIF_COUNT,
+     } difficulty_t;
+     
+     
+     typedef enum {
+        MODE_UNKNOWN = -1,
+        MODE_CAMPAIGN,
+        MODE_SURVIVAL,
+     } game_mode_t;
+        
+    -->
+  <!--1 TOWER LIGTH -->
+  <enemyKill>
+    <id>10005040</id>
+    <icon>a1.png</icon>
+    <desc>a1</desc>
+    <name>an1</name>
+    <point>10</point>
+    <eventType>100</eventType>
+    <maxVal>1000</maxVal>
+    <bulletType>0</bulletType>
+  </enemyKill>
+  <!--2 TOWER HEAVY -->
+  <enemyKill>
+    <id>10005041</id>
+    <icon>a2.png</icon>
+    <desc>a2</desc>
+    <name>an2</name>
+    <point>10</point>
+    <eventType>100</eventType>
+    <maxVal>5000</maxVal>
+    <bulletType>1</bulletType>
+  </enemyKill>
+  <!--3 TOWER ICE -->
+  <attachDOT>
+    <id>10005042</id>
+    <icon>a3.png</icon>
+    <desc>a3</desc>
+    <name>an3</name>
+    <point>10</point>
+    <eventType>106</eventType>
+    <maxVal>5000</maxVal>
+    <dotType>1</dotType>
+  </attachDOT>
+  <!--4 TOWER POISON -->
+  <attachDOT>
+    <id>10005043</id>
+    <icon>a4.png</icon>
+    <desc>a4</desc>
+    <name>an4</name>
+    <point>10</point>
+    <eventType>106</eventType>
+    <maxVal>5000</maxVal>
+    <dotType>0</dotType>
+  </attachDOT>
+  <!--5 TOWER ELECTRIC -->
+  <enemyKill>
+    <id>10005044</id>
+    <icon>a5.png</icon>
+    <desc>a5</desc>
+    <name>an5</name>
+    <point>10</point>
+    <eventType>100</eventType>
+    <maxVal>1000</maxVal>
+    <bulletType>2</bulletType>
+  </enemyKill>
+  <!--6 TOWER ROCKET -->
+  <enemyKill>
+    <id>10005045</id>
+    <icon>a6.png</icon>
+    <desc>a6</desc>
+    <name>an6</name>
+    <point>10</point>
+    <eventType>100</eventType>
+    <maxVal>1000</maxVal>
+    <bulletType>3</bulletType>
+  </enemyKill>
+  <!--7 TOWER BLADE-->
+  <enemyKill>
+    <id>10005046</id>
+    <icon>a7.png</icon>
+    <desc>a7</desc>
+    <name>an7</name>
+    <point>10</point>
+    <eventType>100</eventType>
+    <maxVal>1000</maxVal>
+    <bulletType>5</bulletType>
+  </enemyKill>
+  <!--20-22 ALL FLY -->
+  <enemyDead>
+    <id>10005047</id>
+    <icon>a20.png</icon>
+    <desc>a20_21_22</desc>
+    <name>an20</name>
+    <eventType>101</eventType>
+    <maxVal>100</maxVal>
+    <enemyType>-1</enemyType>
+    <filter>1</filter>
+    <point>5</point>
+  </enemyDead>
+  <enemyDead>
+    <id>10005048</id>
+    <icon>a21.png</icon>
+    <desc>a20_21_22</desc>
+    <name>an21</name>
+    <eventType>101</eventType>
+    <maxVal>500</maxVal>
+    <enemyType>-1</enemyType>
+    <filter>1</filter>
+    <point>10</point>
+  </enemyDead>
+  <enemyDead>
+    <id>10005049</id>
+    <icon>a22.png</icon>
+    <desc>a20_21_22</desc>
+    <name>an22</name>
+    <eventType>101</eventType>
+    <maxVal>1000</maxVal>
+    <enemyType>-1</enemyType>
+    <filter>1</filter>
+    <point>15</point>
+  </enemyDead>
+  <!--23-25 SHEEP -->
+  <enemyDead>
+    <id>10005050</id>
+    <icon>a23.png</icon>
+    <desc>a23_24_25</desc>
+    <name>an23</name>
+    <eventType>101</eventType>
+    <maxVal>50</maxVal>
+    <enemyType>6</enemyType>
+    <point>5</point>
+  </enemyDead>
+  <enemyDead>
+    <id>10005051</id>
+    <icon>a24.png</icon>
+    <desc>a23_24_25</desc>
+    <name>an24</name>
+    <eventType>101</eventType>
+    <maxVal>100</maxVal>
+    <enemyType>6</enemyType>
+    <point>10</point>
+  </enemyDead>
+  <enemyDead>
+    <id>10005052</id>
+    <icon>a25.png</icon>
+    <desc>a23_24_25</desc>
+    <name>an25</name>
+    <eventType>101</eventType>
+    <maxVal>200</maxVal>
+    <enemyType>6</enemyType>
+    <point>15</point>
+  </enemyDead>
+  <!--26-30 ANY ENEMIES -->
+  <enemyDead>
+    <id>10005053</id>
+    <icon>a26.png</icon>
+    <desc>a26_27_28_29_30</desc>
+    <name>an26</name>
+    <eventType>101</eventType>
+    <maxVal>1000</maxVal>
+    <enemyType>-1</enemyType>
+    <point>5</point>
+  </enemyDead>
+  <enemyDead>
+    <id>10005054</id>
+    <icon>a27.png</icon>
+    <desc>a26_27_28_29_30</desc>
+    <name>an27</name>
+    <eventType>101</eventType>
+    <maxVal>5000</maxVal>
+    <enemyType>-1</enemyType>
+    <point>10</point>
+  </enemyDead>
+  <enemyDead>
+    <id>10005055</id>
+    <icon>a28.png</icon>
+    <desc>a26_27_28_29_30</desc>
+    <name>an28</name>
+    <eventType>101</eventType>
+    <maxVal>10000</maxVal>
+    <enemyType>-1</enemyType>
+    <point>15</point>
+  </enemyDead>
+  <enemyDead>
+    <id>10005056</id>
+    <icon>a29.png</icon>
+    <desc>a26_27_28_29_30</desc>
+    <name>an29</name>
+    <eventType>101</eventType>
+    <maxVal>15000</maxVal>
+    <enemyType>-1</enemyType>
+    <point>20</point>
+  </enemyDead>
+  <enemyDead>
+    <id>10005057</id>
+    <icon>a30.png</icon>
+    <desc>a26_27_28_29_30</desc>
+    <name>an30</name>
+    <eventType>101</eventType>
+    <maxVal>20000</maxVal>
+    <enemyType>-1</enemyType>
+    <point>30</point>
+  </enemyDead>
+  <!--40-42 ANY TOWERS -->
+  <build>
+    <id>10005058</id>
+    <icon>a40.png</icon>
+    <desc>a40_41_42</desc>
+    <name>an40</name>
+    <eventType>102</eventType>
+    <maxVal>50</maxVal>
+    <towerType>-1</towerType>
+    <point>5</point>
+  </build>
+  <build>
+    <id>10005059</id>
+    <icon>a41.png</icon>
+    <desc>a40_41_42</desc>
+    <name>an41</name>
+    <eventType>102</eventType>
+    <maxVal>100</maxVal>
+    <towerType>-1</towerType>
+    <point>10</point>
+  </build>
+  <build>
+    <id>10005060</id>
+    <icon>a42.png</icon>
+    <desc>a40_41_42</desc>
+    <name>an42</name>
+    <eventType>102</eventType>
+    <maxVal>600</maxVal>
+    <towerType>-1</towerType>
+    <point>15</point>
+  </build>
+  <!-- TOWER LIGTH UPGRADE -->
+  <upgrade>
+    <id>10005061</id>
+    <icon>a50.png</icon>
+    <desc>a50</desc>
+    <name>an50</name>
+    <eventType>103</eventType>
+    <upgradeLevel>3</upgradeLevel>
+    <maxVal>10</maxVal>
+    <towerType>0</towerType>
+    <point>5</point>
+  </upgrade>
+  <!-- TOWER HEAVY UPGRADE -->
+  <upgrade>
+    <id>10005062</id>
+    <icon>a51.png</icon>
+    <desc>a51</desc>
+    <name>an51</name>
+    <eventType>103</eventType>
+    <upgradeLevel>3</upgradeLevel>
+    <maxVal>10</maxVal>
+    <towerType>1</towerType>
+    <point>10</point>
+  </upgrade>
+  <!-- TOWER Poison UPGRADE -->
+  <upgrade>
+    <id>10005063</id>
+    <icon>a52.png</icon>
+    <desc>a52</desc>
+    <name>an52</name>
+    <eventType>103</eventType>
+    <upgradeLevel>3</upgradeLevel>
+    <maxVal>10</maxVal>
+    <towerType>4</towerType>
+    <point>10</point>
+  </upgrade>
+  <!-- TOWER Ice UPGRADE -->
+  <upgrade>
+    <id>10005067</id>
+    <icon>a53.png</icon>
+    <desc>a53</desc>
+    <name>an53</name>
+    <eventType>103</eventType>
+    <upgradeLevel>3</upgradeLevel>
+    <maxVal>10</maxVal>
+    <towerType>2</towerType>
+    <point>5</point>
+  </upgrade>
+  <!-- TOWER Electro UPGRADE -->
+  <upgrade>
+    <id>10005069</id>
+    <icon>a54.png</icon>
+    <desc>a54</desc>
+    <name>an54</name>
+    <eventType>103</eventType>
+    <upgradeLevel>3</upgradeLevel>
+    <maxVal>10</maxVal>
+    <towerType>3</towerType>
+    <point>15</point>
+  </upgrade>
+  <!-- TOWER Rocket UPGRADE -->
+  <upgrade>
+    <id>10005072</id>
+    <icon>a55.png</icon>
+    <desc>a55</desc>
+    <name>an55</name>
+    <eventType>103</eventType>
+    <upgradeLevel>3</upgradeLevel>
+    <maxVal>10</maxVal>
+    <towerType>5</towerType>
+    <point>20</point>
+  </upgrade>
+  <!-- TOWER Blade UPGRADE -->
+  <upgrade>
+    <id>10005073</id>
+    <icon>a56.png</icon>
+    <desc>a56</desc>
+    <name>an56</name>
+    <eventType>103</eventType>
+    <upgradeLevel>3</upgradeLevel>
+    <maxVal>10</maxVal>
+    <towerType>6</towerType>
+    <point>20</point>
+  </upgrade>
+  <!-- CAMPAIGN LEVEL 01 -->
+  <victory>
+    <id>10005075</id>
+    <icon>a62.png</icon>
+    <desc>a62</desc>
+    <name>lvlTitle01</name>
+    <eventType>104</eventType>
+    <level>1</level>
+    <dif>2</dif>
+    <point>20</point>
+  </victory>
+  <!-- CAMPAIGN LEVEL 02 -->
+  <victory>
+    <id>10005077</id>
+    <icon>a65.png</icon>
+    <desc>a65</desc>
+    <name>lvlTitle02</name>
+    <eventType>104</eventType>
+    <level>2</level>
+    <dif>2</dif>
+    <point>20</point>
+  </victory>
+  <!--CAMPAIGN LEVEL 03 -->
+  <victory>
+    <id>10005078</id>
+    <icon>a68.png</icon>
+    <desc>a68</desc>
+    <name>lvlTitle03</name>
+    <eventType>104</eventType>
+    <level>3</level>
+    <dif>2</dif>
+    <point>20</point>
+  </victory>
+  <!-- CAMPAIGN LEVEL 04 -->
+  <victory>
+    <id>10005083</id>
+    <icon>a71.png</icon>
+    <desc>a71</desc>
+    <name>lvlTitle04</name>
+    <eventType>104</eventType>
+    <level>4</level>
+    <dif>2</dif>
+    <point>20</point>
+  </victory>
+  <!-- CAMPAIGN LEVEL 05 -->
+  <victory>
+    <id>10005086</id>
+    <icon>a74.png</icon>
+    <desc>a74</desc>
+    <name>lvlTitle05</name>
+    <eventType>104</eventType>
+    <level>5</level>
+    <dif>2</dif>
+    <point>20</point>
+  </victory>
+  <!-- CAMPAIGN LEVEL 06 -->
+  <victory>
+    <id>10005091</id>
+    <icon>a77.png</icon>
+    <desc>a77</desc>
+    <name>lvlTitle06</name>
+    <eventType>104</eventType>
+    <level>6</level>
+    <dif>2</dif>
+    <point>20</point>
+  </victory>
+  <!-- CAMPAIGN LEVEL 07 -->
+  <victory>
+    <id>10005094</id>
+    <icon>a80.png</icon>
+    <desc>a80</desc>
+    <name>lvlTitle07</name>
+    <eventType>104</eventType>
+    <level>7</level>
+    <dif>2</dif>
+    <point>20</point>
+  </victory>
+  <!-- CAMPAIGN LEVEL 08 -->
+  <victory>
+    <id>10005095</id>
+    <icon>a83.png</icon>
+    <desc>a83</desc>
+    <name>lvlTitle08</name>
+    <eventType>104</eventType>
+    <level>8</level>
+    <dif>2</dif>
+    <point>20</point>
+  </victory>
+  <!-- CAMPAIGN LEVEL 09-->
+  <victory>
+    <id>10005096</id>
+    <icon>a84.png</icon>
+    <desc>a84</desc>
+    <name>lvlTitle09</name>
+    <eventType>104</eventType>
+    <level>9</level>
+    <dif>2</dif>
+    <point>20</point>
+  </victory>
+  <!-- CAMPAIGN LEVEL 10-->
+  <victory>
+    <id>10005097</id>
+    <icon>a85.png</icon>
+    <desc>a85</desc>
+    <name>lvlTitle10</name>
+    <eventType>104</eventType>
+    <level>10</level>
+    <dif>2</dif>
+    <point>20</point>
+  </victory>
+  <!-- SURVIVAL LEVEL 01 -->
+  <survival>
+    <id>10005098</id>
+    <icon>a90.png</icon>
+    <desc>a90</desc>
+    <name>an90</name>
+    <eventType>105</eventType>
+    <level>1</level>
+    <mode>1</mode>
+    <def>
+      <easy>99</easy>
+      <normal>99</normal>
+      <hard>12</hard>
+    </def>
+    <point>15</point>
+  </survival>
+  <!-- SURVIVAL LEVEL 02 -->
+  <survival>
+    <id>10005154</id>
+    <icon>a91.png</icon>
+    <desc>a91</desc>
+    <name>an91</name>
+    <eventType>105</eventType>
+    <level>2</level>
+    <mode>1</mode>
+    <def>
+      <easy>99</easy>
+      <normal>99</normal>
+      <hard>12</hard>
+    </def>
+    <point>15</point>
+  </survival>
+  <!-- SURVIVAL LEVEL 03 -->
+  <survival>
+    <id>10005155</id>
+    <icon>a92.png</icon>
+    <desc>a92</desc>
+    <name>an92</name>
+    <eventType>105</eventType>
+    <level>3</level>
+    <mode>1</mode>
+    <def>
+      <easy>99</easy>
+      <normal>99</normal>
+      <hard>12</hard>
+    </def>
+    <point>15</point>
+  </survival>
+  <!-- SURVIVAL LEVEL 04 -->
+  <survival>
+    <id>10005156</id>
+    <icon>a93.png</icon>
+    <desc>a93</desc>
+    <name>an93</name>
+    <eventType>105</eventType>
+    <level>4</level>
+    <mode>1</mode>
+    <def>
+      <easy>99</easy>
+      <normal>99</normal>
+      <hard>12</hard>
+    </def>
+    <point>15</point>
+  </survival>
+  <!-- SURVIVAL LEVEL 05 -->
+  <survival>
+    <id>10005157</id>
+    <icon>a94.png</icon>
+    <desc>a94</desc>
+    <name>an94</name>
+    <eventType>105</eventType>
+    <level>5</level>
+    <mode>1</mode>
+    <def>
+      <easy>99</easy>
+      <normal>99</normal>
+      <hard>12</hard>
+    </def>
+    <point>15</point>
+  </survival>
+  <!-- SURVIVAL LEVEL 06 -->
+  <survival>
+    <id>10005158</id>
+    <icon>a95.png</icon>
+    <desc>a95</desc>
+    <name>an95</name>
+    <eventType>105</eventType>
+    <level>6</level>
+    <mode>1</mode>
+    <def>
+      <easy>99</easy>
+      <normal>99</normal>
+      <hard>12</hard>
+    </def>
+    <point>15</point>
+  </survival>
+  <!-- SURVIVAL LEVEL 07 -->
+  <survival>
+    <id>10005159</id>
+    <icon>a96.png</icon>
+    <desc>a96</desc>
+    <name>an96</name>
+    <eventType>105</eventType>
+    <level>7</level>
+    <mode>1</mode>
+    <def>
+      <easy>99</easy>
+      <normal>99</normal>
+      <hard>12</hard>
+    </def>
+    <point>15</point>
+  </survival>
+  <!-- SURVIVAL LEVEL 08 -->
+  <survival>
+    <id>10005160</id>
+    <icon>a97.png</icon>
+    <desc>a97</desc>
+    <name>an97</name>
+    <eventType>105</eventType>
+    <level>8</level>
+    <mode>1</mode>
+    <def>
+      <easy>99</easy>
+      <normal>99</normal>
+      <hard>12</hard>
+    </def>
+    <point>15</point>
+  </survival>
+  <!-- SURVIVAL LEVEL 09-->
+  <survival>
+    <id>10005161</id>
+    <icon>a98.png</icon>
+    <desc>a98</desc>
+    <name>an98</name>
+    <eventType>105</eventType>
+    <level>9</level>
+    <mode>1</mode>
+    <def>
+      <easy>99</easy>
+      <normal>99</normal>
+      <hard>12</hard>
+    </def>
+    <point>15</point>
+  </survival>
+  <!-- SURVIVAL LEVEL 10-->
+  <survival>
+    <id>10005162</id>
+    <icon>a99.png</icon>
+    <desc>a99</desc>
+    <name>an99</name>
+    <eventType>105</eventType>
+    <level>10</level>
+    <mode>1</mode>
+    <def>
+      <easy>99</easy>
+      <normal>99</normal>
+      <hard>12</hard>
+    </def>
+    <point>15</point>
+  </survival>
+  <!-- -->
+  <maniac>
+    <id>10005163</id>
+    <icon>a110.png</icon>
+    <desc>a110_111_112</desc>
+    <name>an110</name>
+    <eventType>105</eventType>
+    <shild>1</shild>
+    <maxVal>3</maxVal>
+    <point>10</point>
+  </maniac>
+  <maniac>
+    <id>10005164</id>
+    <icon>a111.png</icon>
+    <desc>a110_111_112</desc>
+    <name>an111</name>
+    <eventType>105</eventType>
+    <shild>1</shild>
+    <maxVal>6</maxVal>
+    <point>15</point>
+  </maniac>
+  <maniac>
+    <id>10005165</id>
+    <icon>a112.png</icon>
+    <desc>a110_111_112</desc>
+    <name>an112</name>
+    <eventType>105</eventType>
+    <shild>1</shild>
+    <maxVal>10</maxVal>
+    <point>25</point>
+  </maniac>
+  <!--120 -122 LOSSLESS -->
+  <lossless>
+    <id>10005166</id>
+    <icon>a120.png</icon>
+    <desc>a120</desc>
+    <name>an120</name>
+    <eventType>104</eventType>
+    <maxVal>5</maxVal>
+    <dif>0</dif>
+    <point>10</point>
+  </lossless>
+  <lossless>
+    <id>10005167</id>
+    <icon>a121.png</icon>
+    <desc>a121</desc>
+    <eventType>104</eventType>
+    <name>an121</name>
+    <maxVal>5</maxVal>
+    <dif>1</dif>
+    <point>15</point>
+  </lossless>
+  <lossless>
+    <id>10005168</id>
+    <icon>a122.png</icon>
+    <desc>a122</desc>
+    <name>an122</name>
+    <eventType>104</eventType>
+    <maxVal>5</maxVal>
+    <dif>2</dif>
+    <point>30</point>
+  </lossless>
+  <!--130-132 % All Achievements-->
+  <collector>
+    <id>10005169</id>
+    <icon>a130.png</icon>
+    <desc>a130_131_132</desc>
+    <name>an130</name>
+    <eventType>107</eventType>
+    <percent>25</percent>
+    <point>15</point>
+  </collector>
+  <collector>
+    <id>10005170</id>
+    <icon>a131.png</icon>
+    <desc>a130_131_132</desc>
+    <name>an131</name>
+    <eventType>107</eventType>
+    <percent>50</percent>
+    <point>30</point>
+  </collector>
+  <collector>
+    <id>10005171</id>
+    <icon>a132.png</icon>
+    <desc>a130_131_132</desc>
+    <name>an132</name>
+    <eventType>107</eventType>
+    <percent>95</percent>
+    <point>50</point>
+  </collector>
+</root>

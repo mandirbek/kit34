@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Game>
+  <!-- CFG -->
+  <Cfg>
+    <Speed>
+      <Slow>0.5</Slow>
+      <Normal>1</Normal>
+      <Fast>2</Fast>
+    </Speed>
+    <TowerClickZone>40</TowerClickZone>
+    <Difficulty>
+      <Easy>0.3</Easy>
+      <Normal>0.5</Normal>
+      <Hard>0.7</Hard>
+    </Difficulty>
+    <ScoreModifiers>
+      <Easy>1</Easy>
+      <Normal>1</Normal>
+      <Hard>4</Hard>
+    </ScoreModifiers>
+    <GemModifiers>
+      <Easy>1</Easy>
+      <Normal>5</Normal>
+      <Hard>15</Hard>
+    </GemModifiers>
+  </Cfg>
+  <!-- MAP -->
+  <Map>
+    <Scroll>
+      <Factor>1</Factor>
+      <Inverse>NO</Inverse>
+    </Scroll>
+    <Scale>
+      <Factor>1</Factor>
+      <Inverse>NO</Inverse>
+      <Max>1.25</Max>
+    </Scale>
+  </Map>
+  <!-- LEVELS -->
+  <Levels>
+    <Level id="1" ofID="1144007">
+      <Title>lvlTitle01</Title>
+      <Category>10333</Category>
+      <File>level01</File>
+    </Level>
+    <Level id="2" ofID="1144007" item="212">
+      <Title>lvlTitle02</Title>
+      <Category>20333</Category>
+      <File>level02</File>
+    </Level>
+    <Level id="3" item="213" ofID="1144007">
+      <Title>lvlTitle03</Title>
+      <Category>30333</Category>
+      <File>level03</File>
+    </Level>
+    <Level id="4" item="214" ofID="1144007">
+      <Title>lvlTitle04</Title>
+      <Category>40333</Category>
+      <File>level04</File>
+    </Level>
+    <Level id="5" item="215" ofID="1144007">
+      <Title>lvlTitle05</Title>
+      <Category>50333</Category>
+      <File>level05</File>
+    </Level>
+    <Level id="6" item="216" ofID="1144007">
+      <Title>lvlTitle06</Title>
+      <Category>60333</Category>
+      <File>level06</File>
+    </Level>
+    <Level id="7" item="217" ofID="1144007">
+      <Title>lvlTitle07</Title>
+      <Category>70333</Category>
+      <File>level07</File>
+    </Level>
+    <Level id="8" item="218" ofID="1144007">
+      <Title>lvlTitle08</Title>
+      <Category>80333</Category>
+      <File>level08</File>
+    </Level>
+    <Level id="9" item="219" ofID="00000000">
+      <Title>lvlTitle08</Title>
+      <Category>90333</Category>
+      <File>level09</File>
+    </Level>
+    <Level id="10" item="220" ofID="00000000">
+      <Title>lvlTitle10</Title>
+      <Category>100333</Category>
+      <File>level10</File>
+    </Level>
+  </Levels>
+  <!-- GAME -->
+  <Game>
+    <SellPercent>50</SellPercent>
+    <DelayBetweenWaves>5</DelayBetweenWaves>
+    <TowerOffset>0 48</TowerOffset>
+  </Game>
+  <!-- TOWER RANGE -->
+  <TowerRange good="127 255 20 96" bad="255 59 20 96">
+    <Top rotate="20" clockwise="YES">
+      <File format="RGBA8888">ringBottom.png</File>
+    </Top>
+    <Bottom rotate="45" clockwise="NO">
+      <File format="RGBA4444">ringTop.png</File>
+    </Bottom>
+  </TowerRange>
+  <!-- SPAWN POINTER -->
+  <SpawnPointer>
+    <ScaleMin>0.8</ScaleMin>
+    <ScaleMax>1</ScaleMax>
+    <ScaleTime>0.5</ScaleTime>
+    <Transparency>128</Transparency>
+    <FadeTime>0.2</FadeTime>
+    <!-- left top right bottom -->
+    <Border>80 140 80 140</Border>
+    <RedArrow cache="NO">
+      <File>redArrow-hd.png</File>
+    </RedArrow>
+  </SpawnPointer>
+  <Gear>
+    <Delay>5</Delay>
+    <Radius>128</Radius>
+    <Jump>
+      <Time>1</Time>
+      <Height>48</Height>
+      <Count>3</Count>
+    </Jump>
+    <Body col="2" row="2">
+      <File>Gem-hd.png</File>
+      <Ani delay="0.08" loop="YES">
+        <Frame>0 3</Frame>
+      </Ani>
+    </Body>
+	<Label offset="0 0">
+	  <Text dimensions="72 72" align="center" alias="NO" color="238 231 72 255">+1</Text>
+	  <Font size="36">Arial-BoldMT</Font>
+	  <shadow>4 -4</shadow>
+	</Label>
+  </Gear>
+  <InAppItems>
+    <Item>
+      <ProductID>com.alawar.goblindefenders.smallpack</ProductID>
+      <Tag>1</Tag>
+      <Val>150</Val>
+      <FlyerMsg>0.99</FlyerMsg>
+      <FlurryEvent>buy_pac_1</FlurryEvent>
+    </Item>
+    <Item>
+      <ProductID>com.alawar.goblindefenders.bigpack</ProductID>
+      <Tag>2</Tag>
+      <Val>400</Val>
+      <FlyerMsg>1.99</FlyerMsg>
+      <FlurryEvent>buy_pac_2</FlurryEvent>
+    </Item>
+    <Item>
+      <ProductID>com.alawar.goblindefenders.hugepack</ProductID>
+      <Tag>3</Tag>
+      <Val>750</Val>
+      <FlyerMsg>2.99</FlyerMsg>
+      <FlurryEvent>buy_pac_3</FlurryEvent>
+    </Item>
+    <Item>
+      <ProductID>com.alawar.goblindefenders.ultimatepack</ProductID>
+      <Tag>4</Tag>
+      <Val>1500</Val>
+      <FlyerMsg>3.99</FlyerMsg>
+      <FlurryEvent>buy_pac_4</FlurryEvent>
+    </Item>
+    <Item>
+      <ProductID>com.alawar.goblindefenders.smallgem</ProductID>
+      <Tag>1000</Tag>
+      <Val>0</Val>
+      <FlyerMsg>0.99</FlyerMsg>
+      <FlurryEvent>buy_smallgem</FlurryEvent>
+    </Item>
+  </InAppItems>
+  <!-- LOCALIZATION -->
+  <Localization>
+    <Languages default="en">
+      <Language>en</Language>
+    </Languages>
+    <!--Languages default="en">
+      <Language>en</Language>
+      <Language>ru</Language>
+      <Language>de</Language>
+      <Language>es</Language>
+      <Language>fr</Language>
+      <Language>it</Language>
+      <Language>ja</Language>
+      <Language>ko</Language>
+      <Language>nl</Language>
+      <Language>pt</Language>
+      <Language>zh-Hans</Language>
+    </Languages-->
+  </Localization>
+  <!-- LOADING BAR -->
+  <!-- DEBUG -->
+  <Debug>
+    <StartLevel>-1</StartLevel>
+    <ShowDebugMenu>YES</ShowDebugMenu>
+    <UnlockedAllLevels>YES</UnlockedAllLevels>
+    <ShowFps>YES</ShowFps>
+  </Debug>
+</Game>

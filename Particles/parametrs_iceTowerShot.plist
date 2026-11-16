@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>1</string> BOOL __enabled;
+	<string>-1</string> NSUInteger	__duration;
+	<string>0</string>  __gravityX;
+	<string>0</string>  __gravityY;
+	<string>0</string> __angle
+	<string>10</string> __angleVar
+	<string>0</string> __accel
+	<string>0</string> __accelVar
+	<string>160</string> __emitterPosX
+	<string>240</string> __emitterPosY
+	<string>0</string> __emitterPosVarX
+	<string>0</string> __emitterPosVarY
+	<string>0.4</string> __life
+	<string>0.1</string>__lifeVar
+	<string>120</string> __speed
+	<string>5</string> __speedVar
+	<string>15</string> float __startSize
+	<string>2.5</string> float __startSizeVar;
+	<string>35</string> float __endSize;
+	<string>0.7</string> __startR;
+	<string>0.7</string> __startG
+	<string>0.7</string> __startB
+	<string>1.0</string> __startA
+	<string>0</string> __startRVar
+	<string>0</string> __startGVar
+	<string>0</string> __startBVar
+	<string>0</string> __startAVar
+	<string>0.7</string> __endR;
+	<string>0.7</string> __endG
+	<string>0.7</string> __endB
+	<string>0.6</string> __endA
+	<string>0</string> __endRVar
+	<string>0</string> __endGVar
+	<string>0</string> __endBVar
+	<string>0</string> __endAVar
+	<string>30</string> __totalParticles
+	<string>2</string>  __textureNumber
+	<string>20</string> __startSpin
+	<string>10</string> __startSpinVar
+	<string>120</string> __endSpin
+	<string>90</string> __endSpinVar
+</array>
+</plist>

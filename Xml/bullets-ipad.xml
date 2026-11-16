@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bullets>
+  <!-- BLADE -->
+  <Blade type="blade">
+    <Image col="4" row="2" layer="0">
+      <File>bomb-hd.png</File>
+      <Ani delay="1" loop="NO" play="NO">
+        <Frame>1</Frame>
+      </Ani>
+      <Color>0 0 0 0</Color>
+    </Image>
+    <Speed>1600</Speed>
+    <Polygon>
+      <Points>-28 -8, -28 8, 28 8, 28 -8</Points>
+    </Polygon>
+    <Expl col="8" row="4">
+      <File>Hits2-hd.png</File>
+      <Ani delay="0.05" loop="NO" play="NO">
+        <Frame>0 5</Frame>
+      </Ani>
+    </Expl>
+  </Blade>
+  <!-- ARROW -->
+  <Arrow type="arrow">
+    <Speed>800</Speed>
+    <Lifetime>3</Lifetime>
+    <Image col="4" row="2" layer="0">
+      <File>bomb-hd.png</File>
+      <Ani delay="1" loop="NO" play="NO">
+        <Frame>1</Frame>
+      </Ani>
+    </Image>
+    <Polygon>
+      <Points>-28 -8, -28 8, 28 8, 28 -8</Points>
+    </Polygon>
+  </Arrow>
+  <Arrow1 type="arrow">
+    <Speed>800</Speed>
+    <Lifetime>3</Lifetime>
+    <Image col="4" row="2" layer="0">
+      <File>bomb-hd.png</File>
+      <Ani delay="1" loop="NO" play="NO">
+        <Frame>4</Frame>
+      </Ani>
+    </Image>
+    <Polygon>
+      <Points>-28 -8, -28 8, 28 8, 28 -8</Points>
+    </Polygon>
+  </Arrow1>
+  <!-- ICE FIRE -->
+  <IceFire type="fire">
+    <Lifetime>10</Lifetime>
+    <!--DoT>
+      <SlowSpeed>
+        <Lifetime>3</Lifetime>
+        <SlowSpeed>50</SlowSpeed>
+      </SlowSpeed>
+    </DoT-->
+    <Particle additive="YES" offset="0 0">
+      <EmissionRate>15</EmissionRate>
+      <QuadPartSys>YES</QuadPartSys>
+      <PositionType>grouped</PositionType>
+      <File>iceTowerShot-ipad</File>
+      <Image>smoke01.png</Image>
+    </Particle>
+    <Polygon>
+      <Points>0 -8, 0 8, 128 32, 128 -32</Points>
+    </Polygon>
+  </IceFire>
+  <!-- BOMB -->
+  <Bomb type="bomb">
+    <Range>120</Range>
+    <Speed>280</Speed>
+    <MinDamage>5</MinDamage>
+    <Expl col="8" row="4">
+      <File>Hits-hd.png</File>
+      <Ani delay="0.05" loop="NO" play="NO">
+        <Frame>20 31</Frame>
+      </Ani>
+    </Expl>
+    <Image col="4" row="2" layer="0">
+      <File>bomb-hd.png</File>
+      <Ani delay="1" loop="NO" play="NO">
+        <Frame>2</Frame>
+      </Ani>
+    </Image>
+    <!-- SFX -->
+    <Sfx>
+      <Expl>
+        <Sound>t_heavy_hit.wav</Sound>
+        <Sound>t_heavy_hit2.wav</Sound>
+      </Expl>
+    </Sfx>
+  </Bomb>
+  <Bomb1 type="bomb">
+    <Range>140</Range>
+    <Speed>300</Speed>
+    <MinDamage>5</MinDamage>
+    <Expl col="8" row="4">
+      <File>Hits-hd.png</File>
+      <Ani delay="0.05" loop="NO" play="NO">
+        <Frame>20 31</Frame>
+      </Ani>
+    </Expl>
+    <Image col="4" row="2" layer="0">
+      <File>bomb-hd.png</File>
+      <Ani delay="1" loop="NO" play="NO">
+        <Frame>5</Frame>
+      </Ani>
+    </Image>
+    <!-- SFX -->
+    <Sfx>
+      <Expl>
+        <Sound>t_heavy_hit.wav</Sound>
+        <Sound>t_heavy_hit2.wav</Sound>
+      </Expl>
+    </Sfx>
+  </Bomb1>
+  <!-- LIGHTNING -->
+  <Lightning type="lightning">
+    <Range>256</Range>
+    <Lifetime>0.3</Lifetime>
+    <ReduceDamage>25</ReduceDamage>
+    <ReproductionCount>1</ReproductionCount>
+    <WaitSeparation>0.2</WaitSeparation>
+    <FracLev>0.2</FracLev>
+    <FracDec>0.84</FracDec>
+    <RebuildTime>0.05</RebuildTime>
+    <Image>
+      <File body="0 0 2 32" point="32 0 32 32" size="24">lightning.png</File>
+    </Image>
+    <Expl col="8" row="4">
+      <File>Hits2-hd.png</File>
+      <Ani delay="0.05" loop="NO" play="NO">
+        <Frame>16 23</Frame>
+      </Ani>
+    </Expl>
+  </Lightning>
+  <Lightning1 type="lightning">
+    <Range>256</Range>
+    <Lifetime>0.3</Lifetime>
+    <ReduceDamage>25</ReduceDamage>
+    <ReproductionCount>2</ReproductionCount>
+    <WaitSeparation>0.2</WaitSeparation>
+    <FracLev>0.2</FracLev>
+    <FracDec>0.84</FracDec>
+    <RebuildTime>0.05</RebuildTime>
+    <Image>
+      <File body="0 0 2 32" point="32 0 32 32" size="24">lightning.png</File>
+    </Image>
+    <Expl col="8" row="4">
+      <File>Hits2-hd.png</File>
+      <Ani delay="0.05" loop="NO" play="NO">
+        <Frame>16 23</Frame>
+      </Ani>
+    </Expl>
+  </Lightning1>
+  <Lightning2 type="lightning">
+    <Range>256</Range>
+    <Lifetime>0.3</Lifetime>
+    <ReduceDamage>25</ReduceDamage>
+    <ReproductionCount>3</ReproductionCount>
+    <WaitSeparation>0.2</WaitSeparation>
+    <FracLev>0.2</FracLev>
+    <FracDec>0.84</FracDec>
+    <RebuildTime>0.05</RebuildTime>
+    <Image>
+      <File body="0 0 2 32" point="32 0 32 32" size="24">lightning.png</File>
+    </Image>
+    <Expl col="8" row="4">
+      <File>Hits2-hd.png</File>
+      <Ani delay="0.05" loop="NO" play="NO">
+        <Frame>16 23</Frame>
+      </Ani>
+    </Expl>
+  </Lightning2>
+  <!-- POISON -->
+  <Poison type="arrow">
+    <Image col="4" row="2" layer="0">
+      <File>bomb-hd.png</File>
+      <Ani delay="1" loop="NO" play="NO">
+        <Frame>0</Frame>
+      </Ani>
+    </Image>
+    <Speed>700</Speed>
+    <!--DoT>
+      <Poison>
+        <Lifetime>3.5</Lifetime>
+        <Delay>1</Delay>
+        <Damage>15</Damage>
+        <SlowSpeedTime>0.5</SlowSpeedTime>
+        <SlowSpeed>50</SlowSpeed>
+      </Poison>
+    </DoT-->
+    <Polygon>
+      <Points>-32 -8, -28 8, 28 8, 28 -8</Points>
+    </Polygon>
+    <Expl1 col="8" row="8">
+      <File>Hits-hd.png</File>
+      <Ani delay="0.05" loop="NO" play="NO">
+        <Frame>8 15</Frame>
+      </Ani>
+    </Expl1>
+  </Poison>
+  <!-- MISSILE -->
+  <Missile type="missile">
+    <Range>200</Range>
+    <SearchNewTarget>YES</SearchNewTarget>
+    <Speed>240</Speed>
+    <Lifetime>10</Lifetime>
+    <MaxRotation>45</MaxRotation>
+    <SpeedRotation>3</SpeedRotation>
+    <Expl col="8" row="4">
+      <File>Hits-hd.png</File>
+      <Ani delay="0.05" loop="NO" play="NO">
+        <Frame>8 19</Frame>
+      </Ani>
+    </Expl>
+    <Particle additive="NO" offset="-10 0">
+      <EmissionRate>15</EmissionRate>
+      <QuadPartSys>YES</QuadPartSys>
+      <PositionType>relative</PositionType>
+      <File>missile-ipad</File>
+      <Image>star01.png</Image>
+    </Particle>
+    <Polygon>
+      <Points>24 0, -24 -12, -24 12</Points>
+    </Polygon>
+    <Image col="4" row="2" layer="0">
+      <File>bomb-hd.png</File>
+      <Ani delay="1" loop="NO" play="NO">
+        <Frame>3</Frame>
+      </Ani>
+    </Image>
+    <!-- SFX -->
+    <Sfx>
+      <Expl>
+        <Sound>t_rocket_hit.wav</Sound>
+      </Expl>
+    </Sfx>
+  </Missile>
+  <Missile1 type="missile">
+    <Range>200</Range>
+    <SearchNewTarget>YES</SearchNewTarget>
+    <Speed>240</Speed>
+    <Lifetime>10</Lifetime>
+    <MaxRotation>45</MaxRotation>
+    <SpeedRotation>3</SpeedRotation>
+    <Expl col="8" row="4">
+      <File>Hits-hd.png</File>
+      <Ani delay="0.05" loop="NO" play="NO">
+        <Frame>8 19</Frame>
+      </Ani>
+    </Expl>
+    <Particle additive="NO" offset="-10 0">
+      <EmissionRate>15</EmissionRate>
+      <QuadPartSys>YES</QuadPartSys>
+      <PositionType>relative</PositionType>
+      <File>missile-ipad</File>
+      <Image>star01.png</Image>
+    </Particle>
+    <Polygon>
+      <Points>24 0, -24 -12, -24 12</Points>
+    </Polygon>
+    <Image col="4" row="2" layer="0">
+      <File>bomb-hd.png</File>
+      <Ani delay="0.2" loop="YES" play="YES">
+        <Frame>6 7</Frame>
+      </Ani>
+    </Image>
+    <!-- SFX -->
+    <Sfx>
+      <Expl>
+        <Sound>t_rocket_hit.wav</Sound>
+      </Expl>
+    </Sfx>
+  </Missile1>
+</Bullets>

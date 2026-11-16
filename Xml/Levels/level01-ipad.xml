@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Level id="1">
+  <!-- Cfg -->
+  <Cfg>
+    <Campaign>
+      <Shild>15</Shild>
+      <Money>30</Money>
+      <Music>Forest.wav</Music>
+      <Towers>Ligth Heavy Ice Blade</Towers>
+      <HelpPage>1</HelpPage>
+    </Campaign>
+    <Survival>
+      <Shild>15</Shild>
+      <Money>60</Money>
+      <Music>Forest.wav</Music>
+      <Towers>Ligth Heavy Ice Poison Blade</Towers>
+      <Modifier>2</Modifier>
+    </Survival>
+  </Cfg>
+  <!-- Cache -->
+  <Cache>
+    <File>Map11_12_obj-hd.plist</File>
+  </Cache>
+  <!-- Layers -->
+  <Layers>
+    <Img pos="720 480" zorder="0" rect="0 0 1440 960">
+      <File format="RGB565">Map11-hd.png</File>
+    </Img>
+    <Img cache="YES" pos="80 600" zorder="500">
+      <File>start11.png</File>
+    </Img>
+    <Img cache="YES" pos="520 584" zorder="117">
+      <File>tree11.png</File>
+    </Img>
+    <Img cache="YES" pos="920 400" zorder="158">
+      <File>tree12.png</File>
+    </Img>
+    <!--Img cache="YES" pos="668 170" zorder="179">
+      <File>finish11.png</File>
+    </Img-->
+  </Layers>
+  <!-- CASTLES -->
+  <Castles>
+    <Castle pos="1330 280" zorder="179">
+      <Road>-1</Road>
+      <Body cache="YES" pos="0 0" zorder="0">
+        <File>finish11.png</File>
+      </Body>
+      <Efx col="3" row="3" offset="0 0" zorder="1">
+        <File>sfx_lives-hd.png</File>
+        <Ani delay="0.05" loop="NO">
+          <Frame>0 9</Frame>
+        </Ani>
+      </Efx>
+    </Castle>
+  </Castles>
+  <!-- CAMERA CONTROL -->
+  <CameraControl>
+    <Time>0.5</Time>
+    <Position>40 120</Position>
+    <Scale>1</Scale>
+  </CameraControl>
+  <!-- Map -->
+  <Map>map11-hd.tmx</Map>
+  <!-- Waves -->
+  <Waves>
+    <!-- Campaign -->
+    <Campaign>
+      <!--Wave1 Rat 5 -->
+      <Wave>
+        <Group activate="0" mob="Rat" count="5" rate="1" healthModifier="1.5" way="1" />
+      </Wave>
+      <!--Wave2 SSpider 3-->
+      <Wave>
+        <Msg>
+          <Icon>a206.png</Icon>
+          <Text alias="YES">a206</Text>
+        </Msg>
+        <Group activate="0" mob="SSpider" count="9" rate="0.35" healthModifier="1.5" way="1" />
+      </Wave>
+      <!--Wave3 Ogre 4-->
+      <Wave>
+        <Group activate="0" mob="Ogre" count="4" rate="1.5" healthModifier="3.5" way="1" />
+      </Wave>
+      <!--Wave4 Skelet 4-->
+      <Wave>
+        <Group activate="0" mob="Skelet" count="4" rate="1" healthModifier="3" way="1" />
+      </Wave>
+      <!--Wave5 Skull - 4-->
+      <Wave>
+        <Msg>
+          <Icon>a200.png</Icon>
+          <Text alias="YES">a200</Text>
+        </Msg>
+        <Group activate="0" mob="Skull" count="4" rate="2" healthModifier="5" way="2" />
+      </Wave>
+      <!--Wave6 Ghost 4-->
+      <Wave>
+        <Msg>
+          <Icon>a201.png</Icon>
+          <Text alias="YES">a201</Text>
+        </Msg>
+        <Group activate="0" mob="Ghost" count="3" rate="0.4" healthModifier="3.5" way="1" />
+      </Wave>
+      <!--Wave7 Spider 5-->
+      <Wave>
+        <Group activate="0" mob="Spider" count="2" rate="5" healthModifier="3" way="1" />
+      </Wave>
+      <!--Wave8 Rat-->
+      <Wave>
+        <Group activate="0" mob="Rat" count="8" rate="1" healthModifier="7" way="1" />
+      </Wave>
+      <!--Wave9 Sheep 4-->
+      <Wave>
+        <Msg>
+          <Icon>a202.png</Icon>
+          <Text alias="YES">a202</Text>
+        </Msg>
+        <Group activate="0" mob="Sheep" count="4" rate="1" healthModifier="2.5" way="1" />
+      </Wave>
+      <!--Wave10 BOgre 1-->
+      <Wave>
+        <Group activate="0" mob="BOgre" count="1" rate="0.8" healthModifier="4" way="1" />
+      </Wave>
+      <!--Wave11 Skull 8-->
+      <Wave>
+        <Msg>
+          <Icon>a200.png</Icon>
+          <Text alias="YES">a200</Text>
+        </Msg>
+        <Group activate="0" mob="Skull" count="6" rate="2" healthModifier="17" way="2" />
+      </Wave>
+      <!--Wave12 Skelet 6-->
+      <Wave>
+        <Group activate="0" mob="Skelet" count="4" rate="2" healthModifier="13" way="1" />
+      </Wave>
+      <!--Wave13 SSpider 4-->
+      <Wave>
+        <Group activate="0" mob="SSpider" count="15" rate="0.5" healthModifier="6" way="1" />
+      </Wave>
+      <!--Wave14 Ghost 6-->
+      <Wave>
+        <Msg>
+          <Icon>a201.png</Icon>
+          <Text alias="YES">a201</Text>
+        </Msg>
+        <Group activate="0" mob="Ghost" count="6" rate="0.8" healthModifier="6" way="1" />
+      </Wave>
+      <!--Wave15 Ogre 8-->
+      <Wave>
+        <Group activate="0" mob="Ogre" count="7" rate="2.5" healthModifier="21" way="1" />
+      </Wave>
+      <!--Wave16 Skull 12-->
+      <Wave>
+        <Msg>
+          <Icon>a200.png</Icon>
+          <Text alias="YES">a200</Text>
+        </Msg>
+        <Group activate="0" mob="Skull" count="7" rate="1.5" healthModifier="18" way="2" />
+      </Wave>
+      <!--Wave17 Sheep 8-->
+      <Wave>
+        <Msg>
+          <Icon>a202.png</Icon>
+          <Text alias="YES">a202</Text>
+        </Msg>
+        <Group activate="0" mob="Sheep" count="5" rate="1" healthModifier="6" way="1" />
+      </Wave>
+      <!--Wave18 Spider 3-->
+      <Wave>
+        <Group activate="0" mob="Spider" count="3" rate="5" healthModifier="13" way="1" />
+        <Group activate="12.5" mob="SSpider" count="10" rate="0.5" healthModifier="6" way="1" />
+      </Wave>
+      <!--Wave19 Skelet&Skull-->
+      <Wave>
+        <Group activate="0" mob="Skelet" count="7" rate="2" healthModifier="10" way="1" />
+        <Msg>
+          <Icon>a200.png</Icon>
+          <Text alias="YES">a200</Text>
+        </Msg>
+        <Group activate="7" mob="Skull" count="6" rate="3" healthModifier="24" way="2" />
+      </Wave>
+      <!--Wave20 Bogre&Ogre-->
+      <Wave>
+        <Group activate="11" mob="BOgre" count="1" rate="2" healthModifier="11" way="1" />
+        <Group activate="0" mob="Ogre" count="6" rate="2" healthModifier="30" way="1" />
+      </Wave>
+      <!--Wave21 Ghost&Skull-->
+      <Wave>
+        <Msg>
+          <Icon>a200.png</Icon>
+          <Text alias="YES">a200</Text>
+        </Msg>
+        <Group activate="0" mob="Ghost" count="6" rate="0.8" healthModifier="18" way="1" />
+        <Group activate="4" mob="Skull" count="4" rate="4" healthModifier="40" way="2" />
+      </Wave>
+      <!--Wave22 Rat&Spider-->
+      <Wave>
+        <Group activate="0" mob="Rat" count="8" rate="1" healthModifier="25" way="1" />
+        <Group activate="8" mob="Spider" count="2" rate="3" healthModifier="13" way="1" />
+      </Wave>
+      <!--Wave23 Skelet&Bogre-->
+      <Wave>
+        <Group activate="0" mob="Skelet" count="7" rate="3" healthModifier="30" way="1" />
+        <Group activate="9" mob="BOgre" count="1" rate="3" healthModifier="10" way="1" />
+      </Wave>
+      <!--Wave24 Skull-->
+      <Wave>
+        <Group activate="0" mob="Ogre" count="4" rate="2" healthModifier="25" way="1" />
+        <Group activate="5" mob="Skull" count="7" rate="3" healthModifier="45" way="2" />
+      </Wave>
+      <!--Wave25 Bspider&BOgre-->
+      <Wave>
+        <Group activate="0" mob="BSpider" count="1" rate="3" healthModifier="8" way="1" />
+        <Group activate="6" mob="BOgre" count="1" rate="3" healthModifier="15" way="1" />
+        <Group activate="10" mob="Skull" count="6" rate="3" healthModifier="35" way="2" />
+      </Wave>
+    </Campaign>
+    <!-- Survival -->
+    <Survival beginSurvival="10" endSurvival="18">
+      <!-- 1 Rats-->
+      <Wave>
+        <Group activate="0" mob="Rat" count="4" rate="1" healthModifier="1.5" way="1" />
+        <Group activate="6" mob="Rat" count="5" rate="1" healthModifier="3" way="1" />
+        <Group activate="12" mob="Rat" count="5" rate="1" healthModifier="5" way="1" />
+      </Wave>
+      <!--2 Skelet-->
+      <Wave>
+        <Group activate="0" mob="Skelet" count="2" rate="1" healthModifier="4" way="1" />
+        <Group activate="4" mob="Skelet" count="3" rate="1" healthModifier="5" way="1" />
+        <Group activate="10" mob="Skelet" count="3" rate="1" healthModifier="6" way="1" />
+      </Wave>
+      <!--3 Skull-->
+      <Wave>
+        <Group activate="0" mob="Skull" count="3" rate="2" healthModifier="6" way="2" />
+        <Group activate="7" mob="Skull" count="4" rate="2" healthModifier="7" way="2" />
+        <Group activate="12" mob="Skull" count="5" rate="2" healthModifier="8" way="2" />
+      </Wave>
+      <!--4 Ogres-->
+      <Wave>
+        <Group activate="0" mob="Ogre" count="3" rate="1.5" healthModifier="10" way="1" />
+        <Group activate="7" mob="Ogre" count="4" rate="1.5" healthModifier="13" way="1" />
+        <Group activate="14" mob="Ogre" count="5" rate="1.5" healthModifier="14" way="1" />
+      </Wave>
+      <!--5 Rat+Skull-->
+      <Wave>
+        <Group activate="0" mob="Rat" count="4" rate="1" healthModifier="14" way="1" />
+        <Group activate="2" mob="Skull" count="5" rate="2" healthModifier="14" way="2" />
+        <Group activate="8" mob="Rat" count="5" rate="1" healthModifier="18" way="1" />
+      </Wave>
+      <!--6 Skelet+Skull-->
+      <Wave>
+        <Group activate="0" mob="Skelet" count="3" rate="1" healthModifier="12" way="1" />
+        <Group activate="4" mob="Skull" count="4" rate="2" healthModifier="18" way="2" />
+        <Group activate="8" mob="Skelet" count="4" rate="1" healthModifier="14" way="1" />
+      </Wave>
+      <!--7 BOgre+Skull-->
+      <Wave>
+        <Group activate="0" mob="Skull" count="4" rate="2" healthModifier="18" way="2" />
+        <Group activate="8" mob="Skull" count="6" rate="2" healthModifier="20" way="2" />
+        <Group activate="12" mob="BOgre" count="1" rate="2" healthModifier="4" way="1" />
+        <Group activate="18" mob="Skull" count="8" rate="2" healthModifier="22" way="2" />
+      </Wave>
+      <!--8 Ghost-->
+      <Wave>
+        <Group activate="0" mob="Ghost" count="4" rate="0.6" healthModifier="14" way="1" />
+        <Group activate="3" mob="Ghost" count="4" rate="0.6" healthModifier="16" way="1" />
+        <Group activate="6" mob="Ghost" count="4" rate="0.6" healthModifier="18" way="1" />
+      </Wave>
+      <!--9 Rats Ghost-->
+      <Wave>
+        <Group activate="0" mob="Rat" count="4" rate="1" healthModifier="20" way="1" />
+        <Group activate="6" mob="Rat" count="5" rate="1" healthModifier="22" way="1" />
+        <Group activate="1" mob="Ghost" count="3" rate="0.6" healthModifier="18" way="1" />
+        <Group activate="12" mob="Ghost" count="3" rate="0.6" healthModifier="19" way="1" />
+      </Wave>
+      <!--10 Sheep-->
+      <Wave>
+        <Msg>
+          <Text alias="YES">a202</Text>
+          <Icon>a202.png</Icon>
+        </Msg>
+        <Group activate="0" mob="Sheep" count="6" rate="1" healthModifier="9" way="1" />
+      </Wave>
+      <!--11 Rats Skull-->
+      <Wave>
+        <Group activate="0" mob="Rat" count="4" rate="1" healthModifier="42" way="1" />
+        <Group activate="2" mob="Skull" count="6" rate="1.5" healthModifier="40" way="2" />
+        <Group activate="18" mob="Rat" count="10" rate="1" healthModifier="44" way="1" />
+        <Group activate="20" mob="Skull" count="6" rate="1.5" healthModifier="42" way="2" />
+      </Wave>
+      <!--12 BOgre Ogre-->
+      <Wave>
+        <Group activate="0" mob="BOgre" count="1" rate="6" healthModifier="12" way="1" />
+        <Group activate="4" mob="Ogre" count="4" rate="2" healthModifier="42" way="1" />
+        <Group activate="14" mob="BOgre" count="1" rate="6" healthModifier="13" way="1" />
+        <Group activate="18" mob="Ogre" count="4" rate="2" healthModifier="46" way="1" />
+      </Wave>
+      <!--13 Ghosts-->
+      <Wave>
+        <Group activate="0" mob="Ghost" count="4" rate="0.6" healthModifier="32" way="1" />
+        <Group activate="5" mob="Ghost" count="4" rate="0.6" healthModifier="34" way="1" />
+        <Group activate="8" mob="Ghost" count="4" rate="0.6" healthModifier="36" way="1" />
+      </Wave>
+      <!--14 Skelets Skull-->
+      <Wave>
+        <Group activate="0" mob="Skelet" count="6" rate="1" healthModifier="32" way="1" />
+        <Group activate="6" mob="Skull" count="12" rate="2" healthModifier="42" way="2" />
+        <Group activate="10" mob="Skelet" count="10" rate="1.2" healthModifier="40" way="1" />
+      </Wave>
+      <!--15 Spider-->
+      <Wave>
+        <Group activate="0" mob="SSpider" count="8" rate="0.35" healthModifier="30" way="1" />
+        <Group activate="4" mob="Spider" count="4" rate="4" healthModifier="30" way="1" />
+      </Wave>
+      <!--16 Bogre Skull-->
+      <Wave>
+        <Group activate="0" mob="Ogre" count="8" rate="2" healthModifier="46" way="1" />
+        <Group activate="4" mob="Skull" count="8" rate="2" healthModifier="46" way="2" />
+        <Group activate="10" mob="BOgre" count="1" rate="8" healthModifier="15" way="1" />
+        <Group activate="18" mob="Skull" count="10" rate="2" healthModifier="40" way="2" />
+        <Group activate="16" mob="Ogre" count="6" rate="2" healthModifier="50" way="1" />
+      </Wave>
+      <!--17 Tonns of Rats-->
+      <Wave>
+        <Group activate="0" mob="Rat" count="10" rate="1" healthModifier="56" way="1" />
+        <Group activate="8" mob="Rat" count="10" rate="1" healthModifier="66" way="1" />
+        <Group activate="14" mob="Rat" count="12" rate="1" healthModifier="80" way="1" />
+      </Wave>
+      <!--18 Tonns of Skulls-->
+      <Wave>
+        <Group activate="0" mob="Skull" count="8" rate="2" healthModifier="65" way="2" />
+        <Group activate="12" mob="Skull" count="8" rate="2" healthModifier="70" way="2" />
+        <Group activate="24" mob="Skull" count="8" rate="2" healthModifier="78" way="2" />
+        <Group activate="36" mob="Skull" count="8" rate="2" healthModifier="80" way="2" />
+      </Wave>
+    </Survival>
+  </Waves>
+  <Resource>
+    <Texture>bomb-hd.png</Texture>
+    <Texture>lightning.png</Texture>
+    <Texture>Hits-hd.png</Texture>
+    <Texture>sfx_lives-hd.png</Texture>
+    <Texture>Gem-hd.png</Texture>
+	<Texture>info_bkg-hd.png</Texture>
+	<Texture>Hits2-hd.png</Texture>
+    <Tower>LigthTower</Tower>
+    <Tower>HeavyTower</Tower>
+    <Tower>IceTower</Tower>
+    <Tower>PoisonTower</Tower>
+    <Tower>ElectricTower</Tower>
+    <Tower>RocketTower</Tower>
+    <Tower>Blade</Tower>
+	<Enemy>Ogre</Enemy>
+	<Enemy>Ghost</Enemy>
+	<Enemy>Skelet</Enemy>
+	<Enemy>Spider</Enemy>
+	<Enemy>Gargoyle</Enemy>
+	<Enemy>Tank</Enemy>
+	<Enemy>Sheep</Enemy>
+	<Enemy>Demon</Enemy>
+	<Enemy>Zapp</Enemy>
+	<Enemy>Iceman</Enemy>
+	<Enemy>Rat</Enemy>
+	<Enemy>Skull</Enemy>
+	<Enemy>Electron</Enemy>
+	<Enemy>Fenix</Enemy>
+  </Resource>
+</Level>

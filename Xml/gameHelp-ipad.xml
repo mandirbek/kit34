@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Pages>
+    <Page id="1" next="2">
+      <FadeColor>8 8 8 128</FadeColor>
+      <!--Menu Frame-->
+      <Img pos="140 140" cache="NO">
+        <Rotation>180</Rotation>
+        <File>pop_help-hd.png</File>
+        <Flip>NO YES</Flip>
+      </Img>
+      <Label pos="140 150" tag="1">
+        <Font size="32">Arial-BoldMT</Font>
+        <Text color="255 255 255 255" dimensions="180 40" align="center" alias="YES">help_menu</Text>
+        <shadow>4 -4</shadow>
+      </Label>
+      <!--Scores-->
+      <Img pos="170 650" cache="NO">
+        <Rotation>0</Rotation>
+        <File>pop_help-hd.png</File>
+        <Flip>NO YES</Flip>
+      </Img>
+      <Label pos="170 650" tag="1">
+        <Font size="32">Arial-BoldMT</Font>
+        <Text color="0 204 255 255" dimensions="220 40" align="center" alias="YES">help_scores</Text>
+        <shadow>4 -4</shadow>
+      </Label>
+      <!--Money-->
+      <Img pos="380 650" cache="NO">
+        <Rotation>0</Rotation>
+        <File>pop_help-hd.png</File>
+        <Flip>NO YES</Flip>
+      </Img>
+      <Label pos="380 650" tag="1">
+        <Font size="32">Arial-BoldMT</Font>
+        <Text color="255 228 0 255" dimensions="180 40" align="center" alias="YES">help_money</Text>
+        <shadow>4 -4</shadow>
+      </Label>
+      <!--Round (Wave)-->
+      <Img pos="640 650" cache="NO">
+        <Rotation>0</Rotation>
+        <File>pop_help-hd.png</File>
+        <Flip>NO YES</Flip>
+      </Img>
+      <Label pos="640 650" tag="1">
+        <Font size="32">Arial-BoldMT</Font>
+        <Text color="251 55 55 255" dimensions="180 40" align="center" alias="YES">help_round</Text>
+        <shadow>4 -4</shadow>
+      </Label>
+      <!--Lives-->
+      <Img pos="840 650" cache="NO">
+        <Flip>YES YES</Flip>
+        <Rotation>0</Rotation>
+        <File>pop_help-hd.png</File>
+      </Img>
+      <Label pos="840 650" tag="1">
+        <Font size="32">Arial-BoldMT</Font>
+        <Text alias="YES" color="235 235 112 255" dimensions="180 40" align="center">help_lives</Text>
+        <shadow>4 -4</shadow>
+      </Label>
+    </Page>
+    <Page id="2" next="3">
+      <FadeColor>8 8 8 128</FadeColor>
+      <Img pos="490 570" cache="NO">
+        <Rotation>0</Rotation>
+        <File>pop_help-hd.png</File>
+        <Flip>NO YES</Flip>
+      </Img>
+      <Img pos="440 690" cache="NO">
+        <Flip>NO NO</Flip>
+        <Rotation>-30</Rotation>
+        <File>pop_hand-hd.png</File>
+      </Img>
+      <Label pos="490 550" tag="1">
+        <Font size="32">Arial-BoldMT</Font>
+        <Text color="255 100 240 255" dimensions="240 120" align="center" alias="YES">help_gem</Text>
+        <shadow>4 -4</shadow>
+      </Label>
+      <Label pos="480 270" tag="1">
+        <Font size="28">Arial-BoldMT</Font>
+        <Text color="255 255 255 255" dimensions="600 200" align="center" alias="YES">help_gem_d</Text>
+        <shadow>4 -4</shadow>
+      </Label>
+    </Page>
+    <Page id="3" next="4">
+      <FadeColor>8 8 8 128</FadeColor>
+      <Img pos="530 280" cache="NO">
+        <Flip>NO NO</Flip>
+        <Rotation>0</Rotation>
+        <File>pop_build-hd.png</File>
+      </Img>
+      <Label pos="260 80" tag="1">
+        <Font size="28">Arial-BoldMT</Font>
+        <Text color="255 255 255 255" dimensions="280 200" align="center" alias="YES">help_drag</Text>
+        <shadow>2 -2</shadow>
+      </Label>
+      <Label pos="790 400" tag="1">
+        <Font size="28">Arial-BoldMT</Font>
+        <Text color="255 255 255 255" dimensions="280 200" align="center" alias="YES">help_tap</Text>
+        <shadow>2 -2</shadow>
+      </Label>
+    </Page>
+	<Page id="4" next="-1">
+      <FadeColor>8 8 8 128</FadeColor>
+      <Img pos="512 384" cache="NO">
+        <Flip>NO NO</Flip>
+        <Rotation>0</Rotation>
+        <File>pop_navigation-hd.png</File>
+      </Img>
+    </Page>
+  </Pages>
+</Root>

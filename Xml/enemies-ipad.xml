@@ -1,0 +1,1704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Enemies>
+  <Ogre factory="soldier" type="ogre">
+    <Resource>
+      <Texture>ogre_run_right-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <Health>18</Health>
+    <Speed>96</Speed>
+    <Cash>5</Cash>
+    <Score>15</Score>
+    <Damage>1</Damage>
+    <HealthBar horisontal="YES" offset="0 60" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_ogre_die1.wav</Sound>
+        <Sound>m_ogre_die2.wav</Sound>
+      </Die>
+      <Run id="1">
+        <Sound>m_ogre_step1.wav</Sound>
+      </Run>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <Run aniAutoPlay="YES">
+        <East col="8" row="8">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.06" loop="YES">
+            <Frame>21 31</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.06" loop="YES">
+            <Frame>0 10</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.06" loop="YES">
+            <Frame>21 31</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.06" loop="YES">
+            <Frame>42 52</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <Die>
+        <East col="8" row="8">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.06" loop="NO">
+            <Frame>32 41</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.06" loop="NO">
+            <Frame>11 20</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.06" loop="NO">
+            <Frame>32 41</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.06" loop="NO">
+            <Frame>53 62</Frame>
+          </Ani>
+        </North>
+      </Die>
+    </State>
+    <Polygon>
+      <Points>-32 -16, -32 32, 32 32, 32 -12</Points>
+    </Polygon>
+  </Ogre>
+  <!-- GHOST -->
+  <Ghost factory="soldier" type="ghost">
+    <Resource>
+      <Texture>ghost_run_right-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <Health>13</Health>
+    <Speed>260</Speed>
+    <Cash>5</Cash>
+    <Score>24</Score>
+    <Damage>1</Damage>
+    <HealthBar horisontal="YES" offset="0 44" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_ghost_die1.wav</Sound>
+        <Sound>m_ghost_die2.wav</Sound>
+      </Die>
+      <Run id="2" delay="1 2">
+        <Sound>m_ghost_run1.wav</Sound>
+        <Sound>m_ghost_run2.wav</Sound>
+      </Run>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <Run aniAutoPlay="YES">
+        <East col="7" row="7">
+          <File>ghost_run_right-hd.png</File>
+          <Ani delay="0.07" loop="YES">
+            <Frame>32 39</Frame>
+          </Ani>
+        </East>
+        <South col="7" row="7">
+          <File>ghost_run_right-hd.png</File>
+          <Ani delay="0.07" loop="YES">
+            <Frame>24 31</Frame>
+          </Ani>
+        </South>
+        <West col="7" row="7" flip="YES NO">
+          <File>ghost_run_right-hd.png</File>
+          <Ani delay="0.07" loop="YES">
+            <Frame>32 39</Frame>
+          </Ani>
+        </West>
+        <North col="7" row="7">
+          <File>ghost_run_right-hd.png</File>
+          <Ani delay="0.07" loop="YES">
+            <Frame>40 47</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <Die>
+        <East col="7" row="7">
+          <File>ghost_run_right-hd.png</File>
+          <Ani delay="0.07" loop="NO">
+            <Frame>8 15</Frame>
+          </Ani>
+        </East>
+        <South col="7" row="7">
+          <File>ghost_run_right-hd.png</File>
+          <Ani delay="0.07" loop="NO">
+            <Frame>0 7</Frame>
+          </Ani>
+        </South>
+        <West col="7" row="7" flip="YES NO">
+          <File>ghost_run_right-hd.png</File>
+          <Ani delay="0.07" loop="NO">
+            <Frame>8 15</Frame>
+          </Ani>
+        </West>
+        <North col="7" row="7">
+          <File>ghost_run_right-hd.png</File>
+          <Ani delay="0.07" loop="NO">
+            <Frame>16 23</Frame>
+          </Ani>
+        </North>
+      </Die>
+    </State>
+    <Polygon>
+      <Points>-32 -16, -32 32, 32 32, 32 -12</Points>
+    </Polygon>
+    <LieWithTime>0</LieWithTime>
+    <FadeTime>0</FadeTime>
+  </Ghost>
+  <!-- SKELET -->
+  <Skelet factory="undead" type="skelet">
+    <Resource>
+      <Texture>skelet_run-hd.png</Texture>
+      <Texture>GraveCross-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <ResurrectCount>1</ResurrectCount>
+    <RestTime>0.5</RestTime>
+    <Health>8</Health>
+    <Speed>140</Speed>
+    <Cash>4</Cash>
+    <Score>18</Score>
+    <Damage>1</Damage>
+    <Scale>1</Scale>
+    <HealthBar horisontal="YES" offset="0 44" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_skelet_die1.wav</Sound>
+        <Sound>m_skelet_die2.wav</Sound>
+      </Die>
+      <Run id="1">
+        <Sound>m_ogre_step1.wav</Sound>
+      </Run>
+    </Sfx>
+    <!-- State -->
+    <Headstone col="1" row="1" offset="0 0">
+      <File>GraveCross-hd.png</File>
+      <Ani delay="1" loop="YES">
+        <Frame>0</Frame>
+      </Ani>
+    </Headstone>
+    <State>
+      <Run aniAutoPlay="YES">
+        <East col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>14 27</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>0 13</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>14 27</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>28 41</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <Die>
+        <East col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>42 51</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>42 51</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>42 51</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>42 51</Frame>
+          </Ani>
+        </North>
+      </Die>
+      <Fall>
+        <East col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>42 51</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>42 51</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>42 51</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>42 51</Frame>
+          </Ani>
+        </North>
+      </Fall>
+      <Resurrect>
+        <East col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>52 63</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>52 63</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>52 63</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>52 63</Frame>
+          </Ani>
+        </North>
+      </Resurrect>
+    </State>
+    <Polygon>
+      <Points>-32 -16, -32 32, 32 32, 32 -12</Points>
+    </Polygon>
+  </Skelet>
+  <!-- SPIDER -->
+  <Spider factory="spawner" type="spider">
+    <Resource>
+      <Texture>spider_right-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <Health>45</Health>
+    <Speed>120</Speed>
+    <Cash>10</Cash>
+    <Score>15</Score>
+    <Damage>2</Damage>
+    <Spawn activate="0.3" mob="SSpider" count="3" rate="0.3" healthModifier="1" way="1" />
+    <HealthBar horisontal="YES" offset="0 32" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <Polygon>
+      <Points>-32 -16, -32 32, 32 32, 32 -12</Points>
+    </Polygon>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_spider_die4.wav</Sound>
+        <Sound>m_spider_die5.wav</Sound>
+      </Die>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <Run aniAutoPlay="YES">
+        <East col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>20 29</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>0 9</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>20 29</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>40 49</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <Die>
+        <East col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>30 39</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>10 19</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>30 39</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>50 59</Frame>
+          </Ani>
+        </North>
+      </Die>
+    </State>
+  </Spider>
+  <!-- Immune : HEAVY -->
+  <Gargoyle factory="soldier" type="gargoyle">
+    <Resource>
+      <Texture>bat_run-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <Resistant>heavy blade</Resistant>
+    <Health>20</Health>
+    <Speed>180</Speed>
+    <Cash>5</Cash>
+    <Score>35</Score>
+    <Damage>1</Damage>
+    <LieWithTime>0</LieWithTime>
+    <FadeTime>0</FadeTime>
+    <Flying>YES</Flying>
+    <VantagePoint>0 12</VantagePoint>
+    <!--Resistant> heavy ice megalighting poison bigboom</Resistant-->
+    <HealthBar horisontal="YES" offset="0 90" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <Polygon>
+      <Points>-6.1 26.8, 5.9 26.4, 8.8 0.3, -6.1 -0.6</Points>
+    </Polygon>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_gargoley_die1.wav</Sound>
+        <Sound>m_gargoley_die2.wav</Sound>
+      </Die>
+      <Run id="4">
+        <Sound>m_gargoley_step1.wav</Sound>
+      </Run>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <!-- run -->
+      <Run aniAutoPlay="YES">
+        <East col="8" row="5" offset="0 12">
+          <File>bat_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>9 17</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="5" offset="0 12">
+          <File>bat_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>0 8</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="5" flip="YES NO" offset="0 12">
+          <File>bat_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>9 17</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="5" offset="0 12">
+          <File>bat_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>18 26</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <!-- die -->
+      <Die>
+        <East col="8" row="5" offset="0 12">
+          <File>bat_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 39</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="5" offset="0 12">
+          <File>bat_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 39</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="5" flip="YES NO" offset="0 12">
+          <File>bat_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 39</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="5" offset="0 12">
+          <File>bat_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 39</Frame>
+          </Ani>
+        </North>
+      </Die>
+    </State>
+  </Gargoyle>
+  <!-- The Tank -->
+  <Tank factory="spawner" type="tank">
+    <Resource>
+      <Texture>tank-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <Health>100</Health>
+    <Speed>70</Speed>
+    <Cash>15</Cash>
+    <Score>500</Score>
+    <Damage>2</Damage>
+    <Resistant>poison</Resistant>
+    <HealthBar horisontal="YES" offset="0 60" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_tank_die1.wav</Sound>
+        <Sound>m_tank_die2.wav</Sound>
+      </Die>
+      <Run id="5">
+        <Sound>m_tank_step1.wav</Sound>
+      </Run>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <Run aniAutoPlay="YES">
+        <East col="7" row="7" offset="0 10">
+          <File>tank-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>32 39</Frame>
+          </Ani>
+        </East>
+        <South col="7" row="7">
+          <File>tank-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>24 31</Frame>
+          </Ani>
+        </South>
+        <West col="7" row="7" flip="YES NO" offset="0 10">
+          <File>tank-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>32 39</Frame>
+          </Ani>
+        </West>
+        <North col="7" row="7">
+          <File>tank-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>40 47</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <Die>
+        <East col="7" row="7" offset="0 10">
+          <File>tank-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>8 15</Frame>
+          </Ani>
+        </East>
+        <South col="7" row="7">
+          <File>tank-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>0 7</Frame>
+          </Ani>
+        </South>
+        <West col="7" row="7" flip="YES NO" offset="0 10">
+          <File>tank-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>8 15</Frame>
+          </Ani>
+        </West>
+        <North col="7" row="7">
+          <File>tank-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>16 23</Frame>
+          </Ani>
+        </North>
+      </Die>
+    </State>
+    <Polygon>
+      <Points>-32 -16, -32 32, 32 32, 32 -12</Points>
+    </Polygon>
+    <Spawn activate="0" mob="Rat" count="3" rate="0.3" healthModifier="1" way="1" />
+  </Tank>
+  <!-- SHEEP_bonus -->
+  <Sheep factory="sheep" type="sheep">
+    <Resource>
+      <Texture>sheep-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <Health>75</Health>
+    <Speed>120</Speed>
+    <Cash>20</Cash>
+    <Score>150</Score>
+    <Damage>0</Damage>
+    <Item>1</Item>
+    <CashMod>200</CashMod>
+    <HealthBar horisontal="YES" offset="0 64" showSpeed="0" hideSpeed="1" noHideBarPercent="95">
+      <Bkg rect="0 0 64 4" color="255 0 0" />
+      <Bar rect="0 0 64 4" color="0 255 0" />
+    </HealthBar>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_sheep_die1.wav</Sound>
+      </Die>
+      <Run id="6" delay="0 6">
+        <Sound>m_sheep_run1.wav</Sound>
+        <Sound>m_sheep_run2.wav</Sound>
+        <Sound>m_sheep_run3.wav</Sound>
+      </Run>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <Run aniAutoPlay="YES">
+        <East col="8" row="4">
+          <File>sheep-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>8 15</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="4">
+          <File>sheep-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>0 7</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="4" flip="YES NO">
+          <File>sheep-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>8 15</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="4">
+          <File>sheep-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>16 23</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <Die>
+        <East col="8" row="4">
+          <File>sheep-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>24 31</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="4">
+          <File>sheep-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>24 31</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="4" flip="YES NO">
+          <File>sheep-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>24 31</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="4">
+          <File>sheep-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>24 31</Frame>
+          </Ani>
+        </North>
+      </Die>
+    </State>
+    <Polygon>
+      <Points>-32 -16, -32 32, 32 32, 32 -12</Points>
+    </Polygon>
+  </Sheep>
+  <!-- Demon -->
+  <Demon factory="spawner" type="demon">
+    <Resource>
+      <Texture>demon_run-hd.png</Texture>
+      <Texture>demon_die-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <Health>30</Health>
+    <Speed>80</Speed>
+    <Cash>8</Cash>
+    <Score>35</Score>
+    <Damage>2</Damage>
+    <Spawn activate="0" mob="Skull" count="1" rate="1" healthModifier="1" way="1" />
+    <HealthBar horisontal="YES" offset="0 60" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_demon_die1.wav</Sound>
+      </Die>
+      <Run id="1">
+        <Sound>m_ogre_step1.wav</Sound>
+      </Run>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <Run aniAutoPlay="YES">
+        <East col="6" row="6" offset="0 12">
+          <File>demon_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>12 23</Frame>
+          </Ani>
+        </East>
+        <South col="6" row="6" offset="0 5">
+          <File>demon_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>0 11</Frame>
+          </Ani>
+        </South>
+        <West col="6" row="6" flip="YES NO" offset="0 12">
+          <File>demon_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>12 23</Frame>
+          </Ani>
+        </West>
+        <North col="6" row="6" offset="0 5">
+          <File>demon_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>24 35</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <Die>
+        <East col="6" row="6" offset="0 12">
+          <File>demon_die-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>12 23</Frame>
+          </Ani>
+        </East>
+        <South col="6" row="6" offset="0 5">
+          <File>demon_die-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>0 11</Frame>
+          </Ani>
+        </South>
+        <West col="6" row="6" flip="YES NO" offset="0 12">
+          <File>demon_die-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>12 23</Frame>
+          </Ani>
+        </West>
+        <North col="6" row="6" offset="0 5">
+          <File>demon_die-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>24 35</Frame>
+          </Ani>
+        </North>
+      </Die>
+    </State>
+    <Polygon>
+      <Points>-32 -16, -32 32, 32 32, 32 -12</Points>
+    </Polygon>
+  </Demon>
+  <!-- Zapp -->
+  <Zapp factory="soldier" type="zapp">
+    <Resource>
+      <Texture>zapp-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <Resistant>heavy blade</Resistant>
+    <Health>100</Health>
+    <Speed>40</Speed>
+    <Cash>25</Cash>
+    <Score>800</Score>
+    <Damage>1</Damage>
+    <Flying>YES</Flying>
+    <LieWithTime>0</LieWithTime>
+    <FadeTime>0</FadeTime>
+    <HealthBar horisontal="YES" offset="0 80" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_zapp_die1.wav</Sound>
+      </Die>
+      <Run id="8">
+        <Sound>m_zapp_step1.wav</Sound>
+      </Run>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <Run aniAutoPlay="YES">
+        <East col="6" row="3" offset="0 12">
+          <File>zapp-hd.png</File>
+          <Ani delay="0.1" loop="YES">
+            <Frame>4 7</Frame>
+          </Ani>
+        </East>
+        <South col="6" row="3" offset="0 12">
+          <File>zapp-hd.png</File>
+          <Ani delay="0.1" loop="YES">
+            <Frame>0 3</Frame>
+          </Ani>
+        </South>
+        <West col="6" row="3" flip="YES NO" offset="0 12">
+          <File>zapp-hd.png</File>
+          <Ani delay="0.1" loop="YES">
+            <Frame>4 7</Frame>
+          </Ani>
+        </West>
+        <North col="6" row="3" offset="0 12">
+          <File>zapp-hd.png</File>
+          <Ani delay="0.1" loop="YES">
+            <Frame>8 11</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <Die>
+        <East col="6" row="3" offset="0 12">
+          <File>zapp-hd.png</File>
+          <Ani delay="0.08" loop="NO">
+            <Frame>12 17</Frame>
+          </Ani>
+        </East>
+        <South col="6" row="3" offset="0 12">
+          <File>zapp-hd.png</File>
+          <Ani delay="0.08" loop="NO">
+            <Frame>12 17</Frame>
+          </Ani>
+        </South>
+        <West col="6" row="3" flip="YES NO" offset="0 12">
+          <File>zapp-hd.png</File>
+          <Ani delay="0.08" loop="NO">
+            <Frame>12 17</Frame>
+          </Ani>
+        </West>
+        <North col="6" row="3" offset="0 12">
+          <File>zapp-hd.png</File>
+          <Ani delay="0.08" loop="NO">
+            <Frame>12 17</Frame>
+          </Ani>
+        </North>
+      </Die>
+    </State>
+    <Polygon>
+      <Points>-32 -16, -32 32, 32 32, 32 -12</Points>
+    </Polygon>
+  </Zapp>
+  <!-- Big Spider -->
+  <BSpider factory="spawner" type="spider">
+    <Resource>
+      <Texture>spider_right-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <Scale>1.3</Scale>
+    <Health>100</Health>
+    <Speed>80</Speed>
+    <Cash>30</Cash>
+    <Score>700</Score>
+    <Damage>3</Damage>
+    <Spawn activate="0.3" mob="Spider" count="2" rate="0.5" healthModifier="1" way="1" />
+    <HealthBar horisontal="YES" offset="0 32" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <Polygon>
+      <Points>-32 -16, -32 32, 32 32, 32 -12</Points>
+    </Polygon>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_spider_die5.wav</Sound>
+      </Die>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <Run aniAutoPlay="YES">
+        <East col="8" row="8" offset="0 4">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.1" loop="YES">
+            <Frame>20 29</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.1" loop="YES">
+            <Frame>0 9</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO" offset="0 4">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.1" loop="YES">
+            <Frame>20 29</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.1" loop="YES">
+            <Frame>40 49</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <Die>
+        <East col="8" row="8" offset="0 4">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>30 39</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>10 19</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO" offset="0 4">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>30 39</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>50 59</Frame>
+          </Ani>
+        </North>
+      </Die>
+    </State>
+  </BSpider>
+  <!-- Big Ogre -->
+  <BOgre factory="soldier" type="ogre">
+    <Resource>
+      <Texture>ogre_run_right-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <Scale>1.4</Scale>
+    <Health>216</Health>
+    <Speed>70</Speed>
+    <Cash>30</Cash>
+    <Score>900</Score>
+    <Damage>3</Damage>
+    <HealthBar horisontal="YES" offset="0 60" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_ogre_die1.wav</Sound>
+        <Sound>m_ogre_die2.wav</Sound>
+      </Die>
+      <Run id="1">
+        <Sound>m_ogre_step1.wav</Sound>
+      </Run>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <Run aniAutoPlay="YES">
+        <East col="8" row="8" offset="0 6">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.09" loop="YES">
+            <Frame>21 31</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.09" loop="YES">
+            <Frame>0 10</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO" offset="0 6">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.09" loop="YES">
+            <Frame>21 31</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.09" loop="YES">
+            <Frame>42 52</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <Die>
+        <East col="8" row="8" offset="0 6">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.06" loop="NO">
+            <Frame>32 41</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.06" loop="NO">
+            <Frame>11 20</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO" offset="0 6">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.06" loop="NO">
+            <Frame>32 41</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>ogre_run_right-hd.png</File>
+          <Ani delay="0.06" loop="NO">
+            <Frame>53 62</Frame>
+          </Ani>
+        </North>
+      </Die>
+    </State>
+    <Polygon>
+      <Points>-32 -16, -32 32, 32 32, 32 -12</Points>
+    </Polygon>
+  </BOgre>
+  <!-- Small Spider -->
+  <SSpider factory="soldier" type="spider">
+    <Resource>
+      <Texture>spider_right-hd.png</Texture>
+    </Resource>
+    <DropGear>5</DropGear>
+    <Health>9</Health>
+    <Scale>0.6</Scale>
+    <Speed>140</Speed>
+    <Cash>2</Cash>
+    <Score>12</Score>
+    <Damage>1</Damage>
+    <HealthBar horisontal="YES" offset="0 32" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <Polygon>
+      <Points>-32 -16, -32 32, 32 32, 32 -12</Points>
+    </Polygon>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_spider_die1.wav</Sound>
+        <Sound>m_spider_die2.wav</Sound>
+        <Sound>m_spider_die3.wav</Sound>
+      </Die>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <Run aniAutoPlay="YES">
+        <East col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.03" loop="YES">
+            <Frame>20 29</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.03" loop="YES">
+            <Frame>0 9</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.03" loop="YES">
+            <Frame>20 29</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.03" loop="YES">
+            <Frame>40 49</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <Die>
+        <East col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>60 63</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>60 63</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>60 63</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>spider_right-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>60 63</Frame>
+          </Ani>
+        </North>
+      </Die>
+    </State>
+  </SSpider>
+  <!-- Small Tank -->
+  <Iceman factory="soldier" type="iceman">
+    <Resource>
+      <Texture>iceman-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <Health>19</Health>
+    <Speed>140</Speed>
+    <Cash>7</Cash>
+    <Score>43</Score>
+    <Damage>1</Damage>
+    <Resistant>ice</Resistant>
+    <HealthBar horisontal="YES" offset="0 60" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_iceman_die1.wav</Sound>
+        <Sound>m_iceman_die2.wav</Sound>
+      </Die>
+      <Run id="7">
+        <Sound>m_iceman_step1.wav</Sound>
+      </Run>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <Run aniAutoPlay="YES">
+        <East col="7" row="7">
+          <File>iceman-hd.png</File>
+          <Ani delay="0.06" loop="YES">
+            <Frame>12 23</Frame>
+          </Ani>
+        </East>
+        <South col="7" row="7">
+          <File>iceman-hd.png</File>
+          <Ani delay="0.06" loop="YES">
+            <Frame>0 11</Frame>
+          </Ani>
+        </South>
+        <West col="7" row="7" flip="YES NO">
+          <File>iceman-hd.png</File>
+          <Ani delay="0.06" loop="YES">
+            <Frame>12 23</Frame>
+          </Ani>
+        </West>
+        <North col="7" row="7">
+          <File>iceman-hd.png</File>
+          <Ani delay="0.06" loop="YES">
+            <Frame>24 35</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <Die>
+        <East col="7" row="7">
+          <File>iceman-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>36 47</Frame>
+          </Ani>
+        </East>
+        <South col="7" row="7">
+          <File>iceman-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>36 47</Frame>
+          </Ani>
+        </South>
+        <West col="7" row="7" flip="YES NO">
+          <File>iceman-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>36 47</Frame>
+          </Ani>
+        </West>
+        <North col="7" row="7">
+          <File>iceman-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>36 47</Frame>
+          </Ani>
+        </North>
+      </Die>
+    </State>
+    <Polygon>
+      <Points>-32 -16, -32 32, 32 32, 32 -12</Points>
+    </Polygon>
+  </Iceman>
+  <!--Rat (small animal)-->
+  <Rat factory="soldier" type="rat">
+    <Resource>
+      <Texture>rat-hd.png</Texture>
+    </Resource>
+    <DropGear>5</DropGear>
+    <Health>11</Health>
+    <Speed>130</Speed>
+    <Cash>3</Cash>
+    <Score>14</Score>
+    <Damage>1</Damage>
+    <HealthBar horisontal="YES" offset="0 32" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <Polygon>
+      <Points>-32 -16, -32 32, 32 32, 32 -12</Points>
+    </Polygon>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_rat_die1.wav</Sound>
+        <Sound>m_rat_die2.wav</Sound>
+      </Die>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <Run aniAutoPlay="YES">
+        <East col="8" row="4">
+          <File>rat-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>9 17</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="4">
+          <File>rat-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>0 8</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="4" flip="YES NO">
+          <File>rat-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>9 17</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="4">
+          <File>rat-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>18 26</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <Die>
+        <East col="8" row="4">
+          <File>rat-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 29</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="4">
+          <File>rat-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 29</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="4" flip="YES NO">
+          <File>rat-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 29</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="4">
+          <File>rat-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 29</Frame>
+          </Ani>
+        </North>
+      </Die>
+    </State>
+  </Rat>
+  <!-- Skull "Cherep" -->
+  <Skull factory="soldier" type="skull">
+    <Resource>
+      <Texture>skull-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <Resistant>heavy blade</Resistant>
+    <Health>9</Health>
+    <Speed>100</Speed>
+    <Cash>4</Cash>
+    <Score>22</Score>
+    <Damage>1</Damage>
+    <LieWithTime>0</LieWithTime>
+    <FadeTime>0</FadeTime>
+    <Flying>YES</Flying>
+    <VantagePoint>0 16</VantagePoint>
+    <!--Resistant> heavy ice megalighting poison bigboom</Resistant-->
+    <HealthBar horisontal="YES" offset="0 90" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <Polygon>
+      <Points>-12 52, 12 52, 18 0, -12 -1</Points>
+    </Polygon>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_skull_die1.wav</Sound>
+        <Sound>m_skull_die2.wav</Sound>
+      </Die>
+      <Run id="4">
+        <Sound>m_gargoley_step1.wav</Sound>
+      </Run>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <!-- run -->
+      <Run aniAutoPlay="YES">
+        <East col="8" row="4" offset="0 16">
+          <File>skull-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>8 15</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="4" offset="0 16">
+          <File>skull-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>0 7</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="4" flip="YES NO" offset="0 16">
+          <File>skull-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>8 15</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="4" offset="0 16">
+          <File>skull-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>16 23</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <!-- die -->
+      <Die>
+        <East col="8" row="4" offset="0 16">
+          <File>skull-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>24 31</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="4" offset="0 16">
+          <File>skull-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>24 31</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="4" flip="YES NO" offset="0 16">
+          <File>skull-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>24 31</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="4" offset="0 16">
+          <File>skull-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>24 31</Frame>
+          </Ani>
+        </North>
+      </Die>
+    </State>
+  </Skull>
+  <!--Fenix-->
+  <Fenix factory="undead" type="skull">
+    <Resource>
+      <Texture>fenix-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <Resistant>heavy blade</Resistant>
+    <Health>30</Health>
+    <Speed>120</Speed>
+    <Scale>1</Scale>
+    <Cash>7</Cash>
+    <Score>30</Score>
+    <Damage>1</Damage>
+    <LieWithTime>0</LieWithTime>
+    <FadeTime>0</FadeTime>
+    <Flying>YES</Flying>
+    <VantagePoint>0 16</VantagePoint>
+    <!--Resistant> heavy ice megalighting poison bigboom</Resistant-->
+    <HealthBar horisontal="YES" offset="0 90" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <Polygon>
+      <Points>-12 52, 12 52, 18 0, -12 -1</Points>
+    </Polygon>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_skull_die1.wav</Sound>
+        <Sound>m_skull_die2.wav</Sound>
+      </Die>
+      <Run id="4">
+        <Sound>m_gargoley_step1.wav</Sound>
+      </Run>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <!-- run -->
+      <Run aniAutoPlay="YES">
+        <East col="7" row="6" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>9 17</Frame>
+          </Ani>
+        </East>
+        <South col="7" row="6" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>0 8</Frame>
+          </Ani>
+        </South>
+        <West col="7" row="6" flip="YES NO" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>9 17</Frame>
+          </Ani>
+        </West>
+        <North col="7" row="6" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>18 26</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <!-- die -->
+      <Die>
+        <East col="7" row="6" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 36</Frame>
+          </Ani>
+        </East>
+        <South col="7" row="6" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 36</Frame>
+          </Ani>
+        </South>
+        <West col="7" row="6" flip="YES NO" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 36</Frame>
+          </Ani>
+        </West>
+        <North col="7" row="6" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 36</Frame>
+          </Ani>
+        </North>
+      </Die>
+      <Fall>
+        <East col="7" row="6" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 36</Frame>
+          </Ani>
+        </East>
+        <South col="7" row="6" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 36</Frame>
+          </Ani>
+        </South>
+        <West col="7" row="6" flip="YES NO" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 36</Frame>
+          </Ani>
+        </West>
+        <North col="7" row="6" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>27 36</Frame>
+          </Ani>
+        </North>
+      </Fall>
+      <Resurrect>
+        <East col="7" row="6" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>37 41</Frame>
+          </Ani>
+        </East>
+        <South col="7" row="6" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>37 41</Frame>
+          </Ani>
+        </South>
+        <West col="7" row="6" flip="YES NO" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>37 41</Frame>
+          </Ani>
+        </West>
+        <North col="7" row="6" offset="0 24">
+          <File>fenix-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>37 41</Frame>
+          </Ani>
+        </North>
+      </Resurrect>
+    </State>
+    <ResurrectCount>2</ResurrectCount>
+    <RestTime>1</RestTime>
+    <Headstone col="8" row="4" offset="0 0">
+      <File>Hits2-hd.png</File>
+      <Ani delay="0.05" loop="YES" play="YES">
+        <Frame>6 15</Frame>
+      </Ani>
+    </Headstone>
+  </Fenix>
+  <!-- Immune : LIGHTNING -->
+  <Electron factory="soldier" type="electron">
+    <Resource>
+      <Texture>electron-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <Health>40</Health>
+    <Speed>132</Speed>
+    <Cash>10</Cash>
+    <Score>55</Score>
+    <Damage>1</Damage>
+    <LieWithTime>0</LieWithTime>
+    <FadeTime>0</FadeTime>
+    <HealthBar horisontal="YES" offset="0 32" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <Polygon>
+      <Points>-32 -16, -32 32, 32 32, 32 -12</Points>
+    </Polygon>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_electron_die1.wav</Sound>
+        <Sound>m_electron_die2.wav</Sound>
+      </Die>
+    </Sfx>
+    <!-- State -->
+    <State>
+      <Run aniAutoPlay="YES">
+        <East col="4" row="4">
+          <File>electron-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>0 7</Frame>
+          </Ani>
+        </East>
+        <South col="4" row="4">
+          <File>electron-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>0 7</Frame>
+          </Ani>
+        </South>
+        <West col="4" row="4" flip="YES NO">
+          <File>electron-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>0 7</Frame>
+          </Ani>
+        </West>
+        <North col="4" row="4">
+          <File>electron-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>0 7</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <Die>
+        <East col="4" row="4">
+          <File>electron-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>8 15</Frame>
+          </Ani>
+        </East>
+        <South col="4" row="4">
+          <File>electron-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>8 15</Frame>
+          </Ani>
+        </South>
+        <West col="4" row="4" flip="YES NO">
+          <File>electron-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>8 15</Frame>
+          </Ani>
+        </West>
+        <North col="4" row="4">
+          <File>electron-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>8 15</Frame>
+          </Ani>
+        </North>
+      </Die>
+    </State>
+    <Resistant>megalighting</Resistant>
+  </Electron>
+  <!-- BIG SKELET -->
+  <BSkelet factory="undead" type="skelet">
+    <Resource>
+      <Texture>skelet_run-hd.png</Texture>
+      <Texture>GraveCross-hd.png</Texture>
+    </Resource>
+    <DropGear>7</DropGear>
+    <Scale>1.4</Scale>
+    <ResurrectCount>1</ResurrectCount>
+    <RestTime>1</RestTime>
+    <Health>220</Health>
+    <Speed>90</Speed>
+    <Cash>15</Cash>
+    <Score>300</Score>
+    <Damage>1</Damage>
+    <Scale>1</Scale>
+    <HealthBar horisontal="YES" offset="0 48" showSpeed="0" hideSpeed="1" noHideBarPercent="15">
+      <Bkg rect="0 0 60 4" color="255 0 0" />
+      <Bar rect="0 0 60 4" color="0 255 0" />
+    </HealthBar>
+    <!-- SFX -->
+    <Sfx>
+      <Die>
+        <Sound>m_skelet_die1.wav</Sound>
+        <Sound>m_skelet_die2.wav</Sound>
+      </Die>
+      <Run id="1">
+        <Sound>m_ogre_step1.wav</Sound>
+      </Run>
+    </Sfx>
+    <!-- State -->
+    <Headstone col="1" row="1" offset="0 -10">
+      <File>GraveCross-hd.png</File>
+      <Ani delay="1" loop="YES">
+        <Frame>0</Frame>
+      </Ani>
+    </Headstone>
+    <State>
+      <Run aniAutoPlay="YES">
+        <East col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>14 27</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>0 13</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>14 27</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="YES">
+            <Frame>28 41</Frame>
+          </Ani>
+        </North>
+      </Run>
+      <Die>
+        <East col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>42 51</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>42 51</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>42 51</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>42 51</Frame>
+          </Ani>
+        </North>
+      </Die>
+      <Resurrect>
+        <East col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>52 63</Frame>
+          </Ani>
+        </East>
+        <South col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>52 63</Frame>
+          </Ani>
+        </South>
+        <West col="8" row="8" flip="YES NO">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>52 63</Frame>
+          </Ani>
+        </West>
+        <North col="8" row="8">
+          <File>skelet_run-hd.png</File>
+          <Ani delay="0.05" loop="NO">
+            <Frame>52 63</Frame>
+          </Ani>
+        </North>
+      </Resurrect>
+    </State>
+    <Polygon>
+      <Points>-32 -16, -32 32, 32 32, 32 -12</Points>
+    </Polygon>
+  </BSkelet>
+</Enemies>
