@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="18" height="12" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="fieldTiles" tilewidth="80" tileheight="80">
+  <image source="fieldTiles-hd.png"/>
+ </tileset>
+ <layer name="Enemies" width="18" height="12">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgQAVMDMQBQuooNYeJTDzUzcGllhxzmLCopdQ/Ax0+xJozWAAAJf48AGADAAA=
+  </data>
+ </layer>
+ <layer name="Towers" width="18" height="12" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGJyAGYqR2fgwAxKNzRxS8UCZg0strcwh1qzBEj7EmjNYAAB/nd1sYAMAAA==
+  </data>
+ </layer>
+ <objectgroup name="Points" width="18" height="12">
+  <object name="start" x="320" y="0" width="40" height="40">
+   <properties>
+    <property name="group" value="1"/>
+   </properties>
+  </object>
+  <object name="finish" x="880" y="480" width="40" height="40">
+   <properties>
+    <property name="group" value="2"/>
+   </properties>
+  </object>
+  <object name="start" x="0" y="560" width="40" height="40">
+   <properties>
+    <property name="group" value="2"/>
+   </properties>
+  </object>
+  <object name="finish" x="880" y="480" width="40" height="40">
+   <properties>
+    <property name="group" value="1"/>
+   </properties>
+  </object>
+  <object name="start" x="1120" y="0" width="40" height="40">
+   <properties>
+    <property name="group" value="3"/>
+   </properties>
+  </object>
+  <object name="finish" x="880" y="480" width="40" height="40">
+   <properties>
+    <property name="group" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

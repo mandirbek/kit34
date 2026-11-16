@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="18" height="12" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="fieldTiles" tilewidth="80" tileheight="80">
+  <image source="fieldTiles-hd.png"/>
+ </tileset>
+ <layer name="Enemies" width="18" height="12">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgQAAmCjADmjnkAFqag8u9pPgDHx8Xm5D9+NxAS3OI5ZNqDjXSz3ACAHpz8K9gAwAA
+  </data>
+ </layer>
+ <layer name="Towers" width="18" height="12">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGJyAmUyMzRx85pMijosmxMZnPyE30NocdHlizMHlDnzuIxZQK94HCwAAG9OdAmADAAA=
+  </data>
+ </layer>
+ <objectgroup name="Points" width="18" height="12">
+  <object name="finish" x="1360" y="640" width="80" height="80">
+   <properties>
+    <property name="group" value="1"/>
+   </properties>
+  </object>
+  <object name="finish" x="1360" y="640" width="80" height="80">
+   <properties>
+    <property name="group" value="2"/>
+   </properties>
+  </object>
+  <object name="start" x="0" y="480" width="80" height="80">
+   <properties>
+    <property name="group" value="1"/>
+   </properties>
+  </object>
+  <object name="start" x="0" y="400" width="80" height="80">
+   <properties>
+    <property name="group" value="2"/>
+   </properties>
+  </object>
+  <object name="point" x="560" y="240" width="80" height="80">
+   <properties>
+    <property name="1" value="2"/>
+   </properties>
+  </object>
+  <object name="point" x="240" y="640" width="80" height="80">
+   <properties>
+    <property name="2" value="2"/>
+    <property name="3" value="1"/>
+   </properties>
+  </object>
+  <object name="point" x="240" y="476" width="80" height="80">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object name="point" x="560" y="480" width="80" height="80">
+   <properties>
+    <property name="1" value="3"/>
+   </properties>
+  </object>
+  <object name="point" x="800" y="480" width="80" height="80">
+   <properties>
+    <property name="1" value="4"/>
+   </properties>
+  </object>
+  <object name="point" x="960" y="240" width="80" height="80">
+   <properties>
+    <property name="1" value="5"/>
+   </properties>
+  </object>
+  <object name="point" x="240" y="400" width="80" height="80">
+   <properties>
+    <property name="2" value="1"/>
+   </properties>
+  </object>
+  <object name="point" x="560" y="400" width="80" height="80">
+   <properties>
+    <property name="2" value="3"/>
+   </properties>
+  </object>
+  <object name="" x="800" y="400" width="80" height="80">
+   <properties>
+    <property name="2" value="4"/>
+   </properties>
+  </object>
+  <object name="start" x="240" y="0" width="80" height="80">
+   <properties>
+    <property name="group" value="3"/>
+   </properties>
+  </object>
+  <object name="finish" x="1360" y="640" width="80" height="80">
+   <properties>
+    <property name="group" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

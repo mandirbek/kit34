@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="18" height="12" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="fieldTiles" tilewidth="80" tileheight="80">
+  <image source="fieldTiles-hd.png" width="240" height="80"/>
+ </tileset>
+ <layer name="Enemies" width="18" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOmHCIkwooNYcJDWMTQ5enhTn41BFjDj41pGBquWe4mzNYAABtzwDX
+  </data>
+ </layer>
+ <layer name="Towers" width="18" height="12" opacity="0.67">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjcgBmKGdBoXJiQOejmEWsOPnWkugefGnLNGGh/DTZzBgsAANZbAR4=
+  </data>
+ </layer>
+ <objectgroup name="Points" width="18" height="12">
+  <object name="start" x="480" y="0" width="40" height="40">
+   <properties>
+    <property name="air" value="0"/>
+    <property name="group" value="1"/>
+   </properties>
+  </object>
+  <object name="finish" x="1360" y="400" width="40" height="40">
+   <properties>
+    <property name="group" value="1"/>
+   </properties>
+  </object>
+  <object name="point" x="640" y="400" width="40" height="40">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </object>
+  <object name="start" x="0" y="400" width="40" height="40">
+   <properties>
+    <property name="air" value="1"/>
+    <property name="group" value="2"/>
+   </properties>
+  </object>
+  <object name="finish" x="1360" y="400" width="40" height="40">
+   <properties>
+    <property name="group" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
